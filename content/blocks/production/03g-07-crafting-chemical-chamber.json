@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: Chemical Chamber
+description: lets cook Jesse
+size: 3
+
+
+hasLiquids: true
+squareSprite: true
+liquidCapacity: 15
+hasItems: true
+itemCapacity: 10
+craftTime: 120
+
+
+consumes: {
+	power: 3
+	liquids: [
+  	 02a-05-liquid-lpg/0.01666666666666666
+	]
+	items: [
+		01a-03-item-soft-coal/1
+	]
+}
+
+
+outputItems: [
+	01a-07-item-polycarbonate/1
+]
+
+
+category: crafting
+
+
+requirements: [
+	01a-01-item-scrap/80
+	01a-04-item-alluminum/40
+	01a-06-item-europium/20
+]

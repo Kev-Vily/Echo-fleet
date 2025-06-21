@@ -1,0 +1,15 @@
+type: LiquidRouter
+name: Liquid Router
+description: routr
+size: 1
+solid: false
+underBullets: true
+health: 60
+liquidCapacity: 20
+category: liquid
+squareSprite: true
+
+
+requirements: [
+  01a-01-item-scrap/10
+]

@@ -1,0 +1,8 @@
+type: item
+name: Alluminum Polycarbonate
+flammability: 0.25
+explosiveness: 0
+radioactivity: 0
+charge: 0.8
+color: B4E4D9FF
+alwaysUnlocked: true

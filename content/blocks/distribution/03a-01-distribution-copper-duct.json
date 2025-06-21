@@ -1,0 +1,12 @@
+type: Duct
+name: Copper Duct
+description: item move
+category: distribution
+alwaysUnlocked: true
+speed: 6
+health: 50
+bridgeReplacement: 03a-06-distribution-copper-bridge
+requirements: [
+  01a-02-item-copper/1
+]
+junctionReplacement: 03a-05-distribution-copper-junction

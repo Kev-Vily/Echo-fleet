@@ -1,0 +1,47 @@
+type: HeatCrafter
+heatRequirement: 8
+name: Crude Processor
+description: crude oil is no longer crude oil
+size: 4
+craftTime: 60
+minEfficiency: 1
+maxEfficiency: 1
+
+
+consumes: {
+	liquids: [
+   	02a-01-liquid-crude-oil/0.25
+	]
+}
+
+
+hasLiquids: true
+dumpExtraLiquid: true
+rotate: true
+
+
+ambientSound: extractLoop
+ambientSoundVolume: 0.09
+
+
+outputLiquids: [
+	02a-05-liquid-lpg/0.05
+	02a-07-liquid-carbon-dioxide/0.15
+	02a-09-liquid-nitrogen/0.1
+	02a-10-liquid-hydrogen-sulfide/0.1
+]
+
+
+category: crafting
+
+
+requirements: [
+	01a-01-item-scrap/240
+	01a-02-item-copper/200
+	01a-04-item-alluminum/140
+	01a-05-item-cupride/90
+]
+
+
+liquidCapacity: 120
+liquidOutputDirections: [1,2,3,4]

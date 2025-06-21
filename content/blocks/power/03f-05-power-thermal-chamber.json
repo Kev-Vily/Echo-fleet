@@ -1,0 +1,59 @@
+type: HeaterGenerator
+name: Thermal Reactor
+description: make power and heat
+size: 4
+category: power
+squareSprite: false
+
+
+requirements: [
+  01a-01-item-scrap/140
+  01a-04-item-alluminum/80
+  01a-05-item-cupride/60
+]
+
+
+powerProduction: 8
+consumes: {
+  items: [
+    01a-03-item-soft-coal/1
+  ]
+  liquids: [
+	02a-04-liquid-slag/0.2
+	02a-03-liquid-purified-water/0.1
+  ] 
+}
+
+
+itemDuration: 120
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02a-04-liquid-slag
+      alpha: 0.7
+      padding: 2
+    }
+    {
+      type: DrawArcSmelt
+      particleLife: 30
+      particleLen: 9
+    }
+    {    
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+
+heatOutput: 4
+sideHeat: [1]

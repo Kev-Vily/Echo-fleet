@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: Slag Refinery
+description: fancy scrap
+category: crafting
+size: 3
+
+
+hasLiquids: true
+hasItems: true
+squareSprite: true
+
+
+craftEffect: smeltsmoke
+liquidCapacity: 180
+itemCapacity: 30
+
+
+outputItems: [
+	01a-02-item-copper/2
+	01a-03-item-soft-coal/4
+]
+
+
+consumes: {
+	items: [
+   	01a-01-item-scrap/6
+	]
+	liquid: 02a-04-liquid-slag/0.3
+}
+craftTime: 180
+
+
+ambientSound: hum
+ambientSoundVolume: 0.08
+
+
+requirements: [
+  01a-01-item-scrap/60
+  01a-02-item-copper/30
+]

@@ -1,0 +1,44 @@
+type: ConsumeGenerator
+name: Radioactivity Cell
+description: uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+size: 2
+category: power
+squareSprite: false
+
+
+requirements: [
+  01a-01-item-scrap/160
+  01a-06-item-europium/140
+  01a-07-item-polycarbonate/70
+  01a-10-item-echo-circuit/50
+]
+
+
+consumes: {
+  itemRadioactive: { }
+}
+
+
+powerProduction: 2.0833333333333333333333
+itemDuration: 300
+
+
+ambientSound: smelter
+ambientSoundVolume: 0.03
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawPlasma
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+type: item
+name: Cupride
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0.2
+color: BEE1ADFF
+alwaysUnlocked: true

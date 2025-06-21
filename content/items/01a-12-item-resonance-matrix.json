@@ -1,0 +1,8 @@
+type: item
+name: Resonance Matrix
+flammability: 0.75
+explosiveness: 0.2
+radioactivity: 1
+charge: 1
+color: 5C72D9FF
+alwaysUnlocked: true

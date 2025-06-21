@@ -1,0 +1,11 @@
+type: LiquidJunction
+name: Liquid Junction
+description: crossroads erekjr
+solid: false
+category: liquid
+squareSprite: true
+
+
+requirements: [
+  01a-01-item-scrap/5
+]

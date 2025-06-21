@@ -1,0 +1,12 @@
+﻿type: Liquid
+name: Crude Oil
+description: "frog"
+color: 313131FF
+
+
+explosiveness: 0
+flammability: 0.5
+heatCapacity: 0.2
+viscosity: 0.8
+temperature: 0
+blockReactive: false

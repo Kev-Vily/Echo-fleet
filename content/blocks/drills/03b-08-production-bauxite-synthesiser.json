@@ -1,0 +1,50 @@
+type: AttributeCrafter
+attribute: spores
+baseEfficiency: 0
+minEfficiency: 1
+maxBoost: 1
+
+
+displayEfficiency: true
+hasItems: true
+hasLiquids: true
+hasPower: true
+ignoreLiquidFullness: true
+size: 4
+liquidCapacity: 60
+itemCapacity: 60
+squareSprite: true
+
+
+name: Bauxite Synthesiser
+description: Alluminum maker pro version
+
+
+consumes: {
+	liquids: [
+   	02a-04-liquid-slag/0.4
+   	02a-10-liquid-hydrogen-sulfide/0.1
+	]
+	power: 5
+}
+
+
+craftTime: 360
+
+
+outputLiquid: 02a-03-liquid-purified-water/0.1
+outputItems: [
+	01a-04-item-alluminum/18
+] 
+
+
+craftEffect: smeltsmoke
+category: production
+
+
+requirements: [
+	01a-01-item-scrap/240
+	01a-02-item-copper/200
+	01a-04-item-alluminum/140
+	01a-07-item-polycarbonate/20
+]

@@ -1,0 +1,11 @@
+type: Liquid
+name: Dirty Water
+description: "poo poo"
+color: 734300FF
+
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.8
+viscosity: 0.6
+temperature: 0.4
+blockReactive: false

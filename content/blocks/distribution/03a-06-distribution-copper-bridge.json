@@ -1,0 +1,17 @@
+type: DuctBridge
+name: Copper Bridge
+description: he jump over blocks
+health: 140
+size: 1
+
+
+requirements: [
+  01a-01-item-scrap/3
+  01a-02-item-copper/2
+] 
+
+
+category: distribution
+squareSprite: true
+range: 3
+speed: 3

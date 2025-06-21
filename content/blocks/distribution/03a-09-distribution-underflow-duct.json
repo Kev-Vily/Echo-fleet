@@ -1,0 +1,10 @@
+type: OverflowDuct
+name: Underflow Duct
+description: he underflows
+category: distribution
+health: 80
+invert: true
+requirements: [
+	01a-01-item-scrap/5 
+	01a-02-item-copper/5
+]

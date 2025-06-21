@@ -1,0 +1,29 @@
+type: AttributeCrafter
+attribute: steam
+name: Water Accumulator
+description: water poo poo maker
+size: 3
+
+
+hasLiquids: true
+squareSprite: true
+
+
+outputLiquid: 02a-02-liquid-dirty-water/0.25
+
+
+displayEfficiencyScale: 1
+baseEfficiency: 0
+minEfficiency: 9
+
+
+category: production
+
+
+requirements: [
+	01a-01-item-scrap/45
+]
+
+
+ambientSound: hum
+ambientSoundVolume: 0.05

@@ -1,0 +1,74 @@
+type: HeatProducer
+name: Soft Coal Heater
+description: this mf is hot
+size: 2
+heatOutput: 2
+squareSprite: true
+craftTime: 120
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -heat
+      blending: additive
+      color: d76a6a80
+    }
+  ]
+}
+
+
+consumes: {
+  items: [
+    01a-03-item-soft-coal/1
+  ]
+}
+
+
+craftEffect: {
+  type: RadialEffect
+  rotationSpacing: 45
+  amount: 6
+  lengthOffset: 4
+  layer: 118
+  effect: {
+    type: ParticleEffect
+    particles: 12
+    length: 20
+    lifetime: 180
+    cone: 20
+    useRotation: false
+    baseRotation: 60
+    sizeFrom: 2
+    sizeTo: 0
+    colorFrom: 50505000
+    colorTo: 50505088
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+  }
+}
+
+
+rotate: true
+sideHeat: [1]
+
+
+ambientSound: smelter
+ambientSoundVolume: 0.08
+category: crafting
+
+
+requirements: [
+  01a-01-item-scrap/50
+  01a-02-item-copper/40
+]

@@ -1,0 +1,12 @@
+type: DuctRouter
+name: Duct Router
+description: bro sorts and routers
+regionRotated1: 1
+size: 1
+health: 80
+requirements: [
+	01a-01-item-scrap/8
+    01a-02-item-copper/8
+]
+category: distribution
+squareSprite: true

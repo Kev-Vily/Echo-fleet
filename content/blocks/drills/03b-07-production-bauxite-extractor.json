@@ -1,0 +1,46 @@
+type: AttributeCrafter
+attribute: spores
+baseEfficiency: 0
+minEfficiency: 1
+maxBoost: 1
+
+
+displayEfficiency: true
+hasItems: true
+hasLiquids: true
+hasPower: true
+ignoreLiquidFullness: true
+size: 3
+liquidCapacity: 60
+squareSprite: true
+
+
+name: Bauxite Extractor
+description: Alluminum maker
+
+
+consumes: {
+	liquids: [
+   	02a-04-liquid-slag/0.2
+	]
+	power: 0.5
+}
+
+
+craftTime: 300
+
+
+outputLiquid: 02a-08-liquid-ozone/0.1
+outputItems: [
+	01a-04-item-alluminum/5
+] 
+
+
+craftEffect: smeltsmoke
+category: production
+
+
+requirements: [
+	01a-01-item-scrap/60
+	01a-02-item-copper/40
+]

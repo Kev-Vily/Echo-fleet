@@ -1,0 +1,16 @@
+type: LiquidRouter
+size: 2
+hasLiquids: true
+liquidCapacity: 600
+name: Liquid Tank
+description: fat liqui router
+category: liquid
+
+
+requirements: [
+  01a-01-item-scrap/30
+  01a-04-item-alluminum/20
+]
+
+
+liquidPadding: 1.8

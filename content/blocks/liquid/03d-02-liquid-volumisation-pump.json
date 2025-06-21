@@ -1,0 +1,22 @@
+type: Pump
+name: Volumisation Pump
+description: drink liquid big
+size: 3
+category: liquid
+squareSprite: false
+
+
+requirements: [
+  01a-01-item-scrap/80
+  01a-04-item-alluminum/60
+  01a-06-item-europium/40
+]
+
+
+pumpAmount: 0.0277777777777777777777
+consumes: {
+  power: 1
+  liquids: [
+ 	02a-09-liquid-nitrogen/0.05
+ ]
+}

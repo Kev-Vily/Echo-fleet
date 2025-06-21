@@ -1,0 +1,18 @@
+type: Conduit
+name: Liquid Pipeline
+description: Transports liquids forward no wayy
+category: liquid
+
+
+requirements: [
+  01a-01-item-scrap/2
+]
+
+
+health: 60
+leaks: true
+underBullets: true
+
+
+junctionReplacement: 03d-06-liquid-liquid-junction
+rotBridgeReplacement: 03d-07-liquid-liquid-bridge

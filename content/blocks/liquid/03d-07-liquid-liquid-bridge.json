@@ -1,0 +1,15 @@
+type: DirectionLiquidBridge
+name: Liquid Bridge
+description: water walk over wall
+size: 1
+health: 80
+range: 3
+
+
+requirements: [
+  01a-01-item-scrap/10
+]
+
+
+category: liquid
+squareSprite: true

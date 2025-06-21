@@ -1,0 +1,52 @@
+type: BurstDrill
+name: Blast Drill
+description: explod ore more
+size: 4
+category: production
+hasLiquids: true
+drillTime: 384
+drillHardnessMultiplier: 200
+hasPower: true
+tier: 4
+shake: 2.5
+itemCapacity: 40
+optionalBoostIntensity: 2.5
+details: Boost: 1.6×
+alwaysUnlocked: true
+
+
+consumes: {
+	liquid: 02a-03-liquid-purified-water/0.1
+	power: 1.5
+	liquids: {
+		liquids: [
+			02a-09-liquid-nitrogen/0.033333333333333333333333333333333
+		] 
+		optional: true
+		booster: true
+	}
+}
+
+
+drillEffects: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 21.4
+  strokeFrom: 3
+  strokeTo: 0.2
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 50
+}
+
+
+
+requirements: [
+  01a-01-item-scrap/120
+  01a-02-item-copper/90
+  01a-04-item-alluminum/40
+  01a-05-item-cupride/20
+]
+
+
+squareSprite: false

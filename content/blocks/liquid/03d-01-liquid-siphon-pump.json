@@ -1,0 +1,18 @@
+type: Pump
+name: Siphon Pump
+description: drink liquid
+size: 2
+category: liquid
+squareSprite: false
+
+
+requirements: [
+  01a-01-item-scrap/30
+  01a-02-item-copper/20
+]
+
+
+pumpAmount: 0.025
+consumes: {
+  power: 0.5
+}

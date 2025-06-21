@@ -1,0 +1,28 @@
+type: BeamNode
+name: Copper Node
+description: powerline
+health: 75
+fogRadius: 2.5
+range: 4
+size: 1
+squareSprite: false
+category: power
+hasPower: true
+conductivePower: true
+consumesPower: true
+outputsPower: true
+
+
+consumes: {
+	powerBuffered: 2000
+} 
+
+
+requirements: [
+  01a-02-item-copper/6
+  01a-04-item-alluminum/3
+]
+
+
+laserColor1: C692CEFF
+laserColor2: 735B94FF

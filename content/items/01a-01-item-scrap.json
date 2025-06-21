@@ -1,0 +1,9 @@
+type: item
+name: Scrap
+flammability: 0.1
+explosiveness: 0
+radioactivity: 0
+charge: 0.1
+hardness: 1
+color: 949FA0FF
+alwaysUnlocked: true

@@ -1,0 +1,12 @@
+type: Duct
+name: Alluminum Duct
+armored: true
+description: healthy
+category: distribution
+speed: 6
+health: 160
+bridgeReplacement: 03a-06-distribution-copper-bridge
+requirements: [
+  01a-04-item-alluminum/1
+]
+junctionReplacement: 03a-05-distribution-copper-junction

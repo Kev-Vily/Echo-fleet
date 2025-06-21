@@ -1,0 +1,9 @@
+type: OverflowDuct
+name: Overflow Duct
+description: he overflows
+category: distribution
+health: 80
+requirements: [
+	01a-01-item-scrap/5
+	01a-02-item-copper/5
+]

@@ -1,0 +1,8 @@
+type: item
+name: Soft Coal
+flammability: 1
+explosiveness: 0.2
+radioactivity: 0
+charge: 0
+color: 72574DFF
+alwaysUnlocked: true
