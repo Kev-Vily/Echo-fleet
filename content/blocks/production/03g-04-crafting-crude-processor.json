@@ -11,6 +11,7 @@ maxEfficiency: 1
 consumes: {
 	liquids: [
    	02a-01-liquid-crude-oil/0.25
+  	 02a-12-liquid-neutralizer/0.15
 	]
 }
 

@@ -28,16 +28,27 @@ consumes: {
 }
 
 
-drillEffect: {
-  type: WaveEffect
-  sizeFrom: 0.1
-  sizeTo: 25
-  strokeFrom: 6
-  strokeTo: 0.4
-  colorFrom: 8f8d87
-  colorTo: 6b6a66
-  lifetime: 60
-}
+drillEffect: [
+  {
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 15
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: 8f8d87
+    colorTo: 6b6a66
+    lifetime: 40
+  }
+  {
+  type: MineImpact
+  } 
+  {
+  type: MineImpactSteam
+  } 
+  {
+  type: DrillSteam
+  } 
+]
 
 
 requirements: [

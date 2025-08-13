@@ -19,6 +19,7 @@ consumes: {
 	power: 1.5
 	liquids: [
   	 02a-07-liquid-carbon-dioxide/0.15
+  	 02a-12-liquid-neutralizer/0.15
 	]
 }
 

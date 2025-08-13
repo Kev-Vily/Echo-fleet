@@ -19,8 +19,8 @@ consumes: {
 
 
 requirements: [
+  01a-01-item-scrap/4
   01a-02-item-copper/6
-  01a-04-item-alluminum/3
 ]
 
 

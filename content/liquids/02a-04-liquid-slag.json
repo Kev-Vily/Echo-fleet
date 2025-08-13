@@ -1,7 +1,7 @@
 type: Liquid
 name: Slag
 description: "its hot"
-color: FFCD66FF
+color: F58026FF
 
 explosiveness: 0
 flammability: 0

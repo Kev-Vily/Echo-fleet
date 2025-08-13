@@ -1,0 +1,6 @@
+type: Floor
+name: Magma
+variants: 3
+attributes: {
+	heat: 1
+}

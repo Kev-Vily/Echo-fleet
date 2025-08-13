@@ -1,29 +1,25 @@
-type: AttributeCrafter
-attribute: steam
+type: ThermalGenerator
 name: Water Accumulator
-description: water poo poo maker
+description: Poo poo maker.
 size: 3
-
-
-hasLiquids: true
-squareSprite: true
-
-
-outputLiquid: 02a-02-liquid-dirty-water/0.25
-
-
-displayEfficiencyScale: 1
-baseEfficiency: 0
-minEfficiency: 9
-
-
+attribute: steam
+displayEfficiencyScale: 0.11111111111
+displayEfficiency: false
+minEfficiency: 8
+powerProduction: 0.148148148148148148148148148148148148148148148148148148148148
+generateEffect: turbinegenerate
+effectChance: 0.1
+squareSprite: false
 category: production
 
 
+outputLiquid: 02a-02-liquid-dirty-water/0.05555555555555555555555555555555555555555555555555555
+
+
 requirements: [
-	01a-01-item-scrap/45
+    01a-01-item-scrap/40
 ]
 
 
 ambientSound: hum
-ambientSoundVolume: 0.05
+ambientSoundVolume: 0.08

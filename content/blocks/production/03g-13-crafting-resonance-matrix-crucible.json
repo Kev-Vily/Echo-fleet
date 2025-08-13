@@ -12,6 +12,7 @@ consumes: {
 	power: 15
 	liquids: [
     	02a-10-liquid-hydrogen-sulfide/0.5
+   	 02a-12-liquid-neutralizer/1.2
 	]
 	items: [
 		01a-06-item-europium/24

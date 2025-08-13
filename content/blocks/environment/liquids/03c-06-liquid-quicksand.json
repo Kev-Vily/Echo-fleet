@@ -1,0 +1,10 @@
+type: Floor
+name: Quicksand
+speedMultiplier: 0.5
+variants: 3
+status: slow
+statusDuration: 10
+isLiquid: true
+cacheLayer: mud
+supportsOverlay: true
+shallow: true

@@ -31,6 +31,7 @@ consumes: {
 	power: 8
 	liquids: [
 		02a-10-liquid-hydrogen-sulfide/0.2
+		02a-12-liquid-neutralizer/0.6
 	]
 	items: [
 		01a-02-item-copper/24

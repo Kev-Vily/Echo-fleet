@@ -16,6 +16,7 @@ requirements: [
 
 consumes: {
   itemRadioactive: { }
+  liquid: 02a-12-liquid-neutralizer/0.05
 }
 
 

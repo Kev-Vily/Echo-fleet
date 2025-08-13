@@ -1,0 +1,9 @@
+name: Basalt Vent
+type: SteamVent
+blendGroup: 03c-03-tile-basalt
+parent: 03c-03-tile-basalt
+effect: ventSteam
+effectColor: B8C5CCFF
+attributes: {
+   steam: 1
+}

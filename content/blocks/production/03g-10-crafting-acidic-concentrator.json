@@ -29,6 +29,7 @@ consumes: {
 	liquids: [
 		02a-10-liquid-hydrogen-sulfide/0.4
 		02a-08-liquid-ozone/0.6
+		02a-12-liquid-neutralizer/0.4
 	]
 }
 

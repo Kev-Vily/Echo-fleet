@@ -14,5 +14,5 @@ requirements: [
 
 pumpAmount: 0.025
 consumes: {
-  power: 0.5
+  power: 0.0833333333333333333333333333333333333333333333333
 }

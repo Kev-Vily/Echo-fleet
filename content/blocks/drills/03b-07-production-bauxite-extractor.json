@@ -1,5 +1,5 @@
 type: AttributeCrafter
-attribute: spores
+attribute: bauxite
 baseEfficiency: 0
 minEfficiency: 1
 maxBoost: 1
@@ -12,7 +12,7 @@ hasPower: true
 ignoreLiquidFullness: true
 size: 3
 liquidCapacity: 60
-squareSprite: true
+squareSprite: false
 
 
 name: Bauxite Extractor
@@ -20,27 +20,81 @@ description: Alluminum maker
 
 
 consumes: {
+    power: 0.75
 	liquids: [
    	02a-04-liquid-slag/0.2
+  	 02a-12-liquid-neutralizer/0.066666666666666666666666666666666666
 	]
-	power: 0.5
 }
 
 
-craftTime: 300
+craftTime: 60
 
 
 outputLiquid: 02a-08-liquid-ozone/0.1
 outputItems: [
-	01a-04-item-alluminum/5
+	01a-04-item-alluminum/1
 ] 
 
 
-craftEffect: smeltsmoke
 category: production
+ambientSound: bauxite-extractor
+ambientSoundVolume: 0.03
 
 
 requirements: [
 	01a-01-item-scrap/60
 	01a-02-item-copper/40
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02a-04-liquid-slag
+      alpha: 0.7
+      padding: 2
+    }
+    {
+    type: DrawArcSmelt
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+
+craftEffect: [
+  {
+    type: RadialEffect
+    rotationOffset: 0
+    rotationSpacing: 0
+    amount: 1
+    lengthOffset: 0
+    layer: 110
+    effect: {
+      type: ParticleEffect
+      particles: 4
+      lifetime: 90
+      sizeFrom: 1.6
+      useRotation: false
+      baseRotation: 0
+      sizeTo: 0
+      colorFrom: 808080FF
+      colorTo: 808080FF
+      length: 16
+      baseLength: 0
+      cone: 360
+      interp: pow2
+      sizeInterp: pow3In
+      layer: 110
+    }
+  }
 ]

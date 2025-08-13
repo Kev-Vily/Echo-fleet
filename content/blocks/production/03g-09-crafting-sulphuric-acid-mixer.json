@@ -28,6 +28,7 @@ requirements: [
 consumes: {
 	power: 8
 	liquids: [
+		02a-12-liquid-neutralizer/0.25
 		02a-03-liquid-purified-water/0.133333333333
 	]
 	items: [

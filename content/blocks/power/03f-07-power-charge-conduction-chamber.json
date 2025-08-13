@@ -21,6 +21,7 @@ consumes: {
   ]
   liquids: [
  	02a-09-liquid-nitrogen/0.2
+ 	02a-12-liquid-neutralizer/0.15
   ]
 }
 

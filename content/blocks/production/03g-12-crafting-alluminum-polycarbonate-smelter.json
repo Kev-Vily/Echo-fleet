@@ -17,6 +17,7 @@ consumes: {
 	liquids: [
   	 02a-07-liquid-carbon-dioxide/0.3
 	   02a-08-liquid-ozone/0.4
+	   02a-12-liquid-neutralizer/0.75
 	]
 	items: [
 		01a-04-item-alluminum/12

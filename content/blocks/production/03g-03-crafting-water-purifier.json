@@ -20,6 +20,7 @@ consumes: {
 	power: 2
 	liquids: [
   	 02a-02-liquid-dirty-water/0.4
+ 	  02a-12-liquid-neutralizer/0.1
 	]
 }
 

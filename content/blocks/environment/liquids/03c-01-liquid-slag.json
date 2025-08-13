@@ -1,0 +1,15 @@
+type: Floor
+name: Slag
+speedMultiplier: 0.4
+variants: 0
+isLiquid: true
+liquidDrop: 02a-04-liquid-slag
+cacheLayer: slag
+supportsOverlay: true
+liquidMultiplier: 1
+drownTime: 180
+emitLight: true
+lightRadius: 36
+lightColor: AB480777
+status: melting
+statusDuration: 120
