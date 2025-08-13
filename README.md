@@ -1,15 +1,2 @@
 # Echo-fleet
-A mod that adds a new planet, Kaltos, and its moon, Aetheria into the game.
-  
-[royal]Kaltos[] is an ancient and once life blooming planet. Now ruined by eras of industrial abuse the life became scarce and the planet is undergoing constant ice ages. It's infested with ruins of ancient factions. 
-[gold]Aetheria[] on the other hand, was always a deserted, hot celestial body. Thus resulting in 2 different factions present on [royal]Kaltos[] and [gold]Aetheria[]. 
-
-[red]This mod is still in early development,[] as of now it only adds a bunch of [accent]sandbox only blocks[] and [accent]environment tiles[]. Several maps have been made already, but more will be added later, since they need other content from the mod finished.
-
-Other then that, the mod focuses on [accent]complex factories[] and [accent]refining Crude Oil[]. 
-
-[accent]I re-used no content from vanilla, even though this mod seemingly has several things from it. 
-
-[red]Currently the mod is way too early into development to have any proper translations. 
-
-[]Have fun with whats already added, I guess. :)
+A mindustry mod adding a new planet focused on difficult to use factories and oil refinery
