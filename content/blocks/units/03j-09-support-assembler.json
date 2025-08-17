@@ -1,0 +1,54 @@
+type: UnitAssembler
+name: Support Unit Constructor
+description: Creates medium tier support hover units from payloads.
+size: 3
+category: units
+droneType: assembly-drone
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  01a-01-item-scrap/500
+  01a-02-item-copper/500
+  01a-04-item-alluminum/300
+  01a-05-item-cupride/300
+  01a-07-item-polycarbonate/150
+]
+
+
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: mega
+    requirements: [
+    echo-fleet-03k-01-e-defense-scrap-wall-large/4
+    echo-fleet-03k-02-e-defense-copper-wall-large/3
+    mender/2
+    mono/4
+    ]
+    time: 4200
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: quad
+    requirements: [
+    echo-fleet-03k-01-e-defense-scrap-wall-large/8
+    echo-fleet-03k-04-e-defense-europium-wall-large/4
+    echo-fleet-03k-06-e-defense-echo-shard-wall-large/2
+    mendProjector/6
+    poly/6
+    ]
+    time: 10800
+   }
+]
+
+
+squareSprite: false
+consumes: {
+  liquids: [
+    02a-12-liquid-neutralizer/0.2
+  ]
+  power: 8
+}
+areaSize: 7

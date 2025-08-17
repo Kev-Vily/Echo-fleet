@@ -1,0 +1,51 @@
+type: UnitAssembler
+name: Crab Unit Constructor
+description: Creates medium tier crab units from payloads.
+size: 3
+category: units
+droneType: assembly-drone
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  01a-01-item-scrap/500
+  01a-04-item-alluminum/400
+  01a-05-item-cupride/200
+  01a-07-item-polycarbonate/200
+]
+
+
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: spiroct
+    requirements: [
+    echo-fleet-03k-01-e-defense-scrap-wall-large/4
+    echo-fleet-03k-03-defense-alluminum-wall/3
+    crawler/2
+    ]
+    time: 4200
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: arkyid
+    requirements: [
+    echo-fleet-03k-04-e-defense-europium-wall-large/6
+    echo-fleet-03k-05-e-defense-polycarbonate-wall-large/2
+    echo-fleet-03k-06-e-defense-echo-shard-wall-large/4
+    atrax/4
+    ]
+    time: 10800
+   }
+]
+
+
+squareSprite: false
+consumes: {
+  liquids: [
+    02a-12-liquid-neutralizer/0.3333333333333333333
+  ]
+  power: 6
+}
+areaSize: 7
