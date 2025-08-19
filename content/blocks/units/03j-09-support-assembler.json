@@ -23,7 +23,6 @@ plans: [
     unit: mega
     requirements: [
     echo-fleet-03k-01-e-defense-scrap-wall-large/4
-    echo-fleet-gravitron-engine/3
     mender/2
     mono/4
     ]

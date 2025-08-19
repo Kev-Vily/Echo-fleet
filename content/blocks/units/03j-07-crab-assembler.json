@@ -22,7 +22,6 @@ plans: [
     unit: spiroct
     requirements: [
     echo-fleet-03k-01-e-defense-scrap-wall-large/4
-    echo-fleet-reinforced-leggings/1
     echo-fleet-crab-heels/2
     crawler/2
     ]
