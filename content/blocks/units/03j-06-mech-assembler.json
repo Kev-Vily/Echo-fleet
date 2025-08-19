@@ -21,8 +21,8 @@ plans: [
     type: AssemblerUnitPlan
     unit: fortress
     requirements: [
-    echo-fleet-03k-01-e-defense-scrap-wall-large/2
-    echo-fleet-03k-02-defense-copper-wall/3
+    echo-fleet-03k-01-e-defense-scrap-wall-large/3
+    echo-fleet-reinforced-leggings/2
     dagger/2
     ]
     time: 3000
@@ -31,9 +31,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: scepter
     requirements: [
-    echo-fleet-03k-03-e-defense-alluminum-wall-large/6
-    echo-fleet-03k-05-e-defense-polycarbonate-wall-large/4
+    echo-fleet-03k-03-e-defense-alluminum-wall-large/5
     echo-fleet-03k-06-defense-echo-shard-wall/2
+    echo-fleet-reinforced-leggings/6
     mace/5
     ]
     time: 9000

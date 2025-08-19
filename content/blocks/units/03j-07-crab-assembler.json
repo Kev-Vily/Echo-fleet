@@ -22,7 +22,8 @@ plans: [
     unit: spiroct
     requirements: [
     echo-fleet-03k-01-e-defense-scrap-wall-large/4
-    echo-fleet-03k-03-defense-alluminum-wall/3
+    echo-fleet-reinforced-leggings/1
+    echo-fleet-crab-heels/2
     crawler/2
     ]
     time: 4200
@@ -32,8 +33,9 @@ plans: [
     unit: arkyid
     requirements: [
     echo-fleet-03k-04-e-defense-europium-wall-large/6
-    echo-fleet-03k-05-e-defense-polycarbonate-wall-large/2
-    echo-fleet-03k-06-e-defense-echo-shard-wall-large/4
+    echo-fleet-03k-06-e-defense-echo-shard-wall-large/1
+    echo-fleet-reinforced-leggings/2
+    echo-fleet-crab-heels/4
     atrax/4
     ]
     time: 10800

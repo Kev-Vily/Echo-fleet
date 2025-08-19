@@ -23,7 +23,7 @@ plans: [
     unit: mega
     requirements: [
     echo-fleet-03k-01-e-defense-scrap-wall-large/4
-    echo-fleet-03k-02-e-defense-copper-wall-large/3
+    echo-fleet-gravitron-engine/3
     mender/2
     mono/4
     ]
@@ -33,10 +33,10 @@ plans: [
     type: AssemblerUnitPlan
     unit: quad
     requirements: [
-    echo-fleet-03k-01-e-defense-scrap-wall-large/8
     echo-fleet-03k-04-e-defense-europium-wall-large/4
     echo-fleet-03k-06-e-defense-echo-shard-wall-large/2
-    mendProjector/6
+    echo-fleet-gravitron-engine/6
+    mend-projector/6
     poly/6
     ]
     time: 10800
