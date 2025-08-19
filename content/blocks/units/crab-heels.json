@@ -1,0 +1,12 @@
+type: Wall
+name: Crab Heelings
+description: Used in advanced crab unit production. 
+size: 3
+customShadow: true
+placeablePlayer: false
+
+
+requirements: [
+  01a-01-item-scrap/20
+  01a-06-item-europium/5
+]
