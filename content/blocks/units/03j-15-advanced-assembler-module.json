@@ -1,9 +1,10 @@
 type: UnitAssemblerModule
-name: Advenced Constructor Module
+name: Advenced Assembler Module
 description: Increases a constructors' tier by 1 when placed next to its bounding box. If powered, may be used as an additional payload input. Requires the normal constructor module to function. 
 size: 5
 category: units
 hasPower: true
+tier: 2
 
 
 requirements: [
