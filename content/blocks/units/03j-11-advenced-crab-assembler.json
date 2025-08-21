@@ -1,5 +1,5 @@
 type: UnitAssembler
-name: Advanced Crab Unit Constructor
+name: Advanced Crab Unit Assembler
 description: Creates high tier crab units from payloads.
 size: 5
 category: units
@@ -63,4 +63,5 @@ consumes: {
   ]
   power: 10
 }
+
 areaSize: 11
