@@ -1,5 +1,5 @@
 type: UnitAssembler
-name: Hover Unit Constructor
+name: Hover Unit Assembler
 description: Creates medium tier hover units from payloads.
 size: 3
 category: units
@@ -48,4 +48,5 @@ consumes: {
   ]
   power: 4
 }
+
 areaSize: 7
