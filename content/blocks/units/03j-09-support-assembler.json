@@ -1,5 +1,5 @@
 type: UnitAssembler
-name: Support Unit Constructor
+name: Support Unit Assembler
 description: Creates medium tier support hover units from payloads.
 size: 3
 category: units
@@ -50,4 +50,5 @@ consumes: {
   ]
   power: 8
 }
+
 areaSize: 7
