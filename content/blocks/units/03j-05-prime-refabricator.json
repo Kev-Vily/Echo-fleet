@@ -2,7 +2,7 @@ type: Reconstructor
 size: 3
 health: 650
 configurable: false
-name: Prime Reconstructor
+name: Prime Refabricator
 description: Upgrades tier 1 units into their tier 2 counterparts. 
 squareSprite: false
 hasPower: true
@@ -38,4 +38,5 @@ consumes: {
   01a-04-item-alluminum/75
   01a-06-item-europium/50
   ]
+
 }
