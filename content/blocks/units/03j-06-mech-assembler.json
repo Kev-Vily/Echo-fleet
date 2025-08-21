@@ -1,5 +1,5 @@
 type: UnitAssembler
-name: Mech Unit Constructor
+name: Mech Unit Assembler
 description: Creates medium tier mech units from payloads.
 size: 3
 category: units
@@ -48,4 +48,5 @@ consumes: {
   ]
   power: 4
 }
+
 areaSize: 7
