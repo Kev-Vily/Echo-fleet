@@ -34,7 +34,7 @@ plans: [
     requirements: [
     echo-fleet-03k-04-e-defense-europium-wall-large/4
     echo-fleet-03k-06-e-defense-echo-shard-wall-large/2
-    echo-fleet-gravitron-engine/6
+    echo-fleet-gravitron-module/6
     mend-projector/6
     poly/6
     ]

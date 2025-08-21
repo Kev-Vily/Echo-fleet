@@ -1,0 +1,41 @@
+type: Reconstructor
+size: 3
+health: 650
+configurable: false
+name: Prime Reconstructor
+description: Upgrades tier 1 units into their tier 2 counterparts. 
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+
+requirements: [
+  01a-01-item-scrap/280
+  01a-02-item-copper/260
+  01a-04-item-alluminum/180
+  01a-06-item-europium/200
+]
+constructTime: 3000
+category: units
+
+
+upgrades: [
+    [dagger, mace] 
+    [crawler, atrax] 
+    [flare, horizon] 
+    [mono, poly]
+]
+  
+  
+consumes: {
+  power: 3
+  liquids: [
+	02a-08-liquid-ozone/0.05
+	02a-12-liquid-neutralizer/0.1
+  ]
+  items: [
+  01a-04-item-alluminum/75
+  01a-06-item-europium/50
+  ]
+}

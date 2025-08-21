@@ -1,7 +1,7 @@
 type: UnitAssemblerModule
 name: Constructor Module
 description: Increases a constructors' tier by 1 when placed next to its bounding box. If powered, may be used as an additional payload input.
-size: 5
+size: 3
 category: units
 hasPower: true
 

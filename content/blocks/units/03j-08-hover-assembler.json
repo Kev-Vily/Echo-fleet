@@ -22,7 +22,7 @@ plans: [
     unit: zenith
     requirements: [
     echo-fleet-03k-02-e-defense-copper-wall-large/3
-    echo-fleet-gravitron-engine/1
+    echo-fleet-gravitron-module/1
     flare/3
     ]
     time: 3000
@@ -33,7 +33,7 @@ plans: [
     requirements: [
     echo-fleet-03k-02-e-defense-copper-wall-large/8
     echo-fleet-03k-06-defense-echo-shard-wall/8
-    echo-fleet-gravitron-engine/4
+    echo-fleet-gravitron-module/4
     horizon/6
     ]
     time: 9000
