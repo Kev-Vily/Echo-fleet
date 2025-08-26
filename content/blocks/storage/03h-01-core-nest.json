@@ -1,0 +1,22 @@
+type: CoreBlock
+name: Core: Nest
+description: Core of the base. Well armored, allows for more units to be active at a time. Has low item capacity. 
+
+
+requirements: [
+  01a-01-item-scrap/1800
+  01a-02-item-copper/1600
+  01a-04-item-alluminum/1000
+]
+
+
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: 07a-01-unit-macromyrmex
+health: 3600
+armor: 6
+itemCapacity: 1800
+unitCapModifier: 8
+solid: false
