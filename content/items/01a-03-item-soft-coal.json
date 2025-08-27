@@ -6,3 +6,7 @@ radioactivity: 0
 charge: 0
 color: 72574DFF
 alwaysUnlocked: true
+
+
+research: 01a-01-item-scrap
+hiddenOnPlanets: [serpulo, erekir]

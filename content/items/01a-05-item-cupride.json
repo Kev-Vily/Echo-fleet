@@ -6,3 +6,7 @@ radioactivity: 0
 charge: 0.2
 color: BEE1ADFF
 alwaysUnlocked: true
+
+
+research: 01a-02-item-copper
+hiddenOnPlanets: [serpulo, erekir]

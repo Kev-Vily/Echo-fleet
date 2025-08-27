@@ -6,3 +6,7 @@ radioactivity: 0.6
 charge: 1.8
 color: ACC688FF
 alwaysUnlocked: true
+
+
+research: 01a-09-item-echo-shard
+hiddenOnPlanets: [serpulo, erekir]

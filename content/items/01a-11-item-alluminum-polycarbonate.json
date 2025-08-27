@@ -6,3 +6,7 @@ radioactivity: 0
 charge: 0.8
 color: B4E4D9FF
 alwaysUnlocked: true
+
+
+research: 01a-07-item-polycarbonate
+hiddenOnPlanets: [serpulo, erekir]

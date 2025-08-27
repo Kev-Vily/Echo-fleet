@@ -7,3 +7,7 @@ charge: 0.8
 hardness: 5
 color: C692CEFF
 alwaysUnlocked: true
+
+
+research: 01a-06-item-europium
+hiddenOnPlanets: [serpulo, erekir]

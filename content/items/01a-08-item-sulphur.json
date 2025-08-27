@@ -6,3 +6,7 @@ radioactivity: 0
 charge: 0
 color: F0E8A2FF
 alwaysUnlocked: true
+
+
+research: 02a-10-liquid-hydrogen-sulfide
+hiddenOnPlanets: [serpulo, erekir]

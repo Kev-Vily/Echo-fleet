@@ -7,3 +7,7 @@ charge: 0.6
 hardness: 4
 color: CA8A85FF
 alwaysUnlocked: true
+
+
+research: 01a-02-item-copper
+hiddenOnPlanets: [serpulo, erekir]

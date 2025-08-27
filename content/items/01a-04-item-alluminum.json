@@ -6,3 +6,7 @@ radioactivity: 0
 charge: 0.4
 color: ADC6B8FF
 alwaysUnlocked: true
+
+
+research: 02a-04-liquid-slag
+hiddenOnPlanets: [serpulo, erekir]
