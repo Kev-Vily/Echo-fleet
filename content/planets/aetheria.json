@@ -101,7 +101,7 @@ launchCandidates: []
 itemWhitelist: [
   "01a-01-item-scrap",
   "01a-02-item-copper",  
-  "02a-03-item-soft-coal",
+  "01a-03-item-soft-coal",
   "01a-04-item-alluminum", 
   "01a-05-item-cupride", 
   "01a-06-item-europium",
@@ -111,4 +111,5 @@ itemWhitelist: [
   "01a-10-item-echo-circuit", 
   "01a-11-item-alluminum-polycarbonate",
   "01a-12-item-resonance-matrix",
+
 ]
