@@ -9,3 +9,7 @@ heatCapacity: 1
 viscosity: 0.4
 temperature: 1
 blockReactive: false
+
+
+research: 02a-02-liquid-dirty-water
+hiddenOnPlanets: [serpulo, erekir]

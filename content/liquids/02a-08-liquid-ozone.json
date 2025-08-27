@@ -12,3 +12,7 @@ boilPoint: -4
 gasColor: FF80D4DF
 gas: true
 blockReactive: false
+
+
+research: 01a-04-item-alluminum
+hiddenOnPlanets: [serpulo, erekir]

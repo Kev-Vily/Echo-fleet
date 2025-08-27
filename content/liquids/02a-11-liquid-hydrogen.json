@@ -12,3 +12,7 @@ boilPoint: -4
 gasColor: 99B2BFFF
 gas: true
 blockReactive: false
+
+
+research: 02a-10-liquid-hydrogen-sulfide
+hiddenOnPlanets: [serpulo, erekir]

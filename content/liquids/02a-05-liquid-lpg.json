@@ -9,3 +9,7 @@ heatCapacity: 0.5
 viscosity: 0.1
 temperature: 0.6
 blockReactive: false
+
+
+research: 02a-01-liquid-crude-oil
+hiddenOnPlanets: [serpulo, erekir]

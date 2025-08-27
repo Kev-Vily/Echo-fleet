@@ -12,3 +12,7 @@ boilPoint: -4
 gasColor: 666666FF
 gas: true
 blockReactive: false
+
+
+research: 02a-01-liquid-crude-oil
+hiddenOnPlanets: [serpulo, erekir]

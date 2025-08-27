@@ -9,3 +9,7 @@ heatCapacity: 1
 viscosity: 0.2
 temperature: 0.4
 blockReactive: false
+
+
+research: 01a-08-item-sulphur
+hiddenOnPlanets: [serpulo, erekir]

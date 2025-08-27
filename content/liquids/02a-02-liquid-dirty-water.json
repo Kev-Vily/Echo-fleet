@@ -9,3 +9,7 @@ heatCapacity: 0.8
 viscosity: 0.6
 temperature: 0.4
 blockReactive: false
+
+
+research: 01a-01-item-scrap
+hiddenOnPlanets: [serpulo, erekir]

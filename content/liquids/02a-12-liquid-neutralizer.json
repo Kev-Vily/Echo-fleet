@@ -12,3 +12,7 @@ boilPoint: -4
 gasColor: 12B2A5FF
 gas: true
 blockReactive: false
+
+
+research: 02a-04-liquid-slag
+hiddenOnPlanets: [serpulo, erekir]
