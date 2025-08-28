@@ -40,3 +40,6 @@ consumes: {
 outputLiquids: [
 	02a-06-liquid-sulphuric-acid/0.2
 ]
+
+
+research: 03g-06-crafting-sulphur-extractor
