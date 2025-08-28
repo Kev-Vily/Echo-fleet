@@ -20,3 +20,12 @@ armor: 6
 itemCapacity: 1800
 unitCapModifier: 8
 solid: false
+category: effect
+
+
+research: {
+  planet: aetheria
+  root: true
+  name: Echo Fleet
+  requiresUnlock: false
+}
