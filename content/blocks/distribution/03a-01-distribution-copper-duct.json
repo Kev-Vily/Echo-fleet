@@ -10,3 +10,6 @@ requirements: [
   01a-02-item-copper/1
 ]
 junctionReplacement: 03a-05-distribution-copper-junction
+
+
+research: 03h-01-core-nest
