@@ -37,3 +37,6 @@ consumes: {
 outputLiquids: [
 	02a-06-liquid-sulphuric-acid/0.8
 ]
+
+
+research: 03g-09-crafting-sulphuric-acid-mixer
