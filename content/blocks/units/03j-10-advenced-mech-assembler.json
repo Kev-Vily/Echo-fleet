@@ -1,5 +1,5 @@
 type: UnitAssembler
-name: Advanced Mech Unit Assembler
+name: Advanced Mech Unit Constructor
 description: Creates high tier mech units from payloads.
 size: 5
 category: units
@@ -61,5 +61,7 @@ consumes: {
   ]
   power: 12
 }
-
 areaSize: 11
+
+
+research: 03j-06-mech-assembler

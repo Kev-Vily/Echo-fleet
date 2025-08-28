@@ -1,5 +1,5 @@
 type: UnitAssembler
-name: Crab Unit Assembler
+name: Crab Unit Constructor
 description: Creates medium tier crab units from payloads.
 size: 3
 category: units
@@ -49,5 +49,7 @@ consumes: {
   ]
   power: 6
 }
-
 areaSize: 7
+
+
+research: 03j-02-crab-fabricator

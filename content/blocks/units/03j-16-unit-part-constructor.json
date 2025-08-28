@@ -33,3 +33,6 @@ filter: [
 squareSprite: false
 conductivePower: true
 maxBlockSize: 3
+
+
+research: 03j-05-prime-refabricator
