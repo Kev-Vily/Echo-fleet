@@ -90,4 +90,7 @@ craftEffect: {
     sizeInterp: pow3In
     layer: 110
   }
-} 
+}
+
+
+research: 03g-00-crafting-neutralizer-infuser
