@@ -25,3 +25,6 @@ requirements: [
 consumes: {
   power: 0.1
 }
+
+
+research: 03k-02-defense-copper-wall
