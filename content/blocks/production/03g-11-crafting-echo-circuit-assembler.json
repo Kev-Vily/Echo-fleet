@@ -44,3 +44,6 @@ consumes: {
 outputItems: [
 	01a-10-item-echo-circuit/4
 ]
+
+
+research: 03g-04-crafting-crude-processor
