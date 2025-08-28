@@ -39,3 +39,6 @@ outputLiquids: [
 ]
 sideHeat: [1]
 liquidOutputDirections: [2]
+
+
+research: 03g-03-crafting-water-purifier
