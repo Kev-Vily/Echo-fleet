@@ -16,3 +16,6 @@ pumpAmount: 0.025
 consumes: {
   power: 0.0833333333333333333333333333333333333333333333333
 }
+
+
+research: 03h-01-core-nest
