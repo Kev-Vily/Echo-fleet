@@ -40,4 +40,7 @@ requirements: [
 	01a-07-item-polycarbonate/80
 	01a-09-item-echo-shard/160
 	01a-10-item-echo-circuit/80
-] 
+]
+
+
+research: 03g-11-crafting-echo-circuit-assembler
