@@ -47,3 +47,6 @@ requirements: [
 
 liquidCapacity: 240
 liquidOutputDirections: [1,2,3,4]
+
+
+research: 03g-04-crafting-crude-processor
