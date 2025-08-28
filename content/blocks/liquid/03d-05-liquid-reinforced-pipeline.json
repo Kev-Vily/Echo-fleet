@@ -21,3 +21,6 @@ rotBridgeReplacement: 03d-07-liquid-liquid-bridge
 underBullets: true
 liquidPressure: 1.075
 liquidCapacity: 30
+
+
+research: 03d-04-liquid-liquid-pipeline
