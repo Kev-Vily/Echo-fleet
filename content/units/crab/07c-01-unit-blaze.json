@@ -39,7 +39,7 @@ controller: HugAI
 weapons: [
   {
     x: 0
-    y: 0
+    y: 1
     rotate: false
     mirror: false
     reload: 12
@@ -47,7 +47,7 @@ weapons: [
     shootCone: 30
     inaccuracy: 3
     bullet: {
-      damage: 5
+      damage: 15
       shootEffect: none
       speed: 4
       pierce: true
