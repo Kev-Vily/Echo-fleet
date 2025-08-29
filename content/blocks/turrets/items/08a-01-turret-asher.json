@@ -1,0 +1,70 @@
+name: Asher
+description: Shoots molten copper at ground and air targets. Can pierce several targets. 
+type: ItemTurret
+size: 2
+squareSprite: false
+health: 1500
+shootSound: shootAlt
+hasItems: true
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  01a-01-item-scrap/150
+  01a-02-item-copper/100
+]
+
+
+category: turret
+consumes: {
+  power: 0.25
+  liquid: 02a-04-liquid-slag/0.05
+} 
+
+
+recoil: 3
+outlineColor: 181425FF
+targetAir: true
+targetGround: true
+rotateSpeed: 2
+reload: 60
+range: 160
+shootY: 1
+
+
+ammoTypes: {
+  01a-02-item-copper: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.25
+    hitColor: D6AF8DFF
+    damage: 50
+    width: 0
+    height: 0
+    speed: 4
+    lifetime: 52
+    despawnEffect: [massiveExplosion
+    ]
+    pierceCap: 2
+    pierce: true
+    pierceBuilding: true  
+    trailColor: D6AF8DFF
+    trailSinScl: 2
+    trailSinMag: 0.2
+    trailInterval: 2
+    trailRotation: true
+    trailLength: 0.5
+    trailWidth: 2
+    trailEffect: shootSmokeTitan
+    shootEffect: shootSmokeTitan
+    shrinkX: 0
+    shrinkY: 0
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: blehhhhious-
+}
+
+
+research: 03h-01-core-nest
