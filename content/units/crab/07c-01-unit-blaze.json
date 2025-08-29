@@ -44,19 +44,19 @@ weapons: [
     mirror: false
     reload: 6
     shootSound: flame
-    shootCone: 30
+    shootCone: 10
     inaccuracy: 3
     bullet: {
       damage: 7.5
       shootEffect: none
-      speed: 4
+      speed: 24
       pierce: true
       pierceBuilding: true
       ammoMultiplier: 5
       status: burning
       statusDuration: 60
       makeFire: true
-      lifetime: 5
+      lifetime: 2.5
       despawnEffect: none
       width: 0.01
       height: 0.01
