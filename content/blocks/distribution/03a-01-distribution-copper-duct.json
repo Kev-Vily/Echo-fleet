@@ -2,7 +2,6 @@ type: Duct
 name: Copper Duct
 description: item move
 category: distribution
-alwaysUnlocked: true
 speed: 6
 health: 50
 bridgeReplacement: 03a-06-distribution-copper-bridge
@@ -12,4 +11,8 @@ requirements: [
 junctionReplacement: 03a-05-distribution-copper-junction
 
 
+
 research: 03h-01-core-nest
+researchCost: [
+  01a-02-item-copper/10
+] 
