@@ -15,38 +15,39 @@ weapons: [
   top: false
   x: -6
   name: 07b-01-unit-ratchet-weapon
-  recoil: 0.3
+  recoil: 1
   shootCone: 30
+  innacuracy: 10
   y: 1.25
-  reload: 240
+  reload: 180
   rotate: false
   mirror: true
   alternate: true
   shoot: {
-    shots: 2
-    shotDelay: 60
+    shots: 3
+    shotDelay: 10
   }
-  shootSound: missile
+  shootSound: artillery
+  despawnSound: dullExplosion
   bullet: {
     type: BasicBulletType
     speed: 2
     lifetime: 60
-    damage: 60
+    damage: 20
     pierce: true
     pierceCap: 2
-    width: 28
+    width: 4
     height: 12
     smokeEffect: shootSmokeSquare
     trailColor: DC913AFF
-    trailWidth: 1
+    trailWidth: 3
     trailLength: 12
     trailParam: 1.6
-    trailInterval: 6
+    trailInterval: 2
     trailEffect: missileTrail
     backColor: DC913AFF
     hitColor: DC913AFF
     missColor: DC913AFF
-    buildingDamageMultiplier: 0.01
     collidesTeam: false
     hitSound: none
     fragBullets: 8
@@ -61,7 +62,8 @@ weapons: [
       width: 4
       height: 8
       pierce: false
-      damage: 20
+      damage: 10
+      despawnSound: dullExplosion
     }
   }
   }
