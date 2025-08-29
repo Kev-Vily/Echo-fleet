@@ -10,20 +10,6 @@ outlineColor: 181425FF
 mechLegColor: 181425FF
 
 
-parts: [
-  {
-  type: RegionPart
-  outline: false
-  mirror: false
-  color: 00000000
-  colorTo: FEB380FF
-  blending: additive
-  progress: recoil
-  suffix: -glow
-  }
-]
-
-
 weapons: [
   {
   top: false
