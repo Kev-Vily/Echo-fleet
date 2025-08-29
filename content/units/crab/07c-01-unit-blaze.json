@@ -44,11 +44,11 @@ weapons: [
   mirror: false
   reload: 6
   shootSound: flame
-  shootCone: 15
+  shootCone: 10
   inaccuracy: 5
   bullet: {
     damage: 7.5
-    speed: 4
+    speed: 6
     pierce: true
     pierceBuilding: true
     ammoMultiplier: 5
@@ -64,10 +64,10 @@ weapons: [
       {
       type: ParticleEffect
         particles: 8
-        length: 48
+        length: 72
         lifetime: 36
         interp: circleOut
-        cone: 15
+        cone: 10
         colorFrom: FCB960FF
         colorTo: C97E4700
         sizeFrom: 3
@@ -78,11 +78,11 @@ weapons: [
       type: ParticleEffect
         particles: 5
         length: 96
-        lifetime: 96
+        lifetime: 120
         interp: pow5Out
-        cone: 15
-        colorFrom: 787878A0
-        colorTo: 78787800
+        cone: 10
+        colorFrom: 606060A0
+        colorTo: 60606000
         sizeFrom: 5
         sizeTo: 0
         layer: 100.3
@@ -91,11 +91,11 @@ weapons: [
       type: ParticleEffect
         particles: 7
         length: 96
-        lifetime: 96
+        lifetime: 120
         interp: pow5Out
-        cone: 15
-        colorFrom: B0B0B0A0
-        colorTo: B0B0B000
+        cone: 10
+        colorFrom: 787878A0
+        colorTo: 78787800
         sizeFrom: 4
         sizeTo: 0
         layer: 100.3
