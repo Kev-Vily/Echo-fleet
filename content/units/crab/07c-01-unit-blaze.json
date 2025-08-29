@@ -38,69 +38,42 @@ controller: HugAI
 
 weapons: [
   {
-  x: 0
-  y: 1
-  rotate: false
-  mirror: false
-  reload: 6
-  shootSound: flame
-  shootCone: 10
-  inaccuracy: 5
-  bullet: {
-    damage: 7.5
-    speed: 6
-    pierce: true
-    pierceBuilding: true
-    ammoMultiplier: 5
-    status: burning
-    statusDuration: 60
-    makeFire: true
-    lifetime: 12
-    despawnEffect: none
-    width: 0.01
-    height: 0.01
-    hittable: false
-    shootEffect: [
-      {
-      type: ParticleEffect
-        particles: 8
-        length: 72
-        lifetime: 36
-        interp: circleOut
-        cone: 10
-        colorFrom: FCB960FF
-        colorTo: C97E4700
-        sizeFrom: 3
-        sizeTo: 0
-        layer: 100.3
-      }
-      {
-      type: ParticleEffect
-        particles: 5
-        length: 96
-        lifetime: 120
-        interp: pow5Out
-        cone: 10
-        colorFrom: 606060A0
-        colorTo: 60606000
-        sizeFrom: 5
-        sizeTo: 0
-        layer: 100.3
-      }
-      {
-      type: ParticleEffect
-        particles: 7
-        length: 96
-        lifetime: 120
-        interp: pow5Out
-        cone: 10
-        colorFrom: 787878A0
-        colorTo: 78787800
-        sizeFrom: 4
-        sizeTo: 0
-        layer: 100.3
-      }
-    ]
-  } 
+    x: 0
+    y: 1
+    rotate: false
+    mirror: false
+    reload: 6
+    shootSound: flame
+    shootCone: 30
+    inaccuracy: 3
+    bullet: {
+      damage: 7.5
+      shootEffect: none
+      speed: 4
+      pierce: true
+      pierceBuilding: true
+      ammoMultiplier: 5
+      status: burning
+      statusDuration: 60
+      makeFire: true
+      lifetime: 5
+      despawnEffect: none
+      width: 0.01
+      height: 0.01
+      hittable: false
+      smokeEffect: {
+        type: ParticleEffect
+          particles: 25
+          length: 140
+          lifetime: 72
+          interp: pow5out
+          interp: pow5Out
+          cone: 3
+          colorFrom: FCB960FF
+          colorTo: C97E4700
+          sizeFrom: 4
+          sizeTo: 0
+        }
+     }
   }
 ]
