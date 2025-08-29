@@ -4,7 +4,7 @@ type: ItemTurret
 size: 2
 squareSprite: false
 health: 1500
-shootSound: shootAlt
+shootSound: shoot-mashinegun
 hasItems: true
 hasPower: true
 hasLiquids: true
