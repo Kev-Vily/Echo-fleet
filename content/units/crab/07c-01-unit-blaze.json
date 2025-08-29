@@ -45,7 +45,7 @@ weapons: [
   reload: 6
   shootSound: flame
   shootCone: 30
-  inaccuracy: 3
+  inaccuracy: 10
   bullet: {
     damage: 7.5
     speed: 4
@@ -67,11 +67,12 @@ weapons: [
         length: 48
         lifetime: 36
         interp: circleOut
-        cone: 3
+        cone: 30
         colorFrom: FCB960FF
         colorTo: C97E4700
         sizeFrom: 4
         sizeTo: 0
+        layer: 100.3
       }
       {
       type: ParticleEffect
@@ -79,11 +80,12 @@ weapons: [
         length: 96
         lifetime: 96
         interp: pow5Out
-        cone: 3
+        cone: 30
         colorFrom: B0B0B0FF
         colorTo: 5252500
         sizeFrom: 4
         sizeTo: 0
+        layer: 100.3
       }
     ]
   } 
