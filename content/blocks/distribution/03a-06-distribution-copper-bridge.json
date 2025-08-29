@@ -17,4 +17,9 @@ range: 3
 speed: 3
 
 
+
 research: 03a-01-distribution-copper-duct
+researchCost: [
+  01a-01-item-scrap/30
+  01a-02-item-copper/20
+]
