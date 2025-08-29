@@ -87,6 +87,7 @@ weapons: [
         sizeTo: 0
         layer: 100.3
       }
+      {
       type: ParticleEffect
         particles: 7
         length: 96
