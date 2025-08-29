@@ -15,4 +15,8 @@ squareSprite: true
 category: distribution
 
 
+
 research: 03a-01-distribution-copper-duct
+researchCost: [
+  01a-02-item-copper/20
+]
