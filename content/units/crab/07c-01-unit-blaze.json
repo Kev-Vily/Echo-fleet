@@ -39,17 +39,17 @@ controller: HugAI
 weapons: [
   {
     x: 0
-    y: 6
+    y: 0
     rotate: false
     mirror: false
-    reload: 2.4
+    reload: 12
     shootSound: flame
     shootCone: 30
     inaccuracy: 3
     bullet: {
-      damage: 1
+      damage: 5
       shootEffect: none
-      speed: 9.2
+      speed: 4
       pierce: true
       pierceBuilding: true
       ammoMultiplier: 5
@@ -68,10 +68,10 @@ weapons: [
           lifetime: 36
           interp: circleOut
           cone: 3
-          colorFrom: D1583FFF
-          colorTo: A53C1900
+          colorFrom: FCB960FF
+          colorTo: C97E4700
           sizeFrom: 4
-          sizeTo: 0.6
+          sizeTo: 0
         }
      }
   }
