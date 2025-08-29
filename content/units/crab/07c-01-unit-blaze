@@ -1,0 +1,78 @@
+name: blaze
+description: Has a single flamethrower. 
+
+
+type: legs
+legCount: 4
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 3
+legLength: 9
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+
+
+hovering: true
+groundLayer: 60
+health: 280
+armor: 2
+allowLegStep: true
+speed: q
+rotateSpeed: 3
+hitSize: 10
+drag: 0.1
+itemCapacity: 0
+outlineColor: 13151AFF
+
+
+research: 03j-02-crab-fabricator
+researchCostMultiplier: 0.5
+controller: HugAI
+
+
+weapons: [
+  {
+    x: 0
+    y: 6
+    rotate: false
+    mirror: false
+    reload: 2.4
+    shootSound: flame
+    shootCone: 30
+    inaccuracy: 3
+    bullet: {
+      damage: 1
+      shootEffect: none
+      speed: 9.2
+      pierce: true
+      pierceBuilding: true
+      ammoMultiplier: 5
+      status: burning
+      statusDuration: 60
+      makeFire: true
+      lifetime: 5
+      despawnEffect: none
+      width: 0.01
+      height: 0.01
+      hittable: false
+      smokeEffect: {
+        type: ParticleEffect
+          particles: 25
+          length: 140
+          lifetime: 36
+          interp: circleOut
+          cone: 3
+          colorFrom: D1583FFF
+          colorTo: A53C1900
+          sizeFrom: 4
+          sizeTo: 0.6
+        }
+     }
+  }
+]
