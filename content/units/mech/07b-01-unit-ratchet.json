@@ -15,10 +15,10 @@ weapons: [
   top: false
   x: -6
   name: 07b-01-unit-ratchet-weapon
-  recoil: 1
+  recoil: 2.25
   shootCone: 30
   innacuracy: 10
-  y: 1.25
+  y: 0
   reload: 180
   rotate: false
   mirror: true
