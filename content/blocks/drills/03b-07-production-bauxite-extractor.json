@@ -100,4 +100,14 @@ craftEffect: [
 ]
 
 
-research: 03b-01-production-water-accumulator
+
+research: {
+  parent: 03b-01-peoduction-water-extractor
+  objectives: [  
+	01a-03-item-soft-coal, 
+    {
+      type: SectorComplete
+      preset: 05a-01-sector-un
+    }
+  ]
+}
