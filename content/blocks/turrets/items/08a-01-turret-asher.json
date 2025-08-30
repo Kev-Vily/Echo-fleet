@@ -67,9 +67,13 @@ drawer: {
 }
 
 
-parent: 03h-01-core-nest
-research: 02a-04-liquid-slag
+research: {
+  parent: 03h-01-core-nest
+  objectives: [  
+    02a-04-liquid-slag
+  ]
+}
 researchCost: [
-  01a-01-item-scrap/300
-  01a-02-item-copper/450
+  01a-01-item-scrap/150
+  01a-02-item-copper/100
 ]
