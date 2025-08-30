@@ -9,5 +9,10 @@ color: CA8A85FF
 alwaysUnlocked: true
 
 
-research: 01a-02-item-copper
+research: {
+  parent: 01a-02-item-copper
+  objectives: [  
+    01a-06-item-europium
+  ]
+}
 hiddenOnPlanets: [serpulo, erekir]
