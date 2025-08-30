@@ -102,7 +102,7 @@ craftEffect: [
 
 
 research: {
-  parent: 03b-01-peoduction-water-extractor
+  parent: 03b-01-production-water-extractor
   objectives: [  
 	01a-03-item-soft-coal, 
     {
@@ -111,3 +111,4 @@ research: {
     }
   ]
 }
+
