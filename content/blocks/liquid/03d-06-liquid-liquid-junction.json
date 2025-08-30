@@ -11,4 +11,8 @@ requirements: [
 ]
 
 
+
 research: 03d-04-liquid-liquid-pipeline
+researchCost: [
+  01a-01-item-scrap/50
+]
