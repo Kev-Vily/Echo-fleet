@@ -18,7 +18,7 @@ weapons: [
   recoil: 2.25
   shootCone: 30
   innacuracy: 10
-  y: 0
+  y: 0.5
   reload: 180
   rotate: false
   mirror: true
