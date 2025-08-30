@@ -21,7 +21,7 @@ category: units
 plans: [
   {
     type: FactoryUnitPlan
-    unit: 07b-01-unit-magnum
+    unit: 07b-01-unit-ratchet
     requirements: [
       01a-02-item-copper/40
       01a-04-item-alluminum/30
@@ -52,3 +52,4 @@ researchCost: [
     01a-02-item-copper/240
     01a-04-item-alluminum/120
 ]
+
