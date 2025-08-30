@@ -10,9 +10,10 @@ alwaysUnlocked: true
 
 
 research: {
-  parent: 03h-01-core-nest
+  parent: 01a-01-item-scrap
   objectives: [  
     01a-02-item-copper
   ]
 }
 hiddenOnPlanets: [serpulo, erekir]
+
