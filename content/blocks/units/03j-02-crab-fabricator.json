@@ -21,7 +21,7 @@ category: units
 plans: [
   {
     type: FactoryUnitPlan
-    unit: crawler
+    unit: 07c-01-unit-blaze
     requirements: [
       01a-01-item-scrap/50
       01a-04-item-alluminum/40
@@ -38,4 +38,5 @@ consumes: {
 	02a-12-liquid-neutralizer/0.05
   ] 
 }
+
 research: 03j-01-mech-fabricator
