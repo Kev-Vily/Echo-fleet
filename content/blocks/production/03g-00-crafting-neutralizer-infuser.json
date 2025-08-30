@@ -64,4 +64,16 @@ drawer: {
 }
 
 
-research: 01a-03-item-soft-coal
+research: {
+  parent: 03h-01-core-nest
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 05a-01-sector-un
+    }
+  ]
+}
+researchCost: [
+	01a-01-item-scrap/450
+    01a-02-item-copper/250
+]
