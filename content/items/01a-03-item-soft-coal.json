@@ -8,5 +8,10 @@ color: 72574DFF
 alwaysUnlocked: true
 
 
-research: 01a-01-item-scrap
+research: {
+  parent: 01a-01-item-scrap
+  objectives: [  
+    01a-03-item-soft-coal
+  ]
+}
 hiddenOnPlanets: [serpulo, erekir]
