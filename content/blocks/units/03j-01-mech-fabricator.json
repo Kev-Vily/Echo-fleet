@@ -21,7 +21,7 @@ category: units
 plans: [
   {
     type: FactoryUnitPlan
-    unit: dagger
+    unit: 07b-01-unit-magnum
     requirements: [
       01a-02-item-copper/40
       01a-04-item-alluminum/30
@@ -40,4 +40,15 @@ consumes: {
 }
 
 
-research: 03h-01-core-nest 
+
+research: {
+  parent: 03h-01-core-nest
+  objectives: [  
+    01a-04-item-alluminum
+  ]
+}
+researchCost: [
+	01a-01-item-scrap/440
+    01a-02-item-copper/240
+    01a-04-item-alluminum/120
+]
