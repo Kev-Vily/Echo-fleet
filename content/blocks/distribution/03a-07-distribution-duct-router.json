@@ -12,4 +12,9 @@ category: distribution
 squareSprite: true
 
 
+
 research: 03a-05-distribution-copper-junction
+researchCost: [
+	01a-01-item-scrap/80
+    01a-02-item-copper/80
+] 
