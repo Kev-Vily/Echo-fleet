@@ -6,7 +6,6 @@ radioactivity: 0
 charge: 0.3
 hardness: 2
 color: D5AE8CFF
-alwaysUnlocked: true
 
 
 research: {
@@ -16,4 +15,5 @@ research: {
   ]
 }
 hiddenOnPlanets: [serpulo, erekir]
+
 
