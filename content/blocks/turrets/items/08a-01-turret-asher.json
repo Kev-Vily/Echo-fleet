@@ -67,4 +67,8 @@ drawer: {
 }
 
 
-research: 03h-01-core-nest
+research: 02a-04-liquid-slag
+researchCost: [
+  01a-01-item-scrap/300
+  01a-02-item-copper/450
+]
