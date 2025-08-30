@@ -18,4 +18,9 @@ consumes: {
 }
 
 
+
 research: 03h-01-core-nest
+researchCost: [
+  01a-01-item-scrap/120
+  01a-02-item-copper/80
+]
