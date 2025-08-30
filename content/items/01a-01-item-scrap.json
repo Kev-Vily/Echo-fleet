@@ -9,5 +9,10 @@ color: 949FA0FF
 alwaysUnlocked: true
 
 
-research: 03h-01-core-nest
+research: {
+  parent: 03h-01-core-nest
+  objectives: [  
+    01a-01-item-scrap
+  ]
+}
 hiddenOnPlanets: [serpulo, erekir]
