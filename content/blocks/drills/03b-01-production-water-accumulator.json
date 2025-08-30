@@ -25,4 +25,8 @@ ambientSound: hum
 ambientSoundVolume: 0.08
 
 
+
 research: 03h-01-core-nest
+researchCost: [
+    01a-01-item-scrap/10
+] 
