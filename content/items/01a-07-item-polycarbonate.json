@@ -5,8 +5,8 @@ explosiveness: 0
 radioactivity: 0
 charge: 0
 color: C4BECEFF
-alwaysUnlocked: true
 
 
 research: 01a-03-item-soft-coal
+
 hiddenOnPlanets: [serpulo, erekir]
