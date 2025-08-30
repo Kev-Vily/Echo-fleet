@@ -12,7 +12,6 @@ shake: 1.5
 itemCapacity: 30
 optinalBoostIntensity: 2.5
 details: Boost: 1.6×
-alwaysUnlocked: true
 
 
 consumes: {
@@ -59,4 +58,9 @@ requirements: [
 squareSprite: false
 
 
+
 research: 03b-01-production-water-accumulator
+researchCost: [
+    01a-01-item-scrap/80
+    01a-02-item-copper/40
+]
