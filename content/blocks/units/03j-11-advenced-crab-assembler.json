@@ -34,7 +34,7 @@ plans: [
     echo-fleet-03k-02-e-defense-copper-wall-large/20
     echo-fleet-03k-07-e-defense-electric-wall-large/2
     echo-fleet-advanced-leggings/2
-    echo-fleet-crab-heelings/6
+    echo-fleet-crab-heels/6
     crawler/12
     ]
     time: 16200
@@ -47,7 +47,7 @@ plans: [
     echo-fleet-03k-08-e-defense-alluminum-polycarbonate-wall-large/6
     echo-fleet-03k-09-defense-resonance-matrix-wall/10
     echo-fleet-advanced-leggings/3
-    echo-fleet-crab-heelings/8
+    echo-fleet-crab-heels/8
     atrax/16
     ]
     time: 32400
@@ -64,6 +64,7 @@ consumes: {
   power: 10
 }
 areaSize: 11
+
 
 
 research: 03j-07-crab-assembler
