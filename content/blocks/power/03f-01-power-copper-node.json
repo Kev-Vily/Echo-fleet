@@ -28,9 +28,9 @@ laserColor1: C692CEFF
 laserColor2: 735B94FF
 
 
-
+parent: 03h-01-core-nest
 research: 03d-01-liquid-siphon-pump
 researchCost: [
 	01a-01-item-scrap/40
     01a-02-item-copper/60
-]
+] 
