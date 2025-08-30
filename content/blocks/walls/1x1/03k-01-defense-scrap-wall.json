@@ -13,8 +13,12 @@ requirements: [
 ]
 
 
-parent: 03h-01-core-nest
-research: 08a-01-turret-asher
+research: {
+  parent: 03h-01-core-nest 
+  objectives: [  
+    08a-01-turret-asher
+  ]
+}
 researchCost: [
   01a-01-item-scrap/60
 ]
