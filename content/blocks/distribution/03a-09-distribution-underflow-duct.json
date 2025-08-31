@@ -10,4 +10,17 @@ requirements: [
 ]
 
 
-research: 03a-07-distribution-duct-router
+
+research: {
+  parent: 03a-07-distribution-duct-router
+  objectives: [  
+      {
+      type: SectorComplete
+      preset: 05a-01-sector-un
+      }
+  ]
+}
+researchCost: [
+  01a-01-item-scrap/50
+  01a-02-item-copper/50
+]
