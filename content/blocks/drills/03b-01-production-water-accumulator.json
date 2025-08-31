@@ -45,6 +45,7 @@ drawer: {
       liquid: 02a-02-liquid-dirty-water
       alpha: 0.7
       padding: 2
+    } 
     {
       type: DrawDefault
     }
@@ -56,3 +57,4 @@ drawer: {
     }
   ]
 }
+
