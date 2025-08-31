@@ -3,6 +3,7 @@ name: Copper Bridge
 description: he jump over blocks
 health: 140
 size: 1
+solid: false
 
 
 requirements: [
@@ -23,3 +24,4 @@ researchCost: [
   01a-01-item-scrap/30
   01a-02-item-copper/20
 ]
+
