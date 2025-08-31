@@ -12,7 +12,12 @@ junctionReplacement: 03a-05-distribution-copper-junction
 
 
 
-research: 03h-01-core-nest
+research: {
+  parent: 03h-01-core-nest
+  objectives: [  
+     03b-03-production-pulse-drill
+  ]
+}
 researchCost: [
   01a-02-item-copper/10
 ] 
