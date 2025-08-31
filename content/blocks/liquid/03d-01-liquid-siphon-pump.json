@@ -22,12 +22,13 @@ consumes: {
 research: {
   parent: 03h-01-core-nest
   objectives: [  
-    03k-01-dedense-scrap-wall
+    03k-01-defense-scrap-wall
   ]
 }
 researchCost: [
   01a-01-item-scrap/120
   01a-02-item-copper/80
 ]
+
 
 
