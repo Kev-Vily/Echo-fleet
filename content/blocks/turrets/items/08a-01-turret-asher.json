@@ -48,7 +48,7 @@ ammoTypes: {
     pierceCap: 2
     pierce: true
     pierceBuilding: true  
-    trailColor: D6AF8D00
+    trailColor: D6AF8D40
     trailSinScl: 4
     trailSinMag: 0.1
     trailInterval: 3
