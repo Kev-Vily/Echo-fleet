@@ -19,7 +19,8 @@ rotBridgeReplacement: 03d-07-liquid-liquid-bridge
 
 
 
-research: 03d-01-liquid-siphon-pump
+research: 03h-01-core-nest
 researchCost: [
   01a-01-item-scrap/20
 ]
+
