@@ -51,7 +51,7 @@ ammoTypes: {
     trailColor: D6AF8D40
     trailSinScl: 4
     trailSinMag: 0.1
-    trailInterval: 3
+    trailInterval: 1
     trailRotation: true
     trailLength: 0.3
     trailWidth: 1.5
