@@ -67,6 +67,7 @@ drawer: {
 research: {
   parent: 03h-01-core-nest
   objectives: [
+	01a-03-item-soft-coal
     {
       type: SectorComplete
       preset: 05a-01-sector-un
