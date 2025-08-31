@@ -47,15 +47,13 @@ drawer: {
       padding: 2
     } 
     {
-      type: DrawDefault
-    }
-    {
       type: DrawRegion
       suffix: -rotator
       spinSprite: true
-      rotateSpeed: 2
+      rotateSpeed: -5
     }
+    {
+      type: DrawDefault
+    } 
   ]
 }
-
-
