@@ -11,6 +11,8 @@ generateEffect: turbinegenerate
 effectChance: 0.1
 squareSprite: false
 category: production
+hasLiquids: true
+hasPower: true
 
 
 outputLiquid: 02a-02-liquid-dirty-water/0.05555555555555555555555555555555555555555555555555555
@@ -57,4 +59,5 @@ drawer: {
     } 
   ]
 }
+
 
