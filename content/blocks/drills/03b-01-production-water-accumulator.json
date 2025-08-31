@@ -30,3 +30,29 @@ research: 03h-01-core-nest
 researchCost: [
     01a-01-item-scrap/10
 ] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -liquid1
+      liquid: 02a-02-liquid-dirty-water
+      alpha: 0.7
+      padding: 2
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2
+    }
+  ]
+}
