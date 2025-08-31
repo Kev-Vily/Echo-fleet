@@ -48,13 +48,13 @@ ammoTypes: {
     pierceCap: 2
     pierce: true
     pierceBuilding: true  
-    trailColor: D6AF8DFF
-    trailSinScl: 2
-    trailSinMag: 0.2
-    trailInterval: 2
+    trailColor: D6AF8D80
+    trailSinScl: 4
+    trailSinMag: 0.1
+    trailInterval: 3
     trailRotation: true
-    trailLength: 0.5
-    trailWidth: 2
+    trailLength: 0.3
+    trailWidth: 1.5
     trailEffect: shootSmokeTitan
     shootEffect: shootSmokeTitan
     shrinkX: 0
