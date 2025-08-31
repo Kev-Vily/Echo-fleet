@@ -40,7 +40,7 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawRegion
+      type: DrawLiquidRegion
       suffix: -liquid1
       drawLiquid: 02a-02-liquid-dirty-water
       alpha: 0.7
@@ -57,3 +57,4 @@ drawer: {
     } 
   ]
 }
+
