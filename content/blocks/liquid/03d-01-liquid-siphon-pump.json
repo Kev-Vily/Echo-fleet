@@ -19,8 +19,9 @@ consumes: {
 
 
 
-research: 03h-01-core-nest
+research: 03d-04-liquid-liquid-pipeline
 researchCost: [
   01a-01-item-scrap/120
   01a-02-item-copper/80
 ]
+
