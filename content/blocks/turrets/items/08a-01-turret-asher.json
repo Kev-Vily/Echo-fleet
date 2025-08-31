@@ -30,7 +30,7 @@ targetGround: true
 rotateSpeed: 2
 reload: 60
 range: 160
-shootY: 1
+shootY: 6
 
 
 ammoTypes: {
@@ -48,13 +48,13 @@ ammoTypes: {
     pierceCap: 2
     pierce: true
     pierceBuilding: true  
-    trailColor: D6AF8D40
+    trailColor: D6AF8D20
     trailSinScl: 4
-    trailSinMag: 0.1
+    trailSinMag: 0.8
     trailInterval: 1
     trailRotation: true
     trailLength: 0.3
-    trailWidth: 1.5
+    trailWidth: 1
     trailEffect: shootSmokeTitan
     shootEffect: shootSmokeTitan
     shrinkX: 0
