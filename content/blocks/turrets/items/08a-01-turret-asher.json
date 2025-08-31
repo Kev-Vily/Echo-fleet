@@ -41,14 +41,14 @@ ammoTypes: {
     damage: 50
     width: 0
     height: 0
-    speed: 4
-    lifetime: 52
+    speed: 6
+    lifetime: 26.66666666666666666666666
     despawnEffect: [massiveExplosion
     ]
     pierceCap: 2
     pierce: true
     pierceBuilding: true  
-    trailColor: D6AF8D80
+    trailColor: D6AF8D00
     trailSinScl: 4
     trailSinMag: 0.1
     trailInterval: 3
