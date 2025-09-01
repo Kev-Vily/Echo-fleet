@@ -54,7 +54,7 @@ lowAltitude: true
 weapons: [
   {
     x: 2
-    y: 3.5
+    y: 3
     name: 07d-01-unit-mabuz-weapon
     mirror: true
     alternate: true
@@ -62,8 +62,7 @@ weapons: [
     reload: 120
     rotate: false
     shootSound: blaster
-    recoil: 1
-    shotCone: 60
+    recoil: 0.5
     innacuracy: 40
     shoot: {
       shots: 6
@@ -88,7 +87,7 @@ weapons: [
       collidesTeam: false
       hitSound: none
       despawnSound: dullExplosion
-      homingPower: 0.3
+      homingPower: 0.1
       weaveMag: 0
       weaveScale: 0
       hitEffect: {
