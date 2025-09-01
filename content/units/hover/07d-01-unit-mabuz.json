@@ -69,6 +69,7 @@ weapons: [
     }
     bullet: { 
       innacuracy: 40
+      shootCone: 80
       type: BasicBulletType
       width: 4
       damage: 25
