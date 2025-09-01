@@ -45,10 +45,12 @@ weapons: [
     ejectEffect: none
     continuous: true
     alwaysContinuous: true
-    shootSound: firewall
+    shootSound: torch
     shootStatus: slow
     shootStatusDuration: 16
-    shootY: -3.5
+    shootY: 2
+    top: true
+    rotate: true
     bullet: {
       type: ContinuousFlameBulletType
       flareLength: 0
