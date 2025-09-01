@@ -102,7 +102,7 @@ weapons: [
       missColor: BF92F9FF
       collidesTeam: false
       hitSound: none
-      despawnSound: dullExplosion
+      despawnSound: none
       homingPower: 0.5
       weaveMag: 3
       weaveScale: 5
