@@ -6,7 +6,7 @@ type: legs
 legCount: 4
 lockLegBase: true
 legExtension: -2
-legBaseOffset: r
+legBaseOffset: 4
 legLength: 12
 legMaxLength: 1.1
 legMinLength: 0.2
