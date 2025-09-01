@@ -63,6 +63,8 @@ weapons: [
     rotate: false
     shootSound: blaster
     recoil: 1
+    shotCone: 60
+    innacuracy: 40
     shoot: {
       shots: 6
       shotDelay: 5
@@ -73,8 +75,6 @@ weapons: [
       damage: 10
       lifetime: 20
       speed: 6
-      shotCone: 40
-      innacuracy: 40
       smokeEffect: shootSmokeSquare
       trailColor: BF92F9FF
       trailWidth: 2
