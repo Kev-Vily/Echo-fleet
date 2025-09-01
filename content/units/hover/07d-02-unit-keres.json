@@ -87,7 +87,7 @@ weapons: [
     bullet: { 
       type: BasicBulletType
       width: 4
-      damage: 20
+      damage: 25
       lifetime: 24
       speed: 6.666666666666666666
       smokeEffect: shootSmokeSquare
