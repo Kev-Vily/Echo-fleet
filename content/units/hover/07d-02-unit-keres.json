@@ -7,6 +7,7 @@ research: 03j-05-prime-refabricator
 hovering: true
 hoverable: true
 shadowElevation: 0.1
+engineSize: 0
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
@@ -32,7 +33,7 @@ abilities: [
     effect: missileTrail
     x: -4.75
     y: -5
-    interval: 4
+    interval: 2
     minVelocity: 0.5
   }
   {
@@ -41,7 +42,7 @@ abilities: [
     effect: missileTrail
     x: 4.75
     y: -5
-    interval: 4
+    interval: 2
     minVelocity: 0.5
   }
 ]
@@ -50,13 +51,13 @@ abilities: [
 engines: [
   {
     x: -4.75
-    y: -5
-    radius: 1.5
+    y: -5.2
+    radius: 2.5
   }
   {
     x: 4.75
-    y: -5
-    radius: 1.5
+    y: -5.2
+    radius: 2.5
   }
 ]
 
@@ -73,15 +74,15 @@ weapons: [
     y: 0.25
     name: 07d-02-unit-keres-weapon
     mirror: true
-    alternate: false
-    top: false
-    reload: 15
+    alternate: true
+    top: true
+    reload: 10
     rotate: true
     shootSound: blaster
     recoil: 1
     shoot: {
       shots: 1
-      shotDelay: 5
+      shotDelay: 0
     }
     bullet: { 
       type: BasicBulletType
