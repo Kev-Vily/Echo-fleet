@@ -54,9 +54,9 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       flareLength: 0
-      length: 120
+      length: 84
       width: 2
-      damage: 22.5
+      damage: 20
       pierceCap: 1
       hitEffect: none
       despawnEffect: none
