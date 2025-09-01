@@ -54,7 +54,7 @@ lowAltitude: true
 weapons: [
   {
     shootCone: 30
-    innacuracy: 10
+    innacuracy: 30
     x: 2
     y: 3
     name: 07d-01-unit-mabuz-weapon
