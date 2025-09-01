@@ -59,7 +59,7 @@ weapons: [
     alternate: true
     reload: 120
     rotate: false
-    shootSound: shootAlt
+    shootSound: blaster
     recoil: 1
     shoot: {
       shots: 6
