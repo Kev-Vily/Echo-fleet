@@ -21,9 +21,9 @@ category: units
 
 
 upgrades: [
-    [dagger, mace] 
-    [crawler, atrax] 
-    [flare, horizon] 
+    [07b-01-unit-ratchet, mace] 
+    [07c-01-unit-blaze, atrax] 
+    [07d-01-unit-mabuz, 07d-02-unit-keres] 
     [mono, poly]
 ]
   
@@ -39,6 +39,7 @@ consumes: {
   01a-06-item-europium/50
   ]
 }
+
 
 
 research: 03j-01-mech-fabricator
