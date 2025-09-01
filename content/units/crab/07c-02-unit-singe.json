@@ -1,0 +1,71 @@
+name: Sinte
+description: Has 2 plasma cannons. 
+
+
+type: legs
+legCount: 4
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 3
+legLength: 9
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+
+
+hovering: true
+groundLayer: 61
+health: 580
+armor: 4
+allowLegStep: true
+speed: 0.666666666666666666666
+rotateSpeed: 2.5
+hitSize: 16
+drag: 0.1
+itemCapacity: 0
+outlineColor: 13151AFF
+
+
+research: 03j-05-prime-refabricator
+researchCostMultiplier: 0.5
+
+
+weapons: [
+  {
+    x: 6.5
+    y: 0.5
+    reload: 15
+    mirror: true
+    name: 07c-02-unit-singe-weapon
+    ejectEffect: none
+    continuous: true
+    alwaysContinuous: true
+    shootSound: firewall
+    shootStatus: slow
+    shootStatusDuration: 16
+    shootY: -3.5
+    bullet: {
+      type: ContinuousFlameBulletType
+      flareLength: 0
+      length: 120
+      width: 2
+      damage: 22.5
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+      hitColor: E67676
+      colors: [
+               D45050,
+               E67676,
+               EEAAAA,
+               FFC7C7
+              ]
+      lightColor: D45050
+    }
+  }
+]
