@@ -33,7 +33,7 @@ abilities: [
     effect: missileTrail
     x: -4.75
     y: -5
-    interval: 2
+    interval: 2.5
     minVelocity: 0.5
   }
   {
@@ -42,7 +42,7 @@ abilities: [
     effect: missileTrail
     x: 4.75
     y: -5
-    interval: 2
+    interval: 2.5
     minVelocity: 0.5
   }
 ]
