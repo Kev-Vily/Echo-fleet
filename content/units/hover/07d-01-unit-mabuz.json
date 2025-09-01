@@ -63,15 +63,15 @@ weapons: [
     rotate: false
     shootSound: blaster
     recoil: 0.5
-    innacuracy: 40
     shoot: {
       shots: 6
       shotDelay: 5
     }
     bullet: { 
+      innacuracy: 40
       type: BasicBulletType
       width: 4
-      damage: 10
+      damage: 25
       lifetime: 20
       speed: 6
       smokeEffect: shootSmokeSquare
