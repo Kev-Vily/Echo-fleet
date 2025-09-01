@@ -22,7 +22,7 @@ category: units
 
 upgrades: [
     [07b-01-unit-ratchet, mace] 
-    [07c-01-unit-blaze, atrax] 
+    [07c-01-unit-blaze, 07c-02-unit-singe] 
     [07d-01-unit-mabuz, 07d-02-unit-keres] 
     [mono, poly]
 ]
@@ -43,3 +43,4 @@ consumes: {
 
 
 research: 03j-01-mech-fabricator
+
