@@ -55,10 +55,13 @@ weapons: [
   {
     x: 2
     y: 3.5
+    name: 07d-01-unit-mabuz-weapon
     mirror: true
     alternate: true
     reload: 120
     rotate: false
+    shotCone: 40
+    innacuracy: 40
     shootSound: blaster
     recoil: 1
     shoot: {
@@ -70,8 +73,6 @@ weapons: [
       width: 4
       damage: 10
       lifetime: 20
-      shotCone: 45
-      innacuracy: 15
       speed: 6
       smokeEffect: shootSmokeSquare
       trailColor: BF92F9FF
@@ -86,7 +87,7 @@ weapons: [
       collidesTeam: false
       hitSound: none
       despawnSound: dullExplosion
-      homingPower: 0.1
+      homingPower: 0.3
       weaveMag: 0
       weaveScale: 0
       hitEffect: {
