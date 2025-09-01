@@ -1,0 +1,124 @@
+type: mech
+name: Keres
+description: Fires clusters of homing projectiles. Cannot cross terrain.
+research: 03j-05-prime-refabricator
+
+
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.1
+outlineColor: 13151AFF
+speed: 2
+rotateSpeed: 4
+accel: 0.1
+groundLayer: 61
+health: 540
+armor: 3
+hitSize: 12
+canDrown: false
+itemCapacity: 20
+fogRadius: 18
+range: 120
+
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: -4.75
+    y: -5
+    interval: 1
+    minVelocity: 0.5
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: 4.75
+    y: -5
+    interval: 1
+    minVelocity: 0.5
+  }
+]
+
+
+engines: [
+  {
+    x: -4.75
+    y: -5
+    radius: 1.5
+  }
+  {
+    x: 4.75
+    y: -5
+    radius: 1.5
+  }
+]
+
+
+useEngineElevation: false
+lowAltitude: true
+
+
+weapons: [
+  {
+    shootCone: 60
+    innacuracy: 45
+    x: 3.75
+    y: 0.25
+    name: 07d-01-unit-keres-weapon
+    mirror: true
+    alternate: false
+    top: false
+    reload: 15
+    rotate: true
+    shootSound: blaster
+    recoil: 1
+    shoot: {
+      shots: 1
+      shotDelay: 5
+    }
+    bullet: { 
+      type: BasicBulletType
+      width: 4
+      damage: 20
+      lifetime: 24
+      speed: 6.666666666666666666
+      smokeEffect: shootSmokeSquare
+      trailColor: BF92F9FF
+      trailWidth: 3
+      trailLength: 6
+      trailParam: 1.6
+      trailInterval: 2.5
+      trailEffect: missileTrail
+      backColor: 665C9FFF
+      hitColor: BF92F9FF
+      missColor: BF92F9FF
+      collidesTeam: false
+      hitSound: none
+      despawnSound: dullExplosion
+      homingPower: 0.5
+      weaveMag: 3
+      weaveScale: 5
+      hitEffect: {
+        type: ExplosionEffect
+        lifetime: 30
+        waveStroke: 1
+        waveColor: BF92F9FF
+        sparkColor: BF92F9FF
+        waveRad: 3
+        smokeSize: 0
+        smokeSizeBase: 0
+        sparks: 6
+        sparkRad: 18
+        sparkLen: 1.5
+        sparkStroke: 1.2
+      }
+    }
+  }
+]
