@@ -1,6 +1,6 @@
 type: mech
 name: Mabuz
-description: Fie alternating clusters of bullets. Cannot cross terrain.
+description: Fires alternating clusters of bullets. Cannot cross terrain.
 research: 03j-03-hover-fabricator
 
 
