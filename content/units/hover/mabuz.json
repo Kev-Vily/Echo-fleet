@@ -60,6 +60,7 @@ weapons: [
     reload: 120
     rotate: false
     shootSound: shootAlt
+    recoil: 1
     shoot: {
       shots: 6
       shotDelay: 5
@@ -69,6 +70,8 @@ weapons: [
       width: 4
       damage: 10
       lifetime: 20
+      shotCone: 45
+      innacuracy: 15
       speed: 6
       smokeEffect: shootSmokeSquare
       trailColor: BF92F9FF
