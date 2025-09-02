@@ -39,6 +39,7 @@ weapons: [
     x: 6.5
     y: 0.5
     reload: 15
+    rotationSpeed: 2
     alternate: false
     mirror: true
     name: 07c-02-unit-singe-weapon
@@ -48,7 +49,7 @@ weapons: [
     shootSound: torch
     shootStatus: slow
     shootStatusDuration: 16
-    shootY: 2
+    shootY: 3
     top: true
     rotate: true
     bullet: {
