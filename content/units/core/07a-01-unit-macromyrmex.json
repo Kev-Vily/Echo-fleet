@@ -22,7 +22,7 @@ hitSize: 10
 canDrown: false
 mineWalls: true
 mineTiles: true
-mineSpeed: 5
+mineSpeed: 8
 mineTier: 2
 buildSpeed: 0.8
 itemCapacity: 20
@@ -72,7 +72,7 @@ weapons: [
     bullet: { 
       type: BasicBulletType
       width: 4
-      damage: 30
+      damage: 50
       lifetime: 30
       speed: 4
       smokeEffect: shootSmokeSquare
