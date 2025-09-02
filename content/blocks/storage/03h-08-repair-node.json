@@ -5,12 +5,13 @@ size: 2
 health: 360
 effectChance: 0.05
 range: 30
-healPercent: 0.0208333333333333333
+healPercent: 0.01041666666666666666666
 outputsPower: false
 hasPower: true
 consumePower: true
 buildTime: 360
 category: defense
+craftTime: 90
 
 
 requirements: [
