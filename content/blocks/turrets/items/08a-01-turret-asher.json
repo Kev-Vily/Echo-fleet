@@ -42,7 +42,7 @@ ammoTypes: {
     width: 0
     height: 0
     speed: 6
-    lifetime: 26.66666666666666666666666
+    lifetime: 36
     despawnEffect: [massiveExplosion
     ]
     pierceCap: 2
@@ -68,7 +68,7 @@ ammoTypes: {
     width: 0
     height: 0
     speed: 6
-    lifetime: 26.66666666666666666666666
+    lifetime: 45
     despawnEffect: [massiveExplosion
     ]
     pierceCap: 3
@@ -85,7 +85,7 @@ ammoTypes: {
     shootEffect: shootSmokeTitan
     shrinkX: 0
     shrinkY: 0
-    rangeChange: 36
+    rangeChange: 48
   }
 }
 drawer: {
