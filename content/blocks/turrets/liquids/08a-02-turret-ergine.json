@@ -3,6 +3,7 @@ name: Ergine
 description: Fires a continuous beam of superheated neutralizer at enemies, melting them in the process. 
 size: 2
 category: turret
+health: 1800
 
 
 requirements: [
