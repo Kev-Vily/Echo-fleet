@@ -17,7 +17,7 @@ rotateSpeed: 4
 reload: 120
 recoilAmount: 2
 restitution: 0.02
-shootSound: FrostbiteSound
+shootSound: laserbig
 moveWhileCharging: false
 shoot: {
   firstShotDelay: 70
@@ -31,30 +31,30 @@ statusDuration: 120
   fadeTime: 5
   length: 96
   width: 3
-"colors":["007cbf", "18a7db", "00e5ff", "ffffff"],
-	"chargeEffect": {
-"type": "MultiEffect",
-    "effects": [
+colors:[007cbf, 18a7db, 00e5ff, ffffff],
+	chargeEffect: {
+type: MultiEffect,
+    effects: [
 {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 1,
-    "sizeTo": 5,
-    "length": 0,
-    "lifetime": 90,
-    "colorFrom": "00eaff",
-    "colorTo": "91f6ff",
-    "cone": 360
+    type: ParticleEffect,
+    particles: 1,
+    sizeFrom: 1,
+    sizeTo: 5,
+    length: 0,
+    lifetime: 90,
+    colorFrom: 00eaff,
+    colorTo: 91f6ff,
+    cone: 360
 	},
     {
-    "type": "WaveEffect",
-    "lifetime": 75,
-    "sizeFrom": 50,
-    "sizeTo": 0,
-    "strokeFrom": 5,
-    "strokeTo": 0,
-    "colorFrom": "00eaff",
-    "colorTo": "91f6ff"
+    type: WaveEffect,
+    lifetime: 75,
+    sizeFrom: 50,
+    sizeTo: 0,
+    strokeFrom: 5,
+    strokeTo: 0,
+    colorFrom: 00eaff,
+    colorTo: 91f6ff
 }
  {
               type: ParticleEffect
@@ -75,18 +75,18 @@ statusDuration: 120
 ]
 	},
 }
-"shootEffect": {
-        "type": "MultiEffect",
-        "effects": [
+shootEffect: {
+        type: MultiEffect,
+        effects: [
             {
-                "type": "WaveEffect",
-                "colorFrom": "66B1FF",
-                "colorTo": "000000",
-                "sizeFrom": 1,
-                "strokeFrom": 5,
-                "strokeTo": 1,
-                "sizeTo": 400,
-                "lifetime": 200
+                type: WaveEffect,
+                colorFrom: 66B1FF,
+                colorTo: 000000,
+                sizeFrom: 1,
+                strokeFrom: 5,
+                strokeTo: 1,
+                sizeTo: 400,
+                lifetime: 200
             }
         ]
     },
