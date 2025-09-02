@@ -85,7 +85,8 @@ ammoTypes: {
     shootEffect: shootSmokeTitan
     shrinkX: 0
     shrinkY: 0
-}
+    rangeChange: 36
+  }
 }
 drawer: {
   type: DrawTurret
