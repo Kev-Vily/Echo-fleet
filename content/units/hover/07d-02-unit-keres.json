@@ -71,7 +71,7 @@ lowAltitude: true
 weapons: [
   {
     shootCone: 60
-    innacuracy: 45
+    rotationSpeed: 4.5
     x: 3.75
     y: 0.25
     name: 07d-02-unit-keres-weapon
@@ -82,6 +82,8 @@ weapons: [
     rotate: true
     shootSound: blaster
     recoil: 1
+    inaccuracy: 5
+    velocityRnd: 0.1
     shoot: {
       shots: 1
       shotDelay: 0
@@ -106,8 +108,8 @@ weapons: [
       hitSound: none
       despawnSound: none
       homingPower: 0.5
-      weaveMag: 3
-      weaveScale: 5
+      weaveMag: 1.5
+      weaveScale: 6
       hitEffect: {
         type: ExplosionEffect
         lifetime: 30
