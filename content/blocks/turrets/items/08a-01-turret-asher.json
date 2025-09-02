@@ -29,7 +29,7 @@ targetAir: true
 targetGround: true
 rotateSpeed: 2
 reload: 60
-range: 160
+range: 192
 shootY: 6
 
 
@@ -38,14 +38,14 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     hitColor: D6AF8DFF
-    damage: 50
+    damage: 75
     width: 0
     height: 0
     speed: 6
     lifetime: 26.66666666666666666666666
     despawnEffect: [massiveExplosion
     ]
-    pierceCap: 2
+    pierceCap: 3
     pierce: true
     pierceBuilding: true  
     trailColor: D6AF8D20
