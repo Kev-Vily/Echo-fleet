@@ -12,7 +12,7 @@ requirements: [
 ]
 
 
-pumpAmount: 0.025
+pumpAmount: 0.0375
 consumes: {
   power: 0.0833333333333333333333333333333333333333333333333
 }
@@ -29,6 +29,7 @@ researchCost: [
   01a-01-item-scrap/120
   01a-02-item-copper/80
 ]
+
 
 
 
