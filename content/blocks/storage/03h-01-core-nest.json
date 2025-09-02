@@ -5,8 +5,7 @@ description: Core of the base. Well armored, allows for more units to be active 
 
 requirements: [
   01a-01-item-scrap/1800
-  01a-02-item-copper/1600
-  01a-04-item-alluminum/1000
+  01a-02-item-copper/1200
 ]
 
 
@@ -28,4 +27,5 @@ research: {
   root: true
   name: Echo Fleet
   requiresUnlock: false
+
 }
