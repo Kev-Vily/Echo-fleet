@@ -104,12 +104,13 @@ craftEffect: [
 research: {
   parent: 03b-01-production-water-accumulator
   objectives: [  
-	01a-03-item-soft-coal, 
+	01a-04-item-alluminum, 
     {
       type: SectorComplete
       preset: 05a-01-sector-un
     }
   ]
 }
+
 
 
