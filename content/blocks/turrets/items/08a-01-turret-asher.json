@@ -11,8 +11,8 @@ hasLiquids: true
 
 
 requirements: [
-  01a-01-item-scrap/150
-  01a-02-item-copper/100
+  01a-01-item-scrap/100
+  01a-02-item-copper/40
 ]
 
 
@@ -74,6 +74,6 @@ research: {
   ]
 }
 researchCost: [
-  01a-01-item-scrap/150
-  01a-02-item-copper/100
+  01a-01-item-scrap/100
+  01a-02-item-copper/40
 ]
