@@ -1,5 +1,5 @@
 name: Asher
-description: Shoots molten copper at ground and air targets. Can pierce several targets. 
+description: Shoots different molten types of items at ground and air targets. Can pierce several targets. 
 type: ItemTurret
 size: 2
 squareSprite: false
