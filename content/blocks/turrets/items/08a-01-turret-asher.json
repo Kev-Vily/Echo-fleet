@@ -62,7 +62,6 @@ ammoTypes: {
     shrinkY: 0
   }
   01a-04-item-alluminum: {
-    ammoMultiplier: 0.5
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     hitColor: B4CCBEFF
