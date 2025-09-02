@@ -67,14 +67,13 @@ drawer: {
 research: {
   parent: 03h-01-core-nest
   objectives: [
-	01a-03-item-soft-coal
     {
-      type: SectorComplete
-      preset: 05a-01-sector-un
+      type: OnSector
+      preset: 05a-02-sector-mollum
     }
   ]
 }
 researchCost: [
-	01a-01-item-scrap/450
-    01a-02-item-copper/250
+	01a-01-item-scrap/150
+    01a-02-item-copper/100
 ]
