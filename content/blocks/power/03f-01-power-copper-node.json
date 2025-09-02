@@ -3,7 +3,7 @@ name: Copper Node
 description: powerline
 health: 75
 fogRadius: 2.5
-range: 4
+range: 6
 size: 1
 squareSprite: false
 category: power
@@ -38,4 +38,5 @@ researchCost: [
 	01a-01-item-scrap/40
     01a-02-item-copper/60
 ] 
+
 
