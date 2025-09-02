@@ -4,7 +4,7 @@ description: explod ore
 size: 3
 category: production
 hasLiquids: true
-drillTime: 540
+drillTime: 360
 drillHardnessMultiplier: 150
 hasPower: false
 tier: 2
@@ -78,4 +78,5 @@ drawer: {
     } 
   ]
 }
+
 
