@@ -23,7 +23,7 @@ outputItems: [
 
 consumes: {
 	items: [
-   	01a-01-item-scrap/4
+   	01a-01-item-scrap/3
 	]
 	liquids: [
 		02a-04-liquid-slag/0.3
