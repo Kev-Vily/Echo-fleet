@@ -40,6 +40,7 @@ weapons: [
     y: 0.5
     reload: 15
     rotationSpeed: 2
+    rotationLimit: 30
     alternate: false
     mirror: true
     name: 07c-02-unit-singe-weapon
