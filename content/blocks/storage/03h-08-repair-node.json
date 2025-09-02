@@ -34,10 +34,10 @@ research: {
   parent: 03h-01-core-nest
   objectives: [
   01a-03-item-soft-coal
-    {
-      type: OnSector
-      preset: 05a-02-sector-mollum
-    }
+    //{
+      //type: OnSector
+      //preset: 05a-02-sector-mollum
+    //}
   ]
 }
 researchCost: [
