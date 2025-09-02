@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Slag Refinery
-description: fancy scrap
+description: Refines different materials from scrap via melting it with slag and then solidifying it in a different way. 
 category: crafting
 size: 3
 
@@ -34,7 +34,7 @@ craftTime: 180
 
 
 ambientSound: slag-refinery
-ambientSoundVolume: 0.1
+ambientSoundVolume: 0.24
 
 
 requirements: [
@@ -94,3 +94,7 @@ craftEffect: {
 
 
 research: 03g-00-crafting-neutralizer-infuser
+researchCost: [
+	01a-01-item-scrap/300
+	01a-02-item-copper/150
+]
