@@ -33,9 +33,9 @@ range: 192
 shootY: 6
 
 
+ammoPerShot: 2
 ammoTypes: {
   01a-02-item-copper: {
-    ammoMultiplier: 0.5
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     hitColor: D6AF8DFF
