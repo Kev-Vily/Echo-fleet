@@ -72,6 +72,7 @@ weapons: [
   {
     shootCone: 60
     rotationSpeed: 4.5
+    rotationLimit: 15
     x: 3.75
     y: 0.25
     name: 07d-02-unit-keres-weapon
