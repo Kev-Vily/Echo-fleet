@@ -28,9 +28,9 @@ shootType: {
   incendAmount: 0
   incendSpread: 0
   status: melting
-  statusDuration: 120
+  statusDuration: 180
   colors: [366B67FF, 418282FF, 53A6A6FF, 67CFCFFF, 7AF5F5FF]
-  shake: 0.5
+  shake: 0.25
 }
 range: 112
 shootSound: none
@@ -39,7 +39,7 @@ shootWarmupSpeed: 0.02
 shootCone: 360
 aimChangeSpeed: 0.75
 rotateSpeed: 1.5
-shootY: 4
+shootY: 5.5
 
 
 consumes: {
