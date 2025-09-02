@@ -44,3 +44,20 @@ researchCost: [
 	01a-01-item-scrap/120
     01a-02-item-copper/90
 ]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
