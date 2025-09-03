@@ -4,7 +4,7 @@ description: Regenerates allied structures in a small area around itself. Requir
 size: 2
 health: 360
 effectChance: 0.05
-range: 10
+range: 16
 healPercent: 0.01041666666666666666666
 outputsPower: false
 hasPower: true
