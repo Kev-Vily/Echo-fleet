@@ -88,11 +88,11 @@ ammoTypes: {
     shrinkY: 0
     rangeChange: 32
   }
-  01a-04-item-alluminum: {
+  01a-06-item-europium: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     hitColor: C98A85FF
-    damage: 110
+    damage: 120
     width: 0
     height: 0
     speed: 6
