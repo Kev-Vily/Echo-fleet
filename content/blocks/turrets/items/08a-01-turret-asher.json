@@ -65,11 +65,11 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     hitColor: B4CCBEFF
-    damage: 80
+    damage: 40
     width: 0
     height: 0
-    speed: 6
-    lifetime: 37.33333333333333333333333
+    speed: 18
+    lifetime: 12.444444444444444444444
     despawnEffect: [massiveExplosion
     ]
     pierceCap: 3
@@ -92,11 +92,11 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     hitColor: C98A85FF
-    damage: 120
+    damage: 80
     width: 0
     height: 0
-    speed: 6
-    lifetime: 42.66666666666666
+    speed: 12
+    lifetime: 21.333333333333333333333333
     despawnEffect: [massiveExplosion
     ]
     pierceCap: 4
