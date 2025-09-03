@@ -91,7 +91,7 @@ ammoTypes: {
   01a-04-item-alluminum: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
-    hitColor: B4CCBEFF
+    hitColor: C98A85FF
     damage: 110
     width: 0
     height: 0
@@ -102,7 +102,7 @@ ammoTypes: {
     pierceCap: 4
     pierce: true
     pierceBuilding: true  
-    trailColor: B4CCBE20
+    trailColor: C98A85FF
     trailSinScl: 4
     trailSinMag: 0.8
     trailInterval: 2
