@@ -39,7 +39,7 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     hitColor: D6AF8DFF
-    damage: 75
+    damage: 50
     width: 0
     height: 0
     speed: 6
@@ -65,11 +65,11 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     hitColor: B4CCBEFF
-    damage: 125
+    damage: 80
     width: 0
     height: 0
     speed: 6
-    lifetime: 40
+    lifetime: 37.33333333333333333333333
     despawnEffect: [massiveExplosion
     ]
     pierceCap: 3
@@ -86,8 +86,35 @@ ammoTypes: {
     shootEffect: shootSmokeTitan
     shrinkX: 0
     shrinkY: 0
-    rangeChange: 48
+    rangeChange: 32
   }
+  01a-04-item-alluminum: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.25
+    hitColor: B4CCBEFF
+    damage: 110
+    width: 0
+    height: 0
+    speed: 6
+    lifetime: 42.66666666666666
+    despawnEffect: [massiveExplosion
+    ]
+    pierceCap: 4
+    pierce: true
+    pierceBuilding: true  
+    trailColor: B4CCBE20
+    trailSinScl: 4
+    trailSinMag: 0.8
+    trailInterval: 2
+    trailRotation: true
+    trailLength: 0.3
+    trailWidth: 1
+    trailEffect: shootSmokeTitan
+    shootEffect: shootSmokeTitan
+    shrinkX: 0
+    shrinkY: 0
+    rangeChange: 64
+  } 
 }
 drawer: {
   type: DrawTurret
