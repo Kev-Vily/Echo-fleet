@@ -4,6 +4,7 @@ description: water walk over wall
 size: 1
 health: 80
 range: 3
+solid: false
 
 
 requirements: [
@@ -20,3 +21,4 @@ research: 03d-04-liquid-liquid-pipeline
 researchCost: [
   01a-01-item-scrap/100
 ] 
+
