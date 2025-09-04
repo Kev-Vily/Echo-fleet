@@ -103,14 +103,14 @@ craftEffect: [
 
 research: {
   parent: 03b-01-production-water-accumulator
-  objectives: [  
-	01a-04-item-alluminum, 
+  objectives: [ 
     {
-      type: SectorComplete
-      preset: 05a-01-sector-un
+      type: OnSector
+      preset: 05a-03-sector-haign
     }
   ]
 }
+
 
 
 
