@@ -637,8 +637,7 @@ ammoTypes: {
     lifetime:6
     homing:0.2
     sticky:false
-    lifetime: 30
-    splashDamageRadius: 8
+    splashDamageRadius: 24
     splashDamage: 25
     hitEffect:[
       {
