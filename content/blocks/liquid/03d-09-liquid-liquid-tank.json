@@ -16,4 +16,9 @@ requirements: [
 liquidPadding: 1.8
 
 
+
 research: 03d-08-liquid-liquid-router
+researchCost: [
+  01a-01-item-scrap/300
+  01a-04-item-alluminum/200
+]
