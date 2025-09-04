@@ -13,7 +13,7 @@ mechLegColor: 181425FF
 weapons: [
   {
   top: true
-  x: -6
+  x: 8
   name: 07b-02-unit-magnum-weapon
   recoil: 2.5
   shootCone: 30
