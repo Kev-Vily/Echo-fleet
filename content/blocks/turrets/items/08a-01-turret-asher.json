@@ -469,6 +469,9 @@ ammoTypes: {
   shrinkX:0
   shrinkY:0
   speed: 6
+  pierce: true
+  pierceBuilding: true
+  pierceCap: 1
   damage: 160
   speed: 12
   lifetime: 21.333333333333333333333333
