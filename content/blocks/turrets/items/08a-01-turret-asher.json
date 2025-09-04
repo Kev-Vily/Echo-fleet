@@ -252,6 +252,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     damage: 50
     width: 7
+	reloadMultiplier: 1.6
 	sprite: large-orb
     height: 9.5
     shrinkX:0
@@ -464,6 +465,7 @@ ammoTypes: {
   type: BasicBulletType
   buildingDamageMultiplier: 0.25
   width: 9
+  reloadMultiplier: 0.75
   sprite: large-orb
   height: 11.5
   shrinkX:0
@@ -472,7 +474,8 @@ ammoTypes: {
   pierce: true
   pierceBuilding: true
   pierceCap: 1
-  damage: 160
+  damage: 240
+  pierceArmor: true
   speed: 12
   lifetime: 21.333333333333333333333333
   hitEffect: [
@@ -622,36 +625,7 @@ ammoTypes: {
   trailMinVelocity:0.5
   trailWidth: 1
   rangeChange: 64
-  fragBullets: 5
-  fragRandomSpread:0.2
-  fragOffsetMin:0.1
-  fragOffsetMax:0.5
-  fragBullet:{
-	cone: 360
-    speed:1
-    width:0
-	height: 0
-	pierce: true
-	pierceBuilding: true
-	pierceCap: 4
-    lifetime:6
-    homing:0.2
-    sticky:false
-    splashDamageRadius: 24
-    splashDamage: 25
-    hitEffect:[
-      {
-      type: WaveEffect
-      sizeFrom: 0
-      sizeTo: 8
-      strokeFrom: 5
-      lifetime: 10
-      colorFrom: C98A85FF
-      colorTo: C98A85FF
-      }
-    ]
   }
-}
 } 
 
 
