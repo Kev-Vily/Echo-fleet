@@ -44,7 +44,7 @@ consumes: {
 research: {
   parent: 03h-01-core-nest
   objectives: [  
-    01a-04-item-alluminum
+    01a-05-item-cupride
   ]
 }
 researchCost: [
@@ -52,4 +52,3 @@ researchCost: [
     01a-02-item-copper/240
     01a-04-item-alluminum/120
 ]
-
