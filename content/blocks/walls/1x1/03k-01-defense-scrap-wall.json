@@ -16,7 +16,7 @@ requirements: [
 research: {
   parent: 03h-01-core-nest 
   objectives: [  
-    08a-01-turret-Asher
+    03b-03-production-pulse-drill
   ]
 }
 researchCost: [
