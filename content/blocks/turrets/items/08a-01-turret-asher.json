@@ -258,7 +258,7 @@ ammoTypes: {
 	shrinkY:0
     speed: 6
     lifetime: 32
-	homingPower: 0.1
+	homingPower: 0.2
     hitEffect: [
 	  {
       type: ParticleEffect
@@ -367,7 +367,7 @@ ammoTypes: {
       colorTo: B4CCBE00
       }
     ]
-    pierceCap: 2
+    pierceCap: 3
     pierce: true
     pierceBuilding: true  
     trailColor: B4CCBE
@@ -625,8 +625,11 @@ ammoTypes: {
   fragOffsetMax:0.5
   fragBullet:{
     speed:1
-    width:1
-	height: 1
+    width:0
+	height: 0
+	pierce: true
+	pierceBuilding: true
+	pierceCap: 4
     lifetime:6
     homing:0.2
     sticky:false
