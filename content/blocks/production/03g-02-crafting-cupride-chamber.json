@@ -42,4 +42,13 @@ outputItems: [
 sideHeat: [1]
 
 
-research: 03g-01-crafting-slag-refinery
+research: {
+  objective: [
+	01a-05-item-cupride
+  ]
+}
+researchCost: [
+  01a-01-item-scrap/700
+  01a-02-item-copper/600
+  01a-04-item-alluminum/300
+] 
