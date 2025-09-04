@@ -457,9 +457,8 @@ ammoTypes: {
       sizeTo: 3
       colorFrom: ffffffAA
       colorTo: ffffff00
-      }
-  	]
-  }
+    }
+  ]
 }
 01a-06-item-europium: {
   type: BasicBulletType
