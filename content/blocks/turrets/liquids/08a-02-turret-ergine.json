@@ -23,18 +23,18 @@ outlineColor: 13151AFF
 
 shootType: {
   type: ContinuousLaserBulletType
-  length: 112
+  length: 136
   damage: 25
   width: 2
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
   status: melting
-  statusDuration: 180
+  statusDuration: 24
   colors: [366B67FF, 418282FF, 53A6A6FF, 67CFCFFF, 7AF5F5FF]
-  shake: 0.25
+  shake: 0.2
 }
-range: 112
+range: 136
 shootSound: none
 loopSound: laserbeam
 shootWarmupSpeed: 0.02
