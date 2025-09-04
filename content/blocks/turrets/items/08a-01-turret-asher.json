@@ -469,7 +469,6 @@ ammoTypes: {
   shrinkX:0
   shrinkY:0
   speed: 6
-  reloadMultiplier:0.3
   damage: 120
   speed: 12
   lifetime: 21.333333333333333333333333
@@ -627,6 +626,7 @@ ammoTypes: {
   fragBullet:{
     speed:1
     width:1
+	height: 1
     lifetime:6
     homing:0.2
     sticky:false
