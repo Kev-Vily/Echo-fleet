@@ -256,8 +256,7 @@ ammoTypes: {
     height: 0
     speed: 18
     lifetime: 
-    despawnEffect: [massiveExplosion
-    ]
+    despawnEffect: [massiveExplosion]
     pierceCap: 3
     pierce: true
     pierceBuilding: true  
