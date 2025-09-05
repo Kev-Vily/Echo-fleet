@@ -1,6 +1,6 @@
 type: ContinuousTurret
 name: Ergine
-description: Fires a continuous beam of superheated neutralizer at enemies, melting them in the process. 
+description: Fires a continuous beam of superheated gases at enemies, destroying them in the process. 
 size: 2
 category: turret
 health: 800
