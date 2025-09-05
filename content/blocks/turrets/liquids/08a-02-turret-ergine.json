@@ -36,7 +36,7 @@ ammoTypes: {
     }
   02a-10-liquid-hydrogen-sulfide: {
     type: ContinuousLaserBulletType
-    length: 204
+    length: 180
     damage: 40
     width: 2
     incendChance: 0
@@ -46,7 +46,7 @@ ammoTypes: {
     statusDuration: 720
     colors: [CCC466FF, D9D071FF, E6DF93FF, F2EDB8FF, FFFCE0FF]
     shake: 0.22
-	rangeChange: 68
+	rangeChange: 54
     }
 } 
 range: 136
@@ -61,9 +61,6 @@ shootY: 5.5
 
 consumes: {
   power: 1
-  liquids: [
-	02a-12-liquid-neutralizer/0.2
-  ]
 }
 
 
