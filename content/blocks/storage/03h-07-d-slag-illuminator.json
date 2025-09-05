@@ -60,7 +60,7 @@ drawer: {
     {
     type: DrawBubbles
       fill: false
-      color: E28654FFn 
+      color: E28654FF
     }
     {
       type: DrawDefault
