@@ -42,12 +42,12 @@ weapons: [
     y: 1
     rotate: false
     mirror: false
-    reload: 6
+    reload: 10
     shootSound: flame
     shootCone: 10
     inaccuracy: 3
     bullet: {
-      damage: 7.5
+      damage: 10
       shootEffect: none
       speed: 24
       pierce: true
