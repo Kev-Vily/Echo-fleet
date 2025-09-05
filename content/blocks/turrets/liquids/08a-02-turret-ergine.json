@@ -20,20 +20,35 @@ drawer: {
 }
 outlineColor: 13151AFF
 
-
-shootType: {
-  type: ContinuousLaserBulletType
-  length: 136
-  damage: 25
-  width: 2
-  incendChance: 0
-  incendAmount: 0
-  incendSpread: 0
-  status: melting
-  statusDuration: 24
-  colors: [366B67FF, 418282FF, 53A6A6FF, 67CFCFFF, 7AF5F5FF]
-  shake: 0.2
-}
+ammoTypes: [
+  02a-07-liquid-ozone: {
+    type: ContinuousLaserBulletType
+    length: 136
+    damage: 25
+    width: 2
+    incendChance: 0
+    incendAmount: 0
+    incendSpread: 0
+    status: melting
+    statusDuration: 24
+    colors: [366B67FF, 418282FF, 53A6A6FF, 67CFCFFF, 7AF5F5FF]
+    shake: 0.2
+  }
+  02a-10-liquid-hydrogen-sulfide: {
+    type: ContinuousLaserBulletType
+    length: 204
+    damage: 40
+    width: 2
+    incendChance: 0
+    incendAmount: 0
+    incendSpread: 0
+    status: contaminated
+    statusDuration: 120
+    colors: [366B67FF, 418282FF, 53A6A6FF, 67CFCFFF, 7AF5F5FF]
+    shake: 0.22
+	rangeChange: 68
+  }
+]
 range: 136
 shootSound: none
 loopSound: laserbeam
@@ -62,8 +77,3 @@ research: {
     }
   ]
 }
-researchCost: [
-	01a-01-item-scrap/700
-    01a-02-item-copper/500
-    01a-04-item-alluminum/300
-] 
