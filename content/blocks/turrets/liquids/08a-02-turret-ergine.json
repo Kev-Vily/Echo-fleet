@@ -20,7 +20,7 @@ drawer: {
 }
 outlineColor: 13151AFF
 
-ammoTypes: [
+ammoTypes: {
   02a-07-liquid-ozone: {
     type: ContinuousLaserBulletType
     length: 136
@@ -33,7 +33,7 @@ ammoTypes: [
     statusDuration: 24
     colors: [FF40BFFF, FF66CCFF, FF8CD9FF, FFB2E6FF, FFD9F2FF]
     shake: 0.2
-  }
+    }
   02a-10-liquid-hydrogen-sulfide: {
     type: ContinuousLaserBulletType
     length: 204
@@ -47,8 +47,8 @@ ammoTypes: [
     colors: [CCC466FF, D9D071FF, E6DF93FF, F2EDB8FF, FFFCE0FF]
     shake: 0.22
 	rangeChange: 68
-  }
-]
+    }
+} 
 range: 136
 shootSound: none
 loopSound: laserbeam
