@@ -60,7 +60,7 @@ shootY: 5.5
 
 
 consumes: {
-  power: 1
+  power: 4
 }
 
 
