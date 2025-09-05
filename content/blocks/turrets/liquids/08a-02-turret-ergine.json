@@ -4,7 +4,7 @@ description: Fires a continuous beam of superheated gases at enemies, applying d
 size: 2
 category: turret
 health: 800
-liquidCapacity: 120
+liquidCapacity: 10
 
 
 requirements: [
