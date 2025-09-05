@@ -1,11 +1,11 @@
 type: mech
 name: Magnum
 description: Fires several artillery shells at medium distances. 
-speed: 0.5333333333333333333333333333333333
+speed: 0.6
 flying: false
 health: 840
 armor: 5
-hitSize: 16
+hitSize: 15
 outlineColor: 181425FF
 mechLegColor: 181425FF
 
@@ -13,13 +13,13 @@ mechLegColor: 181425FF
 weapons: [
   {
   top: true
-  x: 8.75
+  x: 9.75
   name: 07b-02-unit-magnum-weapon
   recoil: 2.5
   shootCone: 30
   inaccuracy: 4
   velocityRnd: 0.15
-  y: 1.5
+  y: 1.75
   reload: 60
   rotate: false
   mirror: true
