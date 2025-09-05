@@ -34,9 +34,8 @@ weapons: [
     type: ArtilleryBulletType
     speed: 3
     lifetime: 48
-    damage: 20
     splashDamageRadius: 20
-    splashDamage: 40
+    splashDamage: 18
     width: 6
     height: 8
     trailChance: -1
