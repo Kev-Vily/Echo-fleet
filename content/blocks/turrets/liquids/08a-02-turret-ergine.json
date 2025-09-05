@@ -21,7 +21,7 @@ drawer: {
 outlineColor: 13151AFF
 
 ammoTypes: {
-  02a-07-liquid-ozone: {
+  02a-08-liquid-ozone: {
     type: ContinuousLaserBulletType
     length: 136
     damage: 25
