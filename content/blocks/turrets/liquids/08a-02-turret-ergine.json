@@ -31,7 +31,7 @@ ammoTypes: [
     incendSpread: 0
     status: melting
     statusDuration: 24
-    colors: [366B67FF, 418282FF, 53A6A6FF, 67CFCFFF, 7AF5F5FF]
+    colors: [FF40BFFF, FF66CCFF, FF8CD9FF, FFB2E6FF, FFD9F2FF]
     shake: 0.2
   }
   02a-10-liquid-hydrogen-sulfide: {
@@ -44,7 +44,7 @@ ammoTypes: [
     incendSpread: 0
     status: contaminated
     statusDuration: 120
-    colors: [366B67FF, 418282FF, 53A6A6FF, 67CFCFFF, 7AF5F5FF]
+    colors: [CCC466FF, D9D071FF, E6DF93FF, F2EDB8FF, FFFCE0FF]
     shake: 0.22
 	rangeChange: 68
   }
