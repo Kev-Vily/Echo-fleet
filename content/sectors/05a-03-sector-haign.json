@@ -1,10 +1,7 @@
 captureWave: 14
-planet: aetheria
-sector: 7
 difficulty: 2
-displayName: Haign
-
-
+planet: aetheria
+sector: 17
 research: {
   parent: 05a-01-sector-un
   objectives: [
