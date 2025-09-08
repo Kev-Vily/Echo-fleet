@@ -1,0 +1,35 @@
+type: Incinerator
+name: Slag Pyre
+description: Uses power and slag to destroy items inputted into it.
+size: 2
+squareSprite: false
+
+
+consumes: {
+  power: 0.5
+  liquids: [
+    02a-04-liquid-slag/0.01
+  ] 
+}
+category: crafting
+
+
+requirements: [
+  01a-01-item-scrap/40
+  01a-02-item-copper/20
+  01a-04-item-alluminum/60
+]
+
+
+research: {
+  parent: 03g-01-crafting-slag-refinery
+  objective: [
+    01a-04-item-alluminum
+  ] 
+} 
+researchCost: [
+  01a-01-item-scrap/400
+  01a-02-item-copper/200
+  02a-04-item-alluminum/600
+]
+  
