@@ -23,7 +23,7 @@ requirements: [
 
 research: {
   parent: 03g-01-crafting-slag-refinery
-  objective: [
+  objectives: [
     01a-04-item-alluminum
   ] 
 } 
