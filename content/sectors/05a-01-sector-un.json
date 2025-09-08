@@ -4,3 +4,5 @@ sector: 0
 research: 03h-01-core-nest
 difficulty: 1
 alwaysUnlocked: true
+displayName: Un
+
