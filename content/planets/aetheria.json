@@ -71,7 +71,7 @@ generator: {
   ferricChance: 0.26
 }
 orbitRadius: 5
-sectorSize: 2
+sectorSize: 1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
@@ -84,7 +84,7 @@ drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.5
 accessible: true
-updateLighting: false
+updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
@@ -114,4 +114,5 @@ itemWhitelist: [
   "01a-12-item-resonance-matrix",
 
 ]
+
 
