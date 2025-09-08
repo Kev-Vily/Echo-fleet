@@ -1,6 +1,6 @@
 type: Incinerator
 name: Slag Pyre
-description: Uses power and slag to destroy items inputted into it.
+description: Uses power to destroy items inputted into it.
 size: 2
 squareSprite: false
 hasPower: true
@@ -10,9 +10,6 @@ liquidCapacity: 30
 
 consumes: {
   power: 0.5
-  liquids: [
-    02a-04-liquid-slag/0.1
-  ] 
 }
 category: crafting
 
@@ -45,15 +42,10 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidTile
-      drawLiquid: 02a-04-liquid-slag
-      alpha: 0.7
-      padding: 2
-    }
+      type: DrawCrucibleFlame
+    } 
     {
-    type: DrawBubbles
-      fill: false
-      color: E28654FF
+      type: DrawArcSmelt
     }
     {
       type: DrawDefault
