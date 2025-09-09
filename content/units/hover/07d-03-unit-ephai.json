@@ -85,7 +85,7 @@ weapons: [
     top: false
     reload: 180
     rotate: false
-    shootSound: shootAlt
+    shootSound: mediumCannon
     knockback: 1
     recoil: 4
     inaccuracy: 5
