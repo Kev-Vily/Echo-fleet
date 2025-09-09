@@ -78,7 +78,7 @@ weapons: [
   {
     shootCone: 60
     x: -5.25
-    y: 6
+    y: 5.96875
     name: 07d-03-unit-ephai-weapon
     mirror: true
     alternate: true
@@ -135,8 +135,8 @@ weapons: [
         height: 12
         pierce: true
         pierceBuilding: true
-        pierceCap: 1
-        damage: 48
+        pierceCap: 3
+        damage: 40
         despawnSound: dullExplosion
         trailColor: F7EE8AFF
         trailWidth: 5
@@ -145,7 +145,7 @@ weapons: [
         trailInterval: 2
         trailEffect: missileTrail
         backColor: CE7B5BFF
-        homingPower: 0.2
+        homingPower: 1
       }
       hitEffect: {
         type: ExplosionEffect
