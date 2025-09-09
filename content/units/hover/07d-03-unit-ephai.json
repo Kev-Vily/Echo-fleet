@@ -98,7 +98,7 @@ weapons: [
       type: BasicBulletType
       width: 4
       damage: 280
-      lifetime: 7.5
+      lifetime: 8
       speed: 16
       smokeEffect: shootSmokeSquare
       trailColor: F7EE8AFF
@@ -129,15 +129,22 @@ weapons: [
       fragOnAbsorb: true
       fragBullet: {
         type: BasicBulletType
-        speed: 4
-        lifetime: 10
-        width: 5
-        height: 10
+        speed: 0.8
+        lifetime: 60
+        width: 8
+        height: 12
         pierce: true
         pierceBuilding: true
         pierceCap: 1
         damage: 48
         despawnSound: dullExplosion
+        trailColor: F7EE8AFF
+        trailWidth: 5
+        trailLength: 10
+        trailParam: 1.8
+        trailInterval: 2
+        trailEffect: missileTrail
+        backColor: CE7B5BFF
       }
       hitEffect: {
         type: ExplosionEffect
