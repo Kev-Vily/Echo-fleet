@@ -129,7 +129,7 @@ weapons: [
       fragOnAbsorb: true
       fragBullet: {
         type: BasicBulletType
-        speed: 5
+        speed: 16
         lifetime: 15
         width: 8
         height: 12
