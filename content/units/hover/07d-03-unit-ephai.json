@@ -77,8 +77,8 @@ lowAltitude: true
 weapons: [
   {
     shootCone: 60
-    x: -6.25
-    y: 8
+    x: -5.25
+    y: 6
     name: 07d-03-unit-ephai-weapon
     mirror: true
     alternate: true
@@ -124,7 +124,7 @@ weapons: [
       fragRandomSpread: 0
       fragVelocityMin: 0.2
       fragVelocityMax: 0.5
-      fragSpread: 30
+      fragSpread: 10
       fragAngle: 0
       fragOnAbsorb: true
       fragBullet: {
