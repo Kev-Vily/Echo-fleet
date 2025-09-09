@@ -127,6 +127,8 @@ weapons: [
       fragSpread: 10
       fragAngle: 0
       fragOnAbsorb: true
+      fragHomingDelay: 0
+      fragHomingPower: 0.25
       fragBullet: {
         type: BasicBulletType
         speed: 16
