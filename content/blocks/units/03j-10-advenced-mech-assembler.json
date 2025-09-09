@@ -34,7 +34,7 @@ plans: [
     echo-fleet-03k-03-e-defense-alluminum-wall-large/18
     echo-fleet-03k-07-defense-electric-wall/6
     echo-fleet-advanced-leggings/4
-    dagger/10
+    07b-01-unit-ratchet/10
     ]
     time: 14400
   }
@@ -46,7 +46,7 @@ plans: [
     echo-fleet-03k-08-e-defense-alluminum-polycarbonate-wall-large/4
     echo-fleet-03k-09-defense-resonance-matrix-wall/8
     echo-fleet-advanced-leggings/9
-    mace/12
+    07b-02-unit-magnum/12
     ]
     time: 30000
    }
@@ -62,6 +62,7 @@ consumes: {
   power: 12
 }
 areaSize: 11
+
 
 
 research: 03j-06-mech-assembler
