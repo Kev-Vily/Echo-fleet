@@ -82,10 +82,10 @@ weapons: [
     name: 07d-03-unit-ephai-weapon
     mirror: true
     alternate: true
-    top: true
+    top: false
     reload: 240
     rotate: false
-    shootSound: shootAltLong
+    shootSound: shootAlt
     knockback: 1
     recoil: 3
     inaccuracy: 5
@@ -98,8 +98,8 @@ weapons: [
       type: BasicBulletType
       width: 4
       damage: 280
-      lifetime: 15
-      speed: 8
+      lifetime: 7.5
+      speed: 16
       smokeEffect: shootSmokeSquare
       trailColor: F7EE8AFF
       trailWidth: 5
@@ -126,8 +126,8 @@ weapons: [
       homingDelay: 10
       fragBullet: {
         type: BasicBulletType
-        speed: 8
-        lifetime: 5
+        speed: 4
+        lifetime: 10
         width: 5
         height: 10
         pierce: true
