@@ -124,12 +124,12 @@ weapons: [
       fragRandomSpread: 0
       fragVelocityMin: 0.2
       fragVelocityMax: 0.5
-      fragSpread: 60
-      fragAngle: 12
+      fragSpread: 30
+      fragAngle: 0
       fragOnAbsorb: true
       fragBullet: {
         type: BasicBulletType
-        speed: 3.2
+        speed: 5
         lifetime: 15
         width: 8
         height: 12
@@ -145,6 +145,7 @@ weapons: [
         trailInterval: 2
         trailEffect: missileTrail
         backColor: CE7B5BFF
+        homingPower: 0.2
       }
       hitEffect: {
         type: ExplosionEffect
