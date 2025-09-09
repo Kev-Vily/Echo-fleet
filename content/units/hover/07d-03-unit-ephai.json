@@ -76,14 +76,14 @@ lowAltitude: true
 
 weapons: [
   {
-    shootCone: 60
+    shootCone: 20
     x: -5.25
     y: 5.96875
     name: 07d-03-unit-ephai-weapon
     mirror: true
     alternate: true
     top: false
-    reload: 240
+    reload: 180
     rotate: false
     shootSound: shootAlt
     knockback: 1
@@ -97,7 +97,7 @@ weapons: [
     bullet: { 
       type: BasicBulletType
       width: 4
-      damage: 280
+      damage: 180
       lifetime: 8
       speed: 16
       smokeEffect: shootSmokeSquare
