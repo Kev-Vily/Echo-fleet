@@ -78,7 +78,7 @@ weapons: [
   {
     shootCone: 60
     x: -6.25
-    y: 6
+    y: 8
     name: 07d-03-unit-ephai-weapon
     mirror: true
     alternate: true
