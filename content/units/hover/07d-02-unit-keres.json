@@ -96,15 +96,15 @@ weapons: [
       lifetime: 24
       speed: 6.666666666666666666
       smokeEffect: shootSmokeSquare
-      trailColor: BF92F9FF
+      trailColor: F7EE8AFF
       trailWidth: 3
       trailLength: 6
       trailParam: 1.6
       trailInterval: 2.5
       trailEffect: missileTrail
-      backColor: 665C9FFF
-      hitColor: BF92F9FF
-      missColor: BF92F9FF
+      backColor: CE7B5BFF
+      hitColor: F7EE8AFF
+      missColor: F7EE8AFF
       collidesTeam: false
       hitSound: none
       despawnSound: none
@@ -115,8 +115,8 @@ weapons: [
         type: ExplosionEffect
         lifetime: 30
         waveStroke: 1
-        waveColor: BF92F9FF
-        sparkColor: BF92F9FF
+        waveColor: F7EE8AFF
+        sparkColor: F7EE8AFF
         waveRad: 3
         smokeSize: 0
         smokeSizeBase: 0
