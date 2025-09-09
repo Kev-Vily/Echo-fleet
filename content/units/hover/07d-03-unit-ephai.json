@@ -79,13 +79,13 @@ weapons: [
     shootCone: 60
     x: -6.25
     y: 6
-    name: 07d-02-unit-keres-weapon
+    name: 07d-03-unit-ephai-weapon
     mirror: true
     alternate: true
     top: true
-    reload: 90
+    reload: 240
     rotate: false
-    shootSound: blaster
+    shootSound: shootAltLong
     knockback: 1
     recoil: 3
     inaccuracy: 5
@@ -97,8 +97,8 @@ weapons: [
     bullet: { 
       type: BasicBulletType
       width: 4
-      damage: 80
-      lifetime: 14
+      damage: 280
+      lifetime: 15
       speed: 8
       smokeEffect: shootSmokeSquare
       trailColor: F7EE8AFF
@@ -119,7 +119,7 @@ weapons: [
       pierce: true
       pierceBuilding: true
       pierceCap: 1
-      fragBullets: 6
+      fragBullets: 5
       fragVelocityMin: 0.3
       fragLifeMin: 0.2
       homingPower: 0.25
@@ -127,13 +127,13 @@ weapons: [
       fragBullet: {
         type: BasicBulletType
         speed: 8
-        lifetime: 3
+        lifetime: 5
         width: 5
         height: 10
         pierce: true
         pierceBuilding: true
         pierceCap: 1
-        damage: 20
+        damage: 48
         despawnSound: dullExplosion
       }
       hitEffect: {
