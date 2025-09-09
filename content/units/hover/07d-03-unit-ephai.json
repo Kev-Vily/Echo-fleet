@@ -31,36 +31,42 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrail
-    x: -4.75
-    y: -5
-    interval: 2.5
-    minVelocity: 0.5
+    x: -12.5
+    y: -7
+    interval: 3
+    minVelocity: 3
   }
   {
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrail
-    x: 4.75
-    y: -5
-    interval: 2.5
-    minVelocity: 0.5
+    x: 12.5
+    y: -7
+    interval: 3
+    minVelocity: 3
   }
 ]
 
 
 engines: [
   {
-    x: -4.75
-    y: -5.2
+    x: 0
+    y: -10
+    radius: 4
+    rotation: 90
+  }
+  {
+    x: -12.5
+    y: -7
     radius: 2.5
     rotation: 90
   }
   {
-    x: 4.75
-    y: -5.2
+    x: 12.5
+    y: -7
     radius: 2.5
     rotation: 90
-  }
+  } 
 ]
 
 
@@ -71,18 +77,16 @@ lowAltitude: true
 weapons: [
   {
     shootCone: 60
-    rotationSpeed: 4.5
-    rotationLimit: 15
-    x: 3.75
-    y: 0.25
+    x: -6.25
+    y: 6
     name: 07d-02-unit-keres-weapon
     mirror: true
     alternate: true
     top: true
-    reload: 10
-    rotate: true
+    reload: 90
+    rotate: false
     shootSound: blaster
-    recoil: 1
+    recoil: 3
     inaccuracy: 5
     velocityRnd: 0.1
     shoot: {
@@ -92,15 +96,15 @@ weapons: [
     bullet: { 
       type: BasicBulletType
       width: 4
-      damage: 20
-      lifetime: 24
-      speed: 6.666666666666666666
+      damage: 80
+      lifetime: 14
+      speed: 8
       smokeEffect: shootSmokeSquare
       trailColor: F7EE8AFF
-      trailWidth: 3
-      trailLength: 6
-      trailParam: 1.6
-      trailInterval: 2.5
+      trailWidth: 5
+      trailLength: 10
+      trailParam: 1.8
+      trailInterval: 2
       trailEffect: missileTrail
       backColor: CE7B5BFF
       hitColor: F7EE8AFF
@@ -108,9 +112,12 @@ weapons: [
       collidesTeam: false
       hitSound: none
       despawnSound: none
-      homingPower: 0.5
-      weaveMag: 1.5
-      weaveScale: 6
+      homingPower: 0.05
+      weaveMag: 1
+      weaveScale: 8
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 1
       hitEffect: {
         type: ExplosionEffect
         lifetime: 30
