@@ -19,7 +19,7 @@ requirements: [
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: zenith
+    unit: 07d-03-unit-ephai
     requirements: [
     echo-fleet-03k-02-e-defense-copper-wall-large/3
     echo-fleet-gravitron-module/1
@@ -49,6 +49,7 @@ consumes: {
   power: 4
 }
 areaSize: 7
+
 
 
 research: 03j-03-hover-fabricator
