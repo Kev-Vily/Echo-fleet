@@ -34,7 +34,7 @@ abilities: [
     x: -12.5
     y: -7
     interval: 3
-    minVelocity: 3
+    minVelocity: 0.5
   }
   {
     type: MoveEffectAbility
@@ -43,7 +43,7 @@ abilities: [
     x: 12.5
     y: -7
     interval: 3
-    minVelocity: 3
+    minVelocity: 0.5
   }
 ]
 
