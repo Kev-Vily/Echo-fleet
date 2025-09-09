@@ -125,7 +125,7 @@ weapons: [
       fragVelocityMin: 0.2
       fragVelocityMax: 0.5
       fragSpread: 60
-      fragAngle: 30
+      fragAngle: 12
       fragOnAbsorb: true
       fragBullet: {
         type: BasicBulletType
