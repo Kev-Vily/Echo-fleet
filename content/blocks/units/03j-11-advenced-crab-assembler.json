@@ -35,7 +35,7 @@ plans: [
     echo-fleet-03k-07-e-defense-electric-wall-large/2
     echo-fleet-advanced-leggings/2
     echo-fleet-crab-heels/6
-    crawler/12
+    07c-01-unit-blaze/12
     ]
     time: 16200
   }
@@ -48,7 +48,7 @@ plans: [
     echo-fleet-03k-09-defense-resonance-matrix-wall/10
     echo-fleet-advanced-leggings/3
     echo-fleet-crab-heels/8
-    atrax/16
+    07c-02-unit-singe/16
     ]
     time: 32400
    }
@@ -68,3 +68,4 @@ areaSize: 11
 
 
 research: 03j-07-crab-assembler
+
