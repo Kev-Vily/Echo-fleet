@@ -26,7 +26,7 @@ plans: [
       01a-01-item-scrap/40
       01a-04-item-alluminum/30
     ]
-    time: 1800
+    time: 2700
   }
 ]
 
@@ -42,3 +42,4 @@ consumes: {
 
 
 research: 03j-02-crab-fabricator
+
