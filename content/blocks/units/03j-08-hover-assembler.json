@@ -25,7 +25,7 @@ plans: [
     echo-fleet-gravitron-module/1
     echo-fleet-07d-01-unit-mabuz/3
     ]
-    time: 3000
+    time: 10800
   }
   {
     type: AssemblerUnitPlan
@@ -53,5 +53,6 @@ areaSize: 7
 
 
 research: 03j-03-hover-fabricator
+
 
 
