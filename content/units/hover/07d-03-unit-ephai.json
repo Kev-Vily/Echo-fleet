@@ -125,7 +125,7 @@ weapons: [
       fragAngle: 0
       fragOnAbsorb: true
       fragHomingDelay: 0
-      fragHomingPower: 0.25
+      fragHomingPower: 0.05
       fragBullet: {
         type: BasicBulletType
         speed: 16
@@ -134,7 +134,7 @@ weapons: [
         height: 12
         pierce: true
         pierceBuilding: true
-        pierceCap: 2
+        pierceCap: 3
         damage: 40
         despawnSound: dullExplosion
         trailColor: F7EE8AFF
