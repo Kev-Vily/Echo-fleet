@@ -12,7 +12,7 @@ hasLiquids: true
 
 requirements: [
   01a-01-item-scrap/180
-  02a-02-item-copper/60
+  01a-02-item-copper/60
   01a-04-item-alluminum/120
 ]
 category: units
@@ -42,5 +42,6 @@ consumes: {
 
 
 research: 03j-02-crab-fabricator
+
 
 
