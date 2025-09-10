@@ -23,7 +23,7 @@ plans: [
     requirements: [
     echo-fleet-03k-02-e-defense-copper-wall-large/3
     echo-fleet-gravitron-module/1
-    07d-01-unit-mabuz/3
+    echo-fleet-07d-01-unit-mabuz/3
     ]
     time: 3000
   }
@@ -34,7 +34,7 @@ plans: [
     echo-fleet-03k-02-e-defense-copper-wall-large/8
     echo-fleet-03k-06-defense-echo-shard-wall/8
     echo-fleet-gravitron-module/4
-    07d-02-unit-keres/6
+    echo-fleet-07d-02-unit-keres/6
     ]
     time: 9000
    }
@@ -53,4 +53,5 @@ areaSize: 7
 
 
 research: 03j-03-hover-fabricator
+
 
