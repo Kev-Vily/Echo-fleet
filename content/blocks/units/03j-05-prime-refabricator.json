@@ -14,7 +14,7 @@ requirements: [
   01a-01-item-scrap/280
   01a-02-item-copper/260
   01a-04-item-alluminum/180
-  01a-06-item-europium/200
+  01a-05-item-cupride/320
 ]
 constructTime: 3000
 category: units
@@ -43,5 +43,6 @@ consumes: {
 
 
 research: 03j-01-mech-fabricator
+
 
 
