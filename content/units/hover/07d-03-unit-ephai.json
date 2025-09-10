@@ -89,6 +89,8 @@ weapons: [
     recoil: 4
     inaccuracy: 5
     velocityRnd: 0.1
+    shootStatus: unmoving
+    statusDuration: 60
     shoot: {
       shots: 1
       shotDelay: 0
