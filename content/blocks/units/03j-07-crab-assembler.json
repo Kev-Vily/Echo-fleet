@@ -23,7 +23,7 @@ plans: [
     requirements: [
     echo-fleet-03k-01-e-defense-scrap-wall-large/4
     echo-fleet-crab-heels/2
-    07c-01-unit-blaze/2
+    echo-fleet-07c-01-unit-blaze/2
     ]
     time: 4200
   }
@@ -35,7 +35,7 @@ plans: [
     echo-fleet-03k-06-e-defense-echo-shard-wall-large/1
     echo-fleet-reinforced-leggings/2
     echo-fleet-crab-heels/4
-    07c-02-unit-singe/4
+    echo-fleet-07c-02-unit-singe/4
     ]
     time: 10800
    }
@@ -54,3 +54,4 @@ areaSize: 7
 
 
 research: 03j-02-crab-fabricator
+
