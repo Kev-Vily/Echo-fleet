@@ -26,7 +26,7 @@ plans: [
     mender/2
     mono/4
     ]
-    time: 4200
+    time: 4800
   }
   {
     type: AssemblerUnitPlan
@@ -38,7 +38,7 @@ plans: [
     mend-projector/6
     poly/6
     ]
-    time: 10800
+    time: 12000
    }
 ]
 
@@ -51,6 +51,7 @@ consumes: {
   power: 8
 }
 areaSize: 7
+
 
 
 research: 03j-04-support-fabricator
