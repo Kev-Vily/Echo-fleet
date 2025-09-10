@@ -23,7 +23,7 @@ plans: [
     requirements: [
     echo-fleet-03k-01-e-defense-scrap-wall-large/3
     echo-fleet-reinforced-leggings/2
-    07b-01-unit-ratchet/2
+    echo-fleet-07b-01-unit-ratchet/2
     ]
     time: 3000
   }
@@ -34,7 +34,7 @@ plans: [
     echo-fleet-03k-03-e-defense-alluminum-wall-large/5
     echo-fleet-03k-06-defense-echo-shard-wall/2
     echo-fleet-reinforced-leggings/6
-    07b-02-unit-magnum/5
+    echo-fleet-07b-02-unit-magnum/5
     ]
     time: 9000
    }
@@ -53,3 +53,4 @@ areaSize: 7
 
 
 research: 03j-01-mech-fabricator
+
