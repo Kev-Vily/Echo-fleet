@@ -6,6 +6,7 @@ researchCost: [
   01a-01-item-scrap/80
   01a-04-item-alluminum/60
 ] 
+researchCostMultiplier: 0.1
 
 
 hovering: true
