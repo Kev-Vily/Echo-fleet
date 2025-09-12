@@ -42,4 +42,9 @@ consumes: {
 
 
 
-research: 03j-03-hover-fabricator
+research: {
+  objectives: [
+	01a-05-item-cupride
+  ]
+}
+
