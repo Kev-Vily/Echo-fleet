@@ -43,8 +43,10 @@ sideHeat: [1]
 
 
 research: {
+  parent: 03g-01-crafting-slag-refinery
   objective: [
-	01a-05-item-cupride
+	type: OnSector
+	preset: 05a-05-sector-aysel
   ]
 }
 researchCost: [
