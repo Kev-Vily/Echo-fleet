@@ -70,5 +70,8 @@ weapons: [
 ]
 
 
-researchCostMultiplier: 1.5
 research: 03j-01-mech-fabricator
+researchCost: [
+  01a-02-item-copper/100
+  01a-04-item-alluminum/80
+]
