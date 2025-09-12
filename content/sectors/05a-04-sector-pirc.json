@@ -1,6 +1,6 @@
 difficulty: 3
 planet: aetheria
-sector: 4
+sector: 22
 research: {
   parent: 05a-03-sector-haign
   objectives: [
