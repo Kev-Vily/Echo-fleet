@@ -40,3 +40,8 @@ consumes: {
 }
 
 research: 03j-01-mech-fabricator
+researchCost: [
+	01a-01-item-scrap/900
+    01a-02-item-copper/500
+    01a-04-item-alluminum/700
+]
