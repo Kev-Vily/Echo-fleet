@@ -2,6 +2,10 @@ type: mech
 name: Mabuz
 description: Fires alternating clusters of bullets. Cannot cross terrain.
 research: 03j-03-hover-fabricator
+researchCost: [
+  01a-01-item-scrap/80
+  01a-04-item-alluminum/60
+] 
 
 
 hovering: true
