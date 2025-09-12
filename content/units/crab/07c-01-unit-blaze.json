@@ -32,7 +32,10 @@ outlineColor: 13151AFF
 
 
 research: 03j-02-crab-fabricator
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-01-item-scrap/80
+  01a-04-item-alluminum/60
+] 
 controller: HugAI
 
 
