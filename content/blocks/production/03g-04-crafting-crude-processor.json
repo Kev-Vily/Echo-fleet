@@ -48,4 +48,9 @@ liquidCapacity: 120
 liquidOutputDirections: [1,2,3,4]
 
 
-research: 03g-02-crafting-cupride-chamber
+research: {
+	parent: 03g-03-crafting-curpide-chamber
+	objectives: [
+	  01a-06-item-europium
+	]
+}
