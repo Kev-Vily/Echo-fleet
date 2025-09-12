@@ -25,6 +25,7 @@ consumes: {
 
 
 research: {
+  parent: 03h-08-repair-node
   objectives: [
     {
     type: OnSector
