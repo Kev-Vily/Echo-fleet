@@ -41,4 +41,9 @@ requirements: [
 ]
 
 
-research: 03g-01-crafting-slag-refinery
+research: 03g-03-crafting-cupride-chamber
+researchCost: [
+	01a-01-item-scrap/600
+    01a-02-item-copper/800
+    01a-04-item-alluminum/200
+]
