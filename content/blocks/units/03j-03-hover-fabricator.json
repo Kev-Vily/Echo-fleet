@@ -41,7 +41,9 @@ consumes: {
 
 
 
-research: 03j-02-crab-fabricator
-
-
-
+research: 03j-01-mech-fabricator
+researchCost: [
+	01a-01-item-scrap/900
+    01a-02-item-copper/300
+    01a-04-item-alluminum/600
+]
