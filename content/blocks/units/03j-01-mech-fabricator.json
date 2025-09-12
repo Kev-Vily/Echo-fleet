@@ -47,6 +47,7 @@ research: {
     {
 	type: OnSector
 	preset: 05a-04-sector-pirc
+    }
   ]
 }
 researchCost: [
@@ -54,4 +55,5 @@ researchCost: [
     01a-02-item-copper/240
     01a-04-item-alluminum/120
 ]
+
 
