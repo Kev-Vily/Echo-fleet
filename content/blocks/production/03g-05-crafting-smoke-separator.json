@@ -40,4 +40,9 @@ requirements: [
 ]
 
 
-research: 03g-03-crafting-water-purifier
+research: {
+	parent: 03g-03-crafting-water-purifier
+    objectives: [
+    01a-06-item-europium
+	]
+} 
