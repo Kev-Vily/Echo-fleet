@@ -75,3 +75,4 @@ researchCost: [
   01a-02-item-copper/100
   01a-04-item-alluminum/80
 ]
+researchCostMultiplier: 0.1
