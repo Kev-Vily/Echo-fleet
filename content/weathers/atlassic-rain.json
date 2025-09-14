@@ -1,0 +1,11 @@
+type: rainWeather
+name: Atlassic Rain
+ySpeed: 4
+xSpeed: 2
+padding: 5
+density: 1500
+stroke: 1.5
+sizeMin: 10
+sizeMax: 50
+liquid: 02a-02-liquid-dirty-water
+color: 4EC79EFF
