@@ -63,4 +63,9 @@ squareSprite: false
 
 
 research: 03b-03-production-pulse-drill
-
+researchCost: [
+	01a-01-item-scrap/600
+    01a-02-item-copper/450
+    01a-04-item-alluminum/200
+    01a-05-item-cupride/100
+]
