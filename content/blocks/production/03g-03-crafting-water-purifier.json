@@ -64,6 +64,11 @@ drawer: {
       padding: 2
     } 
     {
+      type: DrawBubbles
+      fill: false
+      color: 00AAFFFF
+	}
+    {
       type: DrawRegion
       suffix: -rotator
       spinSprite: true
