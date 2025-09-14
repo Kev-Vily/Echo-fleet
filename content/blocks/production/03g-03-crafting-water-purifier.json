@@ -47,3 +47,30 @@ researchCost: [
     01a-02-item-copper/800
     01a-04-item-alluminum/200
 ]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidRegion
+      suffix: -liquid
+      drawLiquid: 02a-03-liquid-purified-water
+      alpha: 0.7
+      padding: 2
+    } 
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawDefault
+    } 
+  ]
+}
