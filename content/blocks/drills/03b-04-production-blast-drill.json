@@ -4,7 +4,7 @@ description: explod ore more
 size: 4
 category: production
 hasLiquids: true
-drillTime: 384
+drillTime: 300
 drillHardnessMultiplier: 200
 hasPower: true
 tier: 4
@@ -63,3 +63,4 @@ squareSprite: false
 
 
 research: 03b-03-production-pulse-drill
+
