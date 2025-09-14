@@ -33,6 +33,8 @@ outputItems: [
 
 
 category: crafting
+ambientSound: water-purifier
+ambientSoundVolume: 0.2
 
 
 requirements: [
