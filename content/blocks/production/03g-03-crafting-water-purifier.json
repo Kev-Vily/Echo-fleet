@@ -11,6 +11,7 @@ hasItems: true
 hasPower: true
 itemCapacity: 20
 craftTime: 300
+craftEffect: smeltsmoke
 
 
 outputLiquid: 02a-03-liquid-purified-water/0.3
@@ -68,6 +69,11 @@ drawer: {
       fill: false
       color: 00AAFFFF
 	}
+    {
+      type: DrawBubbles
+      fill: false
+      color: 007FBFFF
+    }
     {
       type: DrawRegion
       suffix: -rotator
