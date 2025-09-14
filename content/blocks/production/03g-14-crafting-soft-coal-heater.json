@@ -76,3 +76,7 @@ requirements: [
 
 
 research: 03g-02-crafting-cupride-chamber
+researchCost: [
+  01a-01-item-scrap/500
+  01a-02-item-copper/400
+]
