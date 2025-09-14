@@ -36,13 +36,17 @@ consumes: {
   ]
   items: [
   01a-04-item-alluminum/75
-  01a-06-item-europium/50
+  01a-05-item-cupride/50
   ]
 }
 
 
 
-research: 03j-01-mech-fabricator
-
+research: {
+	parent: 03j-01-mech-fabricator
+	objectives: [
+		01a-06-item-europium
+	]
+}
 
 
