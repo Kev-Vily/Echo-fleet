@@ -43,14 +43,13 @@ mesh: [
     type: NoiseMesh
     planet: kaltos
     seed: 69
-    divisions: 4
+    divisions: 5
     color1: 36464CFF
     color2: 525F66FF
-    radius: 0.8
+    radius: 0.975
     octaves: 4
     persistence: 1
     scale: 0.75
-    mag: 3
   }
 ]
 generator: {
