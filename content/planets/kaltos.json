@@ -43,13 +43,14 @@ mesh: [
     type: NoiseMesh
     planet: kaltos
     seed: 69
-    divisions: 5
+    divisions: 3
     color1: 36464CFF
     color2: 525F66FF
-    radius: 0.975
+    radius: 0.6
     octaves: 4
     persistence: 1
     scale: 0.75
+    mag: 3
   }
 ]
 generator: {
@@ -79,7 +80,7 @@ radius: 1
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.8
+atmosphereRadOut: 0.4
 accessible: true
 updateLighting: true
 sectorSeed: 14513
