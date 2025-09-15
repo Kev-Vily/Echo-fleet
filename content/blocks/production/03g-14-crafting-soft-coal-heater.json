@@ -18,6 +18,9 @@ drawer: {
       type: DrawDefault
     }
     {
+      type: DrawCrucibleFlame
+    }
+    {
       type: DrawGlowRegion
       suffix: -heat
       blending: additive
