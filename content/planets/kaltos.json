@@ -25,7 +25,6 @@ mesh: [
     color2: CCC28FFF
     octaves: 3.7
     persistence: 0.6
-    mag: 1
   }
   {
     //bauxite
@@ -38,7 +37,6 @@ mesh: [
     color2: AE776EFF
     octaves: 3
     persistence: 0.8
-    mag: 4
   }
   {
     //tundra
@@ -51,7 +49,6 @@ mesh: [
     color2: AE776EFF
     octaves: 3
     persistence: 0.8
-    mag: 4
   }
   {
     //basalt
@@ -65,7 +62,6 @@ mesh: [
     octaves: 4
     persistence: 1
     scale: 0.75
-    mag: 1
   }
 ]
 generator: {
