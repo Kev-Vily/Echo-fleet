@@ -24,12 +24,6 @@ drawer: {
       type: DrawHeatOutput
       heatColor: FEB380
     }
-    {
-      type: DrawGlowRegion
-      suffix: -heat
-      blending: additive
-      color: d76a6a80
-    }
   ]
 }
 
