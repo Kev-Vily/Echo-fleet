@@ -57,9 +57,9 @@ cloudMesh: [
    type: HexSkyMesh
    planet: kaltos
    speed: 1.21
-   radius: 1.05
+   radius: 0.52
    divisions: 6
-   color: CAEDEB7E
+   color: CAEDFE7E
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -69,9 +69,9 @@ cloudMesh: [
    type: HexSkyMesh
    planet: kaltos
    speed: 1.01
-   radius: 1.1
+   radius: 0.48
    divisions: 6
-   color: CAEDEB7E
+   color: CADDEB7E
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -81,9 +81,9 @@ cloudMesh: [
    type: HexSkyMesh
    planet: kaltos
    speed: 0.891
-   radius: 1.15
+   radius: 0.44
    divisions: 6
-   color: CAEDEB7E
+   color: BAEDEB7E
    octaves: 3
    persistence: 0.5
    scl: 1.1
