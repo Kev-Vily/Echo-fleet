@@ -21,8 +21,8 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawRegion
-      suffix: -top
+      type: DrawHeatOutput
+      heatColor: FEB380
     }
     {
       type: DrawGlowRegion
