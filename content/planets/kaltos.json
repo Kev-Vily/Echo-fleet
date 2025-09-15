@@ -2,18 +2,6 @@ localizedName: Kaltos
 description: WIP
 alwaysUnlocked: true
 mesh: [
- {
-    //slag
-    type: NoiseMesh
-    planet: kaltos
-    divisions: 0
-    seed: 7
-    radius: 3.9
-    color1: C4520BFF
-    color2: D86B28FF
-    octaves: 3.7
-    persistence: 1.1
-  }
   {
     //atlassium
     type: NoiseMesh
@@ -21,20 +9,20 @@ mesh: [
     divisions: 5
     radius: 3.9
     seed: 94
-    color1: F5EDC4FF
-    color2: CCC28FFF
+    color1: 3E8A70FF
+    color2: 4EC79EFF
     octaves: 3.7
     persistence: 0.6
   }
   {
-    //bauxite
+    //ruins
     type: NoiseMesh
     planet: kaltos
     divisions: 5
     seed: 203
     radius: 3.9
-    color1: 9A554AFF
-    color2: AE776EFF
+    color1: 303030FF
+    color2: 271A33FF
     octaves: 3
     persistence: 0.8
   }
@@ -90,8 +78,8 @@ orbitSpacing: 2
 radius: 4
 minZoom: 1
 drawOrbit: true
-atmosphereRadIn: 0
-atmosphereRadOut: 6
+atmosphereRadIn: 1
+atmosphereRadOut: 1
 accessible: true
 updateLighting: true
 sectorSeed: 14513
