@@ -1,0 +1,130 @@
+localizedName: Kaltos
+description: WIP
+alwaysUnlocked: true
+mesh: [
+ {
+    //slag
+    type: NoiseMesh
+    planet: aetheria
+    divisions: 0
+    seed: 7
+    radius: 3.9
+    color1: C4520BFF
+    color2: D86B28FF
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    //atlassium
+    type: NoiseMesh
+    planet: aetheria
+    divisions: 5
+    radius: 3.85
+    seed: 94
+    color1: F5EDC4FF
+    color2: CCC28FFF
+    octaves: 3.7
+    persistence: 0.6
+    mag: 1
+  }
+  {
+    //bauxite
+    type: NoiseMesh
+    planet: aetheria
+    divisions: 5
+    seed: 203
+    radius: 3.6
+    color1: 9A554AFF
+    color2: AE776EFF
+    octaves: 3
+    persistence: 0.8
+    mag: 4
+  }
+  {
+    //tundra
+    type: NoiseMesh
+    planet: aetheria
+    divisions: 5
+    seed: 101
+    radius: 3.6
+    color1: 9A554AFF
+    color2: AE776EFF
+    octaves: 3
+    persistence: 0.8
+    mag: 4
+  }
+  {
+    //basalt
+    type: NoiseMesh
+    planet: aetheria
+    seed: 69
+    divisions: 5
+    color1: 36464CFF
+    color2: 525F66FF
+    radius: 3.9
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+    mag: 1
+  }
+]
+generator: {
+  octaves: 4
+  persistence: 0.52
+  scale: 46
+  mag: 0.721
+  thresh: 1.18
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+orbitRadius: 35
+sectorSize: 2
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 2
+radius: 4
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.5
+accessible: true
+updateLighting: true
+sectorSeed: 14513
+bloom: true
+visible: true
+atmosphereColor: CAEDEBFF
+iconColor: CAEDEBFF
+hasAtmosphere: true
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: 03h-01-core-nest
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "01a-01-item-scrap",
+  "01a-02-item-copper",  
+  "01a-03-item-soft-coal",
+  "01a-04-item-alluminum", 
+  "01a-05-item-cupride", 
+  "01a-06-item-europium",
+  "01a-07-item-polycarbonate", 
+  "01a-08-item-sulphur",
+  "01a-09-item-echo-shard",
+  "01a-10-item-echo-circuit", 
+  "01a-11-item-alluminum-polycarbonate",
+  "01a-12-item-resonance-matrix",
+
+]
+
