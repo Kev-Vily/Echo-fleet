@@ -44,11 +44,11 @@ mesh: [
     planet: kaltos
     divisions: 5
     seed: 101
-    radius: 3.9
+    radius: 3.916
     color1: CAEDEBFF
     color2: E1F5F5FF
     octaves: 3
-    persistence: 0.8
+    persistence: 1
   }
   {
     //basalt
@@ -79,7 +79,7 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-orbitRadius: 35
+orbitRadius: 75
 sectorSize: 2
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
@@ -91,7 +91,7 @@ radius: 4
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 4
+atmosphereRadOut: 4.5
 accessible: true
 updateLighting: true
 sectorSeed: 14513
