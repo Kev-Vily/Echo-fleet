@@ -13,12 +13,12 @@ drawer: {
     {
       type: DrawRegion
       suffix: -bottom
-    }
-    {
-      type: DrawDefault
-    }
+    } 
     {
       type: DrawCrucibleFlame
+    } 
+    {
+      type: DrawDefault
     }
     {
       type: DrawGlowRegion
