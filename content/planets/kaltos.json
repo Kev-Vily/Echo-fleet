@@ -5,7 +5,7 @@ mesh: [
  {
     //slag
     type: NoiseMesh
-    planet: aetheria
+    planet: kaltos
     divisions: 0
     seed: 7
     radius: 3.9
@@ -17,9 +17,9 @@ mesh: [
   {
     //atlassium
     type: NoiseMesh
-    planet: aetheria
+    planet: kaltos
     divisions: 5
-    radius: 3.85
+    radius: 3.7
     seed: 94
     color1: F5EDC4FF
     color2: CCC28FFF
@@ -30,10 +30,10 @@ mesh: [
   {
     //bauxite
     type: NoiseMesh
-    planet: aetheria
+    planet: kaltos
     divisions: 5
     seed: 203
-    radius: 3.6
+    radius: 3.4
     color1: 9A554AFF
     color2: AE776EFF
     octaves: 3
@@ -43,10 +43,10 @@ mesh: [
   {
     //tundra
     type: NoiseMesh
-    planet: aetheria
+    planet: kaltos
     divisions: 5
     seed: 101
-    radius: 3.6
+    radius: 3.4
     color1: 9A554AFF
     color2: AE776EFF
     octaves: 3
@@ -56,7 +56,7 @@ mesh: [
   {
     //basalt
     type: NoiseMesh
-    planet: aetheria
+    planet: kaltos
     seed: 69
     divisions: 5
     color1: 36464CFF
