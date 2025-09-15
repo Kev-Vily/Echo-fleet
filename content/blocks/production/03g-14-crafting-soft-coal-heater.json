@@ -35,31 +35,6 @@ consumes: {
 }
 
 
-craftEffect: {
-  type: RadialEffect
-  rotationSpacing: 45
-  amount: 6
-  lengthOffset: 4
-  layer: 118
-  effect: {
-    type: ParticleEffect
-    particles: 12
-    length: 20
-    lifetime: 180
-    cone: 20
-    useRotation: false
-    baseRotation: 60
-    sizeFrom: 2
-    sizeTo: 0
-    colorFrom: 50505000
-    colorTo: 50505088
-    interp: pow2
-    sizeInterp: pow3In
-    layer: 80
-  }
-}
-
-
 rotate: true
 sideHeat: [1]
 
