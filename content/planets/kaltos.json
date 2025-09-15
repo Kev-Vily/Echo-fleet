@@ -42,9 +42,9 @@ mesh: [
     //tundra
     type: NoiseMesh
     planet: kaltos
-    divisions: 5
+    divisions: 6
     seed: 101
-    radius: 3.916
+    radius: 3.94
     color1: CAEDEBFF
     color2: E1F5F5FF
     octaves: 3
@@ -80,7 +80,7 @@ generator: {
   ferricChance: 0.26
 }
 orbitRadius: 75
-sectorSize: 2
+sectorSize: 1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
@@ -91,7 +91,7 @@ radius: 4
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 4.5
+atmosphereRadOut: 6
 accessible: true
 updateLighting: true
 sectorSeed: 14513
