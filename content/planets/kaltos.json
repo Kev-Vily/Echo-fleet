@@ -57,37 +57,37 @@ cloudMesh: [
    type: HexSkyMesh
    planet: kaltos
    speed: 1.21
-   radius: 0.52
+   radius: 0.26
    divisions: 6
-   color: CAEDFE7E
+   color: CAEDFE40
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.6
+   thresh: 0.4
   }
   {
    type: HexSkyMesh
    planet: kaltos
    speed: 1.01
-   radius: 0.48
+   radius: 0.24
    divisions: 6
-   color: CADDEB7E
+   color: CADDEB40
    octaves: 3
    persistence: 0.4
    scl: 0.9
-   thresh: 0.6
+   thresh: 0.4
   }
   {
    type: HexSkyMesh
    planet: kaltos
    speed: 0.891
-   radius: 0.44
+   radius: 0.22
    divisions: 6
-   color: BAEDEB7E
+   color: BAEDEB40
    octaves: 3
    persistence: 0.5
    scl: 1.1
-   thresh: 0.6
+   thresh: 0.4
   }
 ]
 generator: {
