@@ -21,6 +21,10 @@ drawer: {
       type: DrawDefault
     }
     {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
       type: DrawGlowRegion
       suffix: -heat
       blending: additive
