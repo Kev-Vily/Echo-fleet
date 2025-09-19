@@ -12,7 +12,7 @@ targetAir: true
 targetGround: true
 rotateSpeed: 3
 heatRequirement: 8
-maxHeatEfficiency: 2
+maxHeatEfficiency: 1
 recoil: 2
 shootY: 4
 shootWarmupSpeed: 0.03
@@ -29,7 +29,7 @@ drawer: {
       type: RegionPart
       suffix: -tanwen
       under: true
-      heatProgress: warmup
+      heatProgress: recoil
     }
   ]
 }
@@ -58,20 +58,20 @@ shoot: {
 ammoTypes: {
   01a-04-item-alluminum: {
       type: BasicBulletType
-      speed: 9.6
-      lifetime: 30
+      speed: 10
+      lifetime: 28.8
       damage: 30
       width: 10
       height: 16
       smokeEffect: shootSmokeSquare
-      trailColor: DC913AFF
+      trailColor: B4CCBEFF
       trailWidth: 2
       trailLength: 30
-      trailParam: 1.6
+      trailParam: 1.25
       trailInterval: 0.5
       trailEffect: missileTrail
-      backColor: DC913AFF
-      hitColor: DC913AFF
+      backColor: B4CCBEFF
+      hitColor: B4CCBEFF
       collidesTeam: false
       hitSound: none
       homingPower: 0.04
