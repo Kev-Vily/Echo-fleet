@@ -95,7 +95,11 @@ ammoTypes: {
       collidesTeam: false
       hitSound: none
       homingPower: 0.04
-      spawnUnit: 07f-01-tanwen-toxic-cloud
+	  fragBullets: 1
+	  fragBullet: {
+	    instantDissapear: true
+        spawnUnit: 07f-01-tanwen-toxic-cloud
+      } 
       despawnEffect: [
 	      {
       	type: ParticleEffect
