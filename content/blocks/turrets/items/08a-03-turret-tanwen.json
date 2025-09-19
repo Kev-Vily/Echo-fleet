@@ -95,5 +95,43 @@ ammoTypes: {
       collidesTeam: false
       hitSound: none
       homingPower: 0.04
+      bulletInterval: 8
+      intervalRandomSpread: 0
+      intervalBullets: 2
+      intervalSpread: 90
+      intervalBullet: {
+        type: LaserBulletType
+        despawnSound: spark
+        colors: [486f64, 54b89c, ffffff]
+        sideWidth: 2
+        sideLength: 16
+        sideAngle: 45
+        length: 60
+        width: 4
+        damage: 75
+        pierce: true
+      }
+      fragBullets: 1
+      fragRandomSpread: 0
+      fragSpread: 0
+      fragVelocityMin: 0
+      fragVelocityMax: 0
+      fragLifeMin: 120
+      fragLifeMax: 120
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 
+      fragBullet: {
+        frontColor: ffffff
+        backColor: 486f64
+        trailColor: 486f64
+        type: BasicBulletType
+        despawnSound: dull-explosion
+        speed: 2
+        lifetime: 30
+        pierce: true
+        pierceBuilding: true  
+        damage: 50
+    }
   }
 } 
