@@ -60,7 +60,7 @@ ammoTypes: {
       type: BasicBulletType
       speed: 10
       lifetime: 28.8
-      damage: 30
+      damage: 90
       width: 10
       height: 16
       smokeEffect: shootSmokeSquare
@@ -81,7 +81,7 @@ ammoTypes: {
       type: BasicBulletType
       speed: 10
       lifetime: 28.8
-      damage: 20
+      damage: 40
 	  splashDamage: 60
 	  splashDamageRadius: 40
       width: 10
