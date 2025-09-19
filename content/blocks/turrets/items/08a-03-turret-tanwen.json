@@ -54,26 +54,27 @@ ammoTypes: {
     shots: 10
     shotDelay: 6
     }
-  bullet: {
-    type: BasicBulletType
-    speed: 8
-    lifetime: 36
-    damage: 25
-    width: 4
-    height: 12
-    inaccuracy: 50
-    shootCone: 50
-    smokeEffect: shootSmokeSquare
-    trailColor: DC913AFF
-    trailWidth: 6
-    trailLength: 18
-    trailParam: 1.6
-    trailInterval: 0.5
-    trailEffect: missileTrail
-    backColor: DC913AFF
-    hitColor: DC913AFF
-    collidesTeam: false
-    hitSound: none
-    homingPower: 0.2
+    bullet: {
+      type: BasicBulletType
+      speed: 8
+      lifetime: 36
+      damage: 25
+      width: 4
+      height: 12
+      inaccuracy: 50
+      shootCone: 50
+      smokeEffect: shootSmokeSquare
+      trailColor: DC913AFF
+      trailWidth: 6
+      trailLength: 18
+      trailParam: 1.6
+      trailInterval: 0.5
+      trailEffect: missileTrail
+      backColor: DC913AFF
+      hitColor: DC913AFF
+      collidesTeam: false
+      hitSound: none
+      homingPower: 0.2
+    }
   }
 } 
