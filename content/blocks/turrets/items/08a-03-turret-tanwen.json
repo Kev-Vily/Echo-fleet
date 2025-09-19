@@ -48,8 +48,8 @@ consumes: {
 }
 
 
-chargeSound: short-laser-charge
-chargeEffect: [lightningCharge]
+chargeSound: lasercharge2
+
 inaccuracy: 20
 shootCone: 50
 shoot: {
@@ -60,9 +60,10 @@ shoot: {
 ammoTypes: {
   01a-04-item-alluminum: {
       type: BasicBulletType
+	  chargeEffect: [lightningCharge]
       speed: 10
       lifetime: 28.8
-      damage: 90
+	  damage: 90
       width: 10
       height: 16
       smokeEffect: shootSmokeSquare
@@ -79,6 +80,7 @@ ammoTypes: {
       homingPower: 0.04
   }
  01a-05-item-cupride: {
+	  chargeEffect: [lightningCharge]
 	  ammoMultiplier: 3
       type: BasicBulletType
       speed: 10
