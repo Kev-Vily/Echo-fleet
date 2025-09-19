@@ -48,6 +48,8 @@ consumes: {
 }
 
 
+chargeSound: short-laser-charge
+chargeEffect: [lightningCharge]
 inaccuracy: 20
 shootCone: 50
 shoot: {
