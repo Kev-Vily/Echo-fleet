@@ -9,7 +9,7 @@ hasItems: true
 hasPower: true
 targetAir: true
 targetGround: true
-rotateSpeed: 1
+rotateSpeed: 3
 heatRequirement: 8
 maxHeatEfficiency: 2
 recoil: 2
@@ -48,17 +48,16 @@ consumes: {
 }
 
 
-inaccuracy: 30
+inaccuracy: 20
 shootCone: 50
 shoot: {
-    shots: 10
-6
+    shots: 6
     shotDelay: 6
 }
 ammoTypes: {
   01a-04-item-alluminum: {
       type: BasicBulletType
-      speed: 4.8
+      speed: 2.4
       lifetime: 120
       damage: 25
       width: 4
@@ -66,7 +65,7 @@ ammoTypes: {
       smokeEffect: shootSmokeSquare
       trailColor: DC913AFF
       trailWidth: 6
-      trailLength: 18
+      trailLength: 30
       trailParam: 1.6
       trailInterval: 0.5
       trailEffect: missileTrail
