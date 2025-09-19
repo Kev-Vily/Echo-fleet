@@ -1,7 +1,7 @@
 type: missile
 physics: false
 ambientSound: none
-template: missleUnitType
+template: MissileUnitType
 flying: true
 speed: 0
 accel: 0
