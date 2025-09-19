@@ -48,21 +48,20 @@ consumes: {
 }
 
 
-ammoTypes: {
-  01a-04-item-alluminum: {
-    shoot: {
+inaccuracy: 30
+shootCone: 50
+shoot: {
     shots: 10
     shotDelay: 6
-    }
-    bullet: {
+}
+ammoTypes: {
+  01a-04-item-alluminum: {
       type: BasicBulletType
-      speed: 8
-      lifetime: 36
+      speed: 144
+      lifetime: 120
       damage: 25
       width: 4
       height: 12
-      inaccuracy: 50
-      shootCone: 50
       smokeEffect: shootSmokeSquare
       trailColor: DC913AFF
       trailWidth: 6
@@ -74,7 +73,7 @@ ammoTypes: {
       hitColor: DC913AFF
       collidesTeam: false
       hitSound: none
-      homingPower: 0.2
+      homingPower: 0.1
     }
   }
 } 
