@@ -149,5 +149,6 @@ ammoTypes: {
       	colorFrom: BEE0ADD
       	colorTo: BEE0AD00
       } 
+    ] 
   }
 } 
