@@ -33,6 +33,7 @@ abilities: [
     status: none
     range: 40
     maxTargets: 9999
+    shootSound: none
   }
 ]
 weapons: [
