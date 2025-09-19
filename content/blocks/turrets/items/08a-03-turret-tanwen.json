@@ -74,6 +74,5 @@ ammoTypes: {
       collidesTeam: false
       hitSound: none
       homingPower: 0.1
-    }
   }
 } 
