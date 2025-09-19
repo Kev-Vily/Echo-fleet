@@ -2,20 +2,25 @@ type: ItemTurret
 name: Tanwen
 description: Uses Vesmonium or Draysten as ammo to fire fast-paced volleys of missiles at enemies. 
 size: 3
+squareSprite: false
+health: 1400
+shootSound: blaster
+hasItems: true
+hasPower: true
+targetAir: true
+targetGround: true
 rotateSpeed: 1
 heatRequirement: 8
 maxHeatEfficiency: 2
-recoil: 4
-shootX: 0
+recoil: 2
 shootY: 4
 shootWarmupSpeed: 0.03
 minWarmup: 0.9
 outlineColor: 13151AFF
 warmupMaintainTime: 150
 predictTarget: true
-shootCone: 50
-reload: 120
-range: 288
+
+
 drawer: {
   type: DrawTurret
   basePrefix: blehhhhious-
@@ -28,3 +33,38 @@ drawer: {
     }
   ]
 }
+
+
+requirements: [
+  01a-01-item-scrap/220
+  01a-02-item-copper/180
+  01a-05-item-cupride/80
+]
+
+
+category: turret
+consumes: {
+  power: 0.25
+}
+
+
+ammoTypes: {
+  01a-04-item-alluminum: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.25
+    damage: 80
+    reload: 120
+    range: 288
+    shootCone: 50
+    width: 7
+    height: 10
+    shrinkX:0
+	  shrinkY:0
+    speed: 8
+    lifetime: 36
+    pierce: false
+    pierceBuilding: false
+    trailColor: D6AF8D
+    trailInterval: 0.2
+    trailLength: 7
+    trailWidth: 1.4
