@@ -18,7 +18,6 @@ shootWarmupSpeed: 0.03
 minWarmup: 0.9
 outlineColor: 13151AFF
 warmupMaintainTime: 150
-predictTarget: true
 
 
 drawer: {
@@ -60,7 +59,7 @@ ammoTypes: {
       type: BasicBulletType
       speed: 9.6
       lifetime: 30
-      damage: 25
+      damage: 30
       width: 10
       height: 16
       smokeEffect: shootSmokeSquare
