@@ -52,19 +52,20 @@ inaccuracy: 20
 shootCone: 50
 shoot: {
     shots: 6
-    shotDelay: 6
+    shotDelay: 10
+    firstShotDelay: 90
 }
 ammoTypes: {
   01a-04-item-alluminum: {
       type: BasicBulletType
-      speed: 2.4
-      lifetime: 120
+      speed: 9.6
+      lifetime: 30
       damage: 25
-      width: 4
-      height: 12
+      width: 10
+      height: 16
       smokeEffect: shootSmokeSquare
       trailColor: DC913AFF
-      trailWidth: 6
+      trailWidth: 3
       trailLength: 30
       trailParam: 1.6
       trailInterval: 0.5
@@ -73,6 +74,6 @@ ammoTypes: {
       hitColor: DC913AFF
       collidesTeam: false
       hitSound: none
-      homingPower: 0.1
+      homingPower: 0.04
   }
 } 
