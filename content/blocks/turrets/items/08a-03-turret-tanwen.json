@@ -58,8 +58,6 @@ shoot: {
 ammoTypes: {
   01a-04-item-alluminum: {
       type: BasicBulletType
-	  chargeEffectColor: B4CCBEFF
-	  chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
       speed: 10
       lifetime: 28.8
 	  damage: 90
@@ -79,8 +77,6 @@ ammoTypes: {
       homingPower: 0.04
   }
  01a-05-item-cupride: {
-	  chargeEffectColor: BEE0ADFF
-	  chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
 	  ammoMultiplier: 3
       type: BasicBulletType
       speed: 10
