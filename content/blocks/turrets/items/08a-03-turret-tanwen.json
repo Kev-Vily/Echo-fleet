@@ -96,6 +96,58 @@ ammoTypes: {
       hitSound: none
       homingPower: 0.04
       spawnUnit: 07f-01-tanwen-toxic-cloud
-      despawnEffect:
+      despawnEffect: [
+	      {
+      	type: ParticleEffect
+      	particles: 6
+      	lifetime: 120
+       	layer: 100.4
+      	cone: 360
+      	interp:pow3Out
+      	sizeChangeStart:12
+      	length: 40
+      	sizeFrom: 2
+      	sizeTo: 6
+      	baseRotation:180
+      	colorFrom: BEE0ADAA
+      	colorTo: BEE0AD00
+      }      
+      {
+      	type: ParticleEffect
+      	particles: 5
+      	lifetime: 140
+      	layer: 100.5
+      	cone: 140
+      	interp:pow3Out
+      	sizeChangeStart:12
+       	length: 30
+      	sizeFrom: 2
+      	sizeTo: 4
+      	baseRotation:180
+       	colorFrom: BEE0AD80
+      	colorTo: BEE0AD00
+      }
+    	{
+      	type: ParticleEffect
+      	particles: 6
+      	lifetime: 130
+      	layer: 100.3
+      	cone: 360
+      	length: 12
+      	sizeFrom: 2
+      	sizeTo: 0
+      	baseRotation:180
+      	colorFrom: BEE0ADD
+      	colorTo: BEE0ADD
+      }
+    	{
+      	type: WaveEffect
+      	sizeFrom: 0
+      	sizeTo: 12
+      	strokeTo:7
+	      lifetime: 20
+      	colorFrom: BEE0ADD
+      	colorTo: BEE0AD00
+      } 
   }
 } 
