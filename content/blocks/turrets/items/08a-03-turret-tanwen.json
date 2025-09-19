@@ -44,7 +44,7 @@ requirements: [
 
 category: turret
 consumes: {
-  power: 0.25
+  power: 2
 }
 
 
@@ -52,12 +52,13 @@ inaccuracy: 30
 shootCone: 50
 shoot: {
     shots: 10
+6
     shotDelay: 6
 }
 ammoTypes: {
   01a-04-item-alluminum: {
       type: BasicBulletType
-      speed: 144
+      speed: 4.8
       lifetime: 120
       damage: 25
       width: 4
