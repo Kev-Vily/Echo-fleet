@@ -50,21 +50,26 @@ consumes: {
 
 ammoTypes: {
   01a-04-item-alluminum: {
+    shoot: {
+    shots: 10
+    shotDelay: 6
+  }
+  bullet: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.25
-    damage: 80
-    reload: 120
-    range: 288
-    shootCone: 50
-    width: 7
-    height: 10
-    shrinkX:0
-	  shrinkY:0
     speed: 8
     lifetime: 36
-    pierce: false
-    pierceBuilding: false
-    trailColor: D6AF8D
-    trailInterval: 0.2
-    trailLength: 7
-    trailWidth: 1.4
+    damage: 25
+    width: 4
+    height: 12
+    smokeEffect: shootSmokeSquare
+    trailColor: DC913AFF
+    trailWidth: 6
+    trailLength: 18
+    trailParam: 1.6
+    trailInterval: 0.5
+    trailEffect: missileTrail
+    backColor: DC913AFF
+    hitColor: DC913AFF
+    missColor: DC913AFF
+    collidesTeam: false
+    hitSound: none
