@@ -1,6 +1,7 @@
 type: missile
 physics: false
-template: MissileUnitType
+ambientSound: none
+template: missleUnitType
 flying: true
 speed: 0
 accel: 0
@@ -13,6 +14,7 @@ health: 1
 homingDelay: 0
 deathExplosionEffect: none
 deathSound: none
+shake: 0
 drawCell: false
 drawBody: false
 drawMinimap: false
