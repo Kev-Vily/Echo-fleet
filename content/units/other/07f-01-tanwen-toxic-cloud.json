@@ -1,0 +1,39 @@
+type: missile
+physics: false
+template: MissileUnitType
+flying: true
+speed: 0
+accel: 0
+lifetime: 120
+useUnitCap: false
+rotateSpeed: 0
+trailLength: 0
+lowAltitude: false
+health: 1
+homingDelay: 0
+deathExplosionEffect: none
+deathSound: none
+drawCell: false
+drawBody: false
+drawMinimap: false
+internal: true
+isEnemy: false
+shadowElevation: -1
+engineSize: 0
+outlines: false
+hidden: true  
+abilities: [
+  {
+    type: EnergyFieldAbility
+    hitUnits: false
+    reload: 3
+    color: BEE0AD00
+    damage: 3
+    healPercent: 2
+    status: none
+    range: 40
+    maxTargets: 9999
+  }
+]
+weapons: [
+]
