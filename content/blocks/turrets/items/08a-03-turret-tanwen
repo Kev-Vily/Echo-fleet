@@ -53,7 +53,7 @@ ammoTypes: {
     shoot: {
     shots: 10
     shotDelay: 6
-  }
+    }
   bullet: {
     type: BasicBulletType
     speed: 8
@@ -61,6 +61,8 @@ ammoTypes: {
     damage: 25
     width: 4
     height: 12
+    inaccuracy: 50
+    shootCone: 50
     smokeEffect: shootSmokeSquare
     trailColor: DC913AFF
     trailWidth: 6
@@ -70,6 +72,8 @@ ammoTypes: {
     trailEffect: missileTrail
     backColor: DC913AFF
     hitColor: DC913AFF
-    missColor: DC913AFF
     collidesTeam: false
     hitSound: none
+    homingPower: 0.2
+  }
+} 
