@@ -26,9 +26,9 @@ abilities: [
   {
     type: EnergyFieldAbility
     hitUnits: false
-    reload: 3
+    reload: 5
     color: BEE0AD00
-    damage: 3
+    damage: 1
     healPercent: 2
     status: none
     range: 40
