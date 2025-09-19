@@ -77,10 +77,13 @@ ammoTypes: {
       homingPower: 0.04
   }
  01a-05-item-cupride: {
+	  ammoMultiplier: 3
       type: BasicBulletType
       speed: 10
       lifetime: 28.8
-      damage: 40
+      damage: 20
+	  splashDamage: 60
+	  splashDamageRadius: 40
       width: 10
       height: 16
       smokeEffect: shootSmokeSquare
@@ -95,13 +98,8 @@ ammoTypes: {
       collidesTeam: false
       hitSound: none
       homingPower: 0.04
-	  fragBullets: 1
-	  fragBullet: {
-	    instantDissapear: true
-        spawnUnit: 07f-01-tanwen-toxic-cloud
-      } 
       despawnEffect: [
-	      {
+	  {
       	type: ParticleEffect
       	particles: 6
       	lifetime: 120
