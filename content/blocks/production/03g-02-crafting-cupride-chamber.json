@@ -54,3 +54,32 @@ researchCost: [
   01a-02-item-copper/600
   01a-04-item-alluminum/300
 ] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+	type: DrawLiquidRegion
+    suffix: -liquid1
+    drawLiquid: 02a-08-liquid-ozone
+    alpha: 0.7
+    padding: 2
+	}
+    {
+	type: DrawDefault
+	}
+    {
+	type: DrawHeatOutput
+	}
+    {
+    type: DrawGlowRegion
+    suffix: -glow
+    glowScale: 10
+	}
+  ]
+} 
