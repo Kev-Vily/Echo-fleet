@@ -71,6 +71,12 @@ drawer: {
     padding: 2
 	}
     {
+    type: DrawBubbles
+	color: FF80D4FF
+	fill: false
+	spread: 1.4
+	} 
+    {
 	type: DrawDefault
 	}
     {
