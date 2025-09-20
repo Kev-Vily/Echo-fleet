@@ -9,7 +9,7 @@ hasPower: true
 hasItems: true
 heatOutput: 4
 craftTime: 120
-squareSprite: true
+squareSprite: false
 
 
 ambientSound: smelter
