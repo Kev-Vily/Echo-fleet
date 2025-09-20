@@ -71,17 +71,10 @@ drawer: {
     padding: 2
 	}
     {
-    type: DrawBubbles
-	color: FF60BBFF
-	fill: false
-	spread: 12
-	} 
-    {
 	type: DrawDefault
 	}
     {
 	type: DrawHeatOutput
-	heatColor: 641616A6
 	}
     {
     type: DrawGlowRegion
