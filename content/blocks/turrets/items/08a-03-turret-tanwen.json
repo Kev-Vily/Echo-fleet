@@ -208,3 +208,16 @@ ammoTypes: {
 	] 
   }
 } 
+
+
+research: {
+	parent: 08a-01-turret-asher
+    objectives: [
+        01a-05-item-cupride
+	]
+}
+researchCost: [
+	01a-01-item-scrap/1100
+    01a-02-item-copper/900
+    01a-04-item-alluminum/400
+]
