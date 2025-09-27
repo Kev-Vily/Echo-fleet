@@ -69,13 +69,13 @@ engines: [
     x: 3
     y: -3
     radius: 2.4
-    rotation: 90
+    rotation: 270
   } 
   {
     x: -3
     y: -3
     radius: 2.4
-    rotation: 90
+    rotation: 270
   }
 ] 
 
