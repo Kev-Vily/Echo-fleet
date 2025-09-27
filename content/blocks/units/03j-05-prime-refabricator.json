@@ -24,7 +24,7 @@ upgrades: [
     [07b-01-unit-ratchet, 07b-02-unit-magnum] 
     [07c-01-unit-blaze, 07c-02-unit-singe] 
     [07d-01-unit-mabuz, 07d-02-unit-keres] 
-    [07e-01-unit-trive, poly]
+    [07e-01-unit-thrive, poly]
 ]
   
   
@@ -48,6 +48,7 @@ research: {
 		01a-06-item-europium
 	]
 }
+
 
 
 
