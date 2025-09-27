@@ -11,6 +11,7 @@ researchCost: [
 researchCostMultiplier: 0.1
 controller: RepairAI
 commands: [move, repair]
+engineSize: 0
 
 
 hovering: true
@@ -60,12 +61,12 @@ engines: [
   {
     x: 3
     y: -3
-    radius: 1
+    radius: 2.4
   } 
   {
     x: -3
     y: -3
-    radius: 1
+    radius: 2.4
   }
 ]
 
