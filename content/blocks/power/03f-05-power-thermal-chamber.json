@@ -48,7 +48,7 @@ drawer: {
       type: DrawBubbles
       fill: false
 	  spread: 14
-	  color: 
+	  color: FFCD66FF
     }
     {    
       type: DrawDefault
@@ -71,3 +71,4 @@ researchCost: [
     01a-04-item-alluminum/700
     01a-05-item-cupride/300
 ]
+
