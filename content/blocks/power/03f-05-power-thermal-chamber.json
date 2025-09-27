@@ -58,6 +58,10 @@ drawer: {
     {
 	  type: DrawCrucibleFlame
 	  flameRad: 3
+	  particleRad: 14
+	  flameRadiusScl: 12
+	  flameRadiusMag: 1
+	  circleSpace: 3
 	}
     {    
       type: DrawDefault
@@ -80,6 +84,7 @@ researchCost: [
     01a-04-item-alluminum/700
     01a-05-item-cupride/300
 ]
+
 
 
 
