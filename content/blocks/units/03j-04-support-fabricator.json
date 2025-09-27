@@ -21,7 +21,7 @@ category: units
 plans: [
   {
     type: FactoryUnitPlan
-    unit: echo-fleet-07e-01-unit-trive
+    unit: 07e-01-unit-trive
     requirements: [
       01a-01-item-scrap/60
       01a-02-item-copper/45
@@ -53,4 +53,5 @@ researchCost: [
     01a-02-item-copper/450
     01a-04-item-alluminum/300
 ] 
+
 
