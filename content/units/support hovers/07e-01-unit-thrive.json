@@ -77,6 +77,7 @@ lowAltitude: true
 weapons: [
   {
   widthSinMag: 0.1
+    faseTarget: true
     x: 0
     y: 1
     laserColor: 5B72D9FF
@@ -88,9 +89,9 @@ weapons: [
     autoTarget: true
     controllable: false
     reload: 20
-    shootY: 0
+    shootY: 1
     shootCone: 15
-    beamWidth: 1
+    beamWidth: 0.4
     repairSpeed: 1
     fractionRepairSpeed: 0.05
     bullet: {
