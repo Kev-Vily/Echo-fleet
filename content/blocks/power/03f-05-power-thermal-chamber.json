@@ -4,6 +4,9 @@ description: make power and heat
 size: 4
 category: power
 squareSprite: false
+hasPower: true
+hasLiquids: true
+hasItems: true
 
 
 requirements: [
@@ -71,4 +74,5 @@ researchCost: [
     01a-04-item-alluminum/700
     01a-05-item-cupride/300
 ]
+
 
