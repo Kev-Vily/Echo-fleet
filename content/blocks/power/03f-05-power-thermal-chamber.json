@@ -31,6 +31,8 @@ consumes: {
 
 
 itemDuration: 120
+ambientSound: smelter
+ambientSoundVolume: 0.03
 
 
 drawer: {
@@ -44,7 +46,7 @@ drawer: {
       type: DrawLiquidRegion
 	  suffix: -liquid1
       drawLiquid: 02a-04-liquid-slag
-      alpha: 0.7
+      alpha: 1
       padding: 2
     }
     {
@@ -53,6 +55,9 @@ drawer: {
 	  spread: 14
 	  color: FFCD66FF
     }
+    {
+	  type: DrawArcSmelt
+	}
     {    
       type: DrawDefault
     }
@@ -74,5 +79,6 @@ researchCost: [
     01a-04-item-alluminum/700
     01a-05-item-cupride/300
 ]
+
 
 
