@@ -1,0 +1,101 @@
+type: mech
+name: Thrive
+description: Automaticaly repairs ally structures and units in range. Durable. Cannot cross terrain.
+research: 03j-04-support-fabricator
+researchCost: [
+  01a-01-item-scrap/180
+  02a-02-item-copper/160
+  01a-04-item-alluminum/140
+  01a-05-item-cupride/120
+] 
+researchCostMultiplier: 0.1
+controller: RepairAI
+commands: [move, repair]
+
+
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.1
+outlineColor: 13151AFF
+speed: 2.66666666666666666666666666666666666666666666
+rotateSpeed: 4
+accel: 0.1
+groundLayer: 60
+health: 440
+armor: 3
+hitSize: 10
+canDrown: false
+itemCapacity: 40
+fogRadius: 12
+range: 75
+
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 3
+    y: -3
+    interval: 2
+    minVelocity: 0.4
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -3
+    y: -3
+    interval: 2
+    minVelocity: 0.4
+  }
+]
+
+
+engines: [
+  {
+    x: 3
+    y: -3
+    radius: 1
+  } 
+  {
+    x: -3
+    y: -3
+    radius: 1
+  }
+]
+
+
+useEngineElevation: false
+lowAltitude: true
+
+
+weapons: [
+  {
+  widthSinMag: 0.1
+    x: 0
+    y: 1
+    laserColor: 5B72D9FF
+    mirror: false
+    type: RepairBeamWeapon
+    rotate: false
+    targetBuildings: true
+    targetUnits: true
+    autoTarget: true
+    controllable: false
+    reload: 20
+    shootY: 0
+    shootCone: 15
+    beamWidth: 1
+    repairSpeed: 1
+    fractionRepairSpeed: 0.05
+    bullet: {
+      type: BulletType
+      maxRange: 60
+      }
+    }
+]
