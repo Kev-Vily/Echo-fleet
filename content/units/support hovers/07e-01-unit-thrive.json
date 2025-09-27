@@ -102,8 +102,8 @@ weapons: [
     controllable: true
     reload: 20
     shootY: 1
-    shootCone: 15
-    beamWidth: 0.4
+    shootCone: 0
+    beamWidth: 0.6
     repairSpeed: 1
     fractionRepairSpeed: 0.05
     bullet: {
