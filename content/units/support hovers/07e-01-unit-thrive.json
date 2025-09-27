@@ -43,8 +43,8 @@ abilities: [
     effect: missileTrailShort
     x: 3
     y: -3
-    interval: 2
-    minVelocity: 0.4
+    interval: 3
+    minVelocity: 0.6
   }
   {
     type: MoveEffectAbility
@@ -52,8 +52,14 @@ abilities: [
     effect: missileTrailShort
     x: -3
     y: -3
-    interval: 2
-    minVelocity: 0.4
+    interval: 3
+    minVelocity: 0.6
+  }
+  {
+    type: RepairFieldAbility
+    amount: 20
+    range: 30
+    reload: 120
   }
 ]
 
@@ -63,13 +69,14 @@ engines: [
     x: 3
     y: -3
     radius: 2.4
+    rotation: 90
   } 
   {
     x: -3
     y: -3
     radius: 2.4
+    rotation: 90
   }
-]
 
 
 useEngineElevation: false
