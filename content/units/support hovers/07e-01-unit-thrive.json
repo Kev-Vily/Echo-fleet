@@ -12,6 +12,7 @@ researchCostMultiplier: 0.1
 controller: RepairAI
 commands: [move, repair]
 engineSize: 0
+faceTarget: true
 
 
 hovering: true
@@ -78,7 +79,7 @@ lowAltitude: true
 weapons: [
   {
   widthSinMag: 0.1
-    faseTarget: true
+    faceTarget: true
     x: 0
     y: 1
     laserColor: 5B72D9FF
@@ -86,7 +87,7 @@ weapons: [
     type: RepairBeamWeapon
     rotate: false
     targetBuildings: true
-    targetUnits: true
+    targetUnits: false
     autoTarget: true
     controllable: false
     reload: 20
