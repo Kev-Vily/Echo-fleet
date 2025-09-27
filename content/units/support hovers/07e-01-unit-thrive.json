@@ -96,8 +96,8 @@ weapons: [
     rotate: false
     targetBuildings: true
     targetUnits: false
-    autoTarget: true
-    controllable: false
+    autoTarget: false
+    controllable: true
     reload: 20
     shootY: 1
     shootCone: 15
