@@ -23,8 +23,8 @@ plans: [
     unit: mega
     requirements: [
     echo-fleet-03k-01-e-defense-scrap-wall-large/4
-    mender/2
-    mono/4
+    echo-fleet-03h-08-repair-node/2
+    echo-fleet-07e-01-unit-trive/4
     ]
     time: 4800
   }
@@ -55,3 +55,4 @@ areaSize: 7
 
 
 research: 03j-04-support-fabricator
+
