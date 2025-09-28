@@ -72,7 +72,7 @@ ammoTypes: {
   02a-04-liquid-slag: {
     despawnEffect: none
     hitEffect: none
-    type: BasicBulletType
+    type: LiquidBulletType
     liquid: 02a-04-liquid-slag
     speed: 2
     lifetime: 80
@@ -87,7 +87,7 @@ ammoTypes: {
   02a-06-liquid-sulphuric-acid: {
     despawnEffect: none
     hitEffect: none
-    type: BasicBulletType
+    type: LiquidBulletType
     liquid: 02a-06-liquid-sulphuric-acid
     speed: 2
     lifetime: 80
