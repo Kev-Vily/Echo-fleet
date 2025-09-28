@@ -2,7 +2,7 @@ type: LiquidTurret
 name: Cleanse
 description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
 size: 2
-reload: 8
+reload: 4
 inaccuracy: 5
 hasLiquids: true
 liquidCapacity: 40
@@ -36,7 +36,7 @@ requirements: [
 shoot: {
   type: ShootAlternate
   spread: 6
-  shotDelay: 4
+  shotDelay: 2
 }
 ammoTypes: {
   02a-02-liquid-dirty-water: {
@@ -62,7 +62,20 @@ ammoTypes: {
     knockback: 4
     status: wet
     statusDuration: 300
-    damage: 3
+    damage: 2
+    layer: 98
+  }
+  02a-04-liquid-slag: {
+    despawnEffect: none
+    hitEffect: none
+    type: BasicBulletType
+    liquid: 02a-04-liquid-slag
+    speed: 2
+    lifetime: 80
+    knockback: 2
+    status: burning
+    statusDuration: 120
+    damage: 6
     layer: 98
   }
   02a-06-liquid-sulphuric-acid: {
@@ -75,24 +88,10 @@ ammoTypes: {
     knockback: 5
     status: corroded
     statusDuration: 480
-    damage: 18
+    damage: 8
     layer: 98
   }
 }
-02a-04-liquid-slag: {
-    despawnEffect: none
-    hitEffect: none
-    type: BasicBulletType
-    liquid: 02a-04-liquid-slag
-    speed: 2
-    lifetime: 80
-    knockback: 2
-    status: burning
-    statusDuration: 120
-    damage: 6
-    layer: 98
-}
-
 
 drawer: {
   type: DrawTurret
