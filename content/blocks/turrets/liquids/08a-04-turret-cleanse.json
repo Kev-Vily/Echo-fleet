@@ -51,6 +51,8 @@ ammoTypes: {
     statusDuration: 120
     damage: 0
     layer: 98
+    despawnSound: splash
+    hitSound: splash
   }
   02a-03-liquid-purified-water: {
     despawnEffect: none
@@ -64,6 +66,8 @@ ammoTypes: {
     statusDuration: 300
     damage: 2
     layer: 98
+    despawnSound: splash
+    hitSound: splash 
   }
   02a-04-liquid-slag: {
     despawnEffect: none
@@ -77,6 +81,8 @@ ammoTypes: {
     statusDuration: 120
     damage: 6
     layer: 98
+    despawnSound: splash
+    hitSound: splash
   }
   02a-06-liquid-sulphuric-acid: {
     despawnEffect: none
@@ -88,8 +94,10 @@ ammoTypes: {
     knockback: 5
     status: corroded
     statusDuration: 480
-    damage: 8
+    damage: 10
     layer: 98
+    despawnSound: splash
+    hitSound: splash
   }
 }
 
