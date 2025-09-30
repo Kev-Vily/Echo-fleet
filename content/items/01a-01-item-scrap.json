@@ -1,5 +1,6 @@
 type: item
 name: Scrap
+description: gort
 flammability: 0.1
 explosiveness: 0
 radioactivity: 0
@@ -15,5 +16,6 @@ research: {
   ]
 }
 hiddenOnPlanets: [serpulo, erekir]
+
 
 
