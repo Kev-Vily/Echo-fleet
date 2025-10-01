@@ -84,7 +84,10 @@ drawer: {
 		}
     {
 		type: DrawSideRegion
-    suffix: -top
 		}
+    {
+		type: DrawHeatInput
+		suffix: -heat
+		} 
   ]
 } 
