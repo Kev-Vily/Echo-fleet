@@ -1,5 +1,6 @@
 type: item
 name: Copper
+description: A soft metal with small electric charge and conductivity. Used primarily in electronics, general building, unit production and Ammunition and can also be used as an ingredient for more advanced recourses.
 flammability: 0
 explosiveness: 0
 radioactivity: 0
@@ -15,5 +16,6 @@ research: {
   ]
 }
 hiddenOnPlanets: [serpulo, erekir]
+
 
 
