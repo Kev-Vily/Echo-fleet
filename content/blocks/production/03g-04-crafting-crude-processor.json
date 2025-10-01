@@ -54,3 +54,37 @@ research: {
 	  01a-06-item-europium
 	]
 }
+
+
+drawer: {
+	type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+		type: DrawLiquidTile
+    suffix: -liquid1
+    liquid: 02a-01-liquid-crude-oil
+    padding: 3
+		}
+    {
+		type: drawBubbles
+    color: 332927FF
+    fill: false
+    spread: 5
+		}
+    {
+		type: DrawPlasma
+		plasmas: 2
+		}
+    {
+		type: DrawDefault
+		}
+    {
+		type: DrawSideRegion
+    suffix: -top
+		}
+  ]
+} 
