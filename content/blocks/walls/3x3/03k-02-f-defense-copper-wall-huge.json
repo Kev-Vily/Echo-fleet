@@ -1,6 +1,6 @@
 type: Wall
-name: Large Copper Wall
-description: A larger version of the copper wall. Much more armored.
+name: Huge Copper Wall
+description: An even larger version of the copper wall. Much more armored.
 size: 3
 armor: 5
 health: 2250
@@ -16,7 +16,7 @@ requirements: [
 ]
 
 
-research: 03k-02-defense-copper-wall
+research: 03k-02-e-defense-copper-wall-large
 researchCost: [
   01a-02-item-copper/540
 ]
