@@ -28,3 +28,8 @@ consumes: {
 
 
 research: 03k-02-defense-copper-wall
+researchCost: [
+  01a-04-item-alluminum/40
+  01a-06-item-europium/60
+  01a-10-item-echo-circuit/40
+]
