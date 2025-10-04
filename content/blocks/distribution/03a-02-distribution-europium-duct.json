@@ -1,6 +1,6 @@
 type: Duct
 name: Europium Duct
-description: item move fast
+description: "Moves items forward. Faster than a copper duct."
 category: distribution
 speed: 3
 health: 80

@@ -1,7 +1,7 @@
 type: Duct
 name: Alluminum Duct
 armored: true
-description: healthy
+description: "Moves items forward. Does not accept non-duct inputs from the sides."
 category: distribution
 speed: 6
 health: 160
