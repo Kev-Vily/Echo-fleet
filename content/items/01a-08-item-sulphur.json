@@ -1,6 +1,6 @@
 type: item
 name: Sulphur
-description: A highly flammable material extracted through splitting hydrogen sulfide into hydrogen and sulfur particles and then binding the sulfur particles into a usable resource. Due to it's high flammability it's used primarily as flammable or explosive ammunition in turrets or as a fuellant.
+description: A highly flammable material extracted through splitting hydrogen sulfide into hydrogen and sulphur particles and then binding them into a usable resource. Due to it's high flammability it's used primarily as flammable and explosive ammunition in turrets or as a fuellant.
 flammability: 1.75
 explosiveness: 0.6
 radioactivity: 0
@@ -11,3 +11,4 @@ color: F0E8A2FF
 research: 02a-10-liquid-hydrogen-sulfide
 
 hiddenOnPlanets: [serpulo, erekir]
+
