@@ -1,6 +1,6 @@
 type: Wall
 name: Copper Wall
-description: A wall made of copper, can conduct power, but has less health then a scrap wall.
+description: A wall made of copper, can conduct power, but has less health than a scrap wall.
 size: 1
 armor: 2
 health: 250
