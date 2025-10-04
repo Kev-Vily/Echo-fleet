@@ -1,6 +1,6 @@
 type: Wall
 name: Large Alluminum Polycarbonate Wall
-description: A larger version of the alluminum polycarbonate wall. Has higher chance to deflect bullets then the small wall.
+description: A larger version of the alluminum polycarbonate wall. Has higher chance to deflect bullets than the small wall.
 size: 2
 armor: 32
 health: 2800
