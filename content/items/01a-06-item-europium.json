@@ -1,6 +1,6 @@
 type: item
 name: Europium
-description: A strongly charged metal, robust and slightly radioactive metal. It's robust structure requires a Blast Drill to mine. It's primarily used in building, advanced unit production and as ammunition for turrets. It's also able to be used as an ingredient for mass Neutrilizer production due to it's usually cold state when acquiring it.
+description: A moderately charged, robust and slightly radioactive metal. It's robust structure requires more advanced extracting methods to mine. It's primarily used in building, advanced unit production and as ammunition for turrets. It also can be used as an ingredient for efficient Neutrilizer production due to it's structure.
 flammability: 0
 explosiveness: 0
 radioactivity: 0.2
@@ -16,5 +16,6 @@ research: {
   ]
 }
 hiddenOnPlanets: [serpulo, erekir]
+
 
 
