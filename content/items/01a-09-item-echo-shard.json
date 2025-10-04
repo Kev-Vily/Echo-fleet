@@ -1,6 +1,6 @@
 type: item
 name: Echo Shard
-A charged, radioactive, and durable pile of different metals. This resource is found on metallic walls of kaltonian ruined structures and require a dedicated mining unit designed to extract them from these walls. It's charged, radioactive and robust properties make it an excellent material for a variety of uses. It's used in building advanced buildings, electronics, unit production, as ammunition for turrets or as an ingredient for creating an advanced components/alloys.
+description: A charged, radioactive, and durable pile of different metals. This resource is found on metallic walls of kaltonian ruined structures and require a dedicated mining unit designed to extract them from these walls. It's charged, radioactive and robust properties make it an excellent material for a variety of uses. It's used in building advanced buildings, electronics, unit production, as ammunition for turrets or as an ingredient for creating an advanced components/alloys.
 flammability: 0
 explosiveness: 0.2
 radioactivity: 0.8
