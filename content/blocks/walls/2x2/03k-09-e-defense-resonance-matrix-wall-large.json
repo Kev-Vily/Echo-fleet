@@ -1,6 +1,6 @@
 type: ShieldWall
 name: Resonance Matrix Wall
-description: A larger version of the resonance matrix wall. The arcs released by this wall are even more powerful then the ones the smaller version releases.
+description: A larger version of the resonance matrix wall. The arcs released by this wall are even more powerful than the ones the smaller version releases.
 size: 2
 squareSprite: true
 category: defense
