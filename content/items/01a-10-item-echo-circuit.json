@@ -1,5 +1,6 @@
 type: item
 name: Echo Circuit
+description: An electronic component dedicated to handling precise and complex tasks. It's made by laying down Copper, Alluminum and Echo Shards and using hydrogen sulfide to carve out and shape the circuit. It's used in building more advanced buildings, advanced unit production and as a component for making guided missles in specialized turrets.
 flammability: 0
 explosiveness: 0
 radioactivity: 0.6
@@ -10,3 +11,4 @@ color: ACC688FF
 research: 01a-09-item-echo-shard
 
 hiddenOnPlanets: [serpulo, erekir]
+
