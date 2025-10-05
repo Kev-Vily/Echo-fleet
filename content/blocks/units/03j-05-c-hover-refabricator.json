@@ -40,7 +40,7 @@ consumes: {
 
 
 research: {
-	parent: 03j-01-mech-fabricator
+	parent: 03j-03-hover-fabricator
 	objectives: [
 		01a-06-item-europium
 	]
