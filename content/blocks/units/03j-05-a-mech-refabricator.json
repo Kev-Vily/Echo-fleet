@@ -2,7 +2,7 @@ type: Reconstructor
 size: 3
 health: 650
 configurable: false
-name: Mech Reconstructor
+name: Mech Unit Refabcircator
 description: Upgrades tier 1 mech units into their tier 2 counterpart. 
 squareSprite: false
 hasPower: true
@@ -45,6 +45,7 @@ research: {
 		01a-06-item-europium
 	]
 }
+
 
 
 
