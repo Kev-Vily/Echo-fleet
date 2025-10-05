@@ -1,5 +1,5 @@
 type: Floor
-name: Magma
+name: Magmatic Basalt
 variants: 3
 attributes: {
 	heat: 1
