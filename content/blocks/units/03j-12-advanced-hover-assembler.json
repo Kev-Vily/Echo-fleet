@@ -31,7 +31,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: eclipse
     requirements: [
-    echo-fleet-03k-02-e-defense-copper-wall-large/20
+    echo-fleet-03k-02-f-defense-copper-wall-huge/10
     echo-fleet-03k-06-e-defense-echo-shard-wall-large/6
     echo-fleet-gravitron-module/8
     echo-fleet-gravitron-engine/2
@@ -43,7 +43,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: stell
     requirements: [
-    echo-fleet-03k-05-e-defense-polycarbonate-wall-large/24
+    echo-fleet-03k-05-f-defense-polycarbonate-wall-huge/12
     echo-fleet-03k-08-e-defense-alluminum-polycarbonate-wall-large/8
     echo-fleet-03k-09-defense-resonance-matrix-wall/8
     echo-fleet-gravitron-module/10
