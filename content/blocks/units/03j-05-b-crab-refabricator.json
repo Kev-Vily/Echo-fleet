@@ -2,7 +2,7 @@ type: Reconstructor
 size: 3
 health: 650
 configurable: false
-name: Crab Reconstructor
+name: Crab Unit Refabricator
 description: Upgrades tier 1 crab units into their tier 2 counterpart. 
 squareSprite: false
 hasPower: true
