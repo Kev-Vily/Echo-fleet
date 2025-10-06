@@ -1,6 +1,7 @@
 type: Floor
 name: Quicksand
-speedMultiplier: 0.5
+speedMultiplier: 0.2
+drownTime: 3600
 variants: 3
 status: slow
 statusDuration: 10
