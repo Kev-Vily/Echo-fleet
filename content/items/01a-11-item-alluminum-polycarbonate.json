@@ -1,5 +1,6 @@
 type: item
 name: Alluminum Polycarbonate
+description: A highly charged reinforced plastic. It's made through bonding Polycarbonate-bonds with Alluminum, Carbon and Ozone in differing values, smelting them and solidifying them in a specialized mold, creating this highly impact resistant and lightly flammable plastic. It's generally used in late-game building and high-tier unit production. On some occasions it can be used as high-knockback ammunition in a small variety of turrets due to its impact resistance.
 flammability: 0.25
 explosiveness: 0
 radioactivity: 0
@@ -10,3 +11,5 @@ color: B4E4D9FF
 research: 01a-07-item-polycarbonate
 
 hiddenOnPlanets: [serpulo, erekir]
+
+lol 
