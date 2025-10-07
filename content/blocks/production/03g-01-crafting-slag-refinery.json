@@ -62,6 +62,11 @@ drawer: {
     {
       type: DrawDefault
     }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      glowScale: 10
+    } 
   ]
 }
 
