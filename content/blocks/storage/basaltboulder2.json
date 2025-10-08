@@ -3,7 +3,7 @@ name: Large Basalt Boulder 2
 size: 2
 health: 1200
 category: effect
-buildTime: 4800
+buildTime: 800
 
 
 requirements: [
