@@ -65,30 +65,6 @@ drawer: {
     }
     {
 		type: DrawLiquidRegion
-    suffix: -liquid1
-    drawLiquid: 02a-07-liquid-carbon-dioxide
-    padding: 3
-		}
-    {
-		type: DrawLiquidRegion
-    suffix: -liquid2
-    drawLiquid: 02a-09-liquid-nitrogen
-    padding: 3
-    }
-    {
-		type: DrawLiquidRegion
-    suffix: -liquid3
-    drawLiquid: 02a-10-liquid-hydrogen-sulfide
-    padding: 3
-		}
-    {
-		type: DrawLiquidRegion
-    suffix: -liquid4
-    drawLiquid: 02a-05-liquid-lpg
-    padding: 3
-		}
-    {
-		type: DrawLiquidRegion
     suffix: -liquid5
     drawLiquid: 02a-01-liquid-crude-oil
     padding: 3
