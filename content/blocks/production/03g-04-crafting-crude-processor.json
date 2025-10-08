@@ -66,6 +66,30 @@ drawer: {
     {
 		type: DrawLiquidTile
     suffix: -liquid1
+    drawLiquid: 02a-07-liquid-carbon-dioxie
+    padding: 3
+		}
+    {
+		type: DrawLiquidTile
+    suffix: -liquid2
+    drawLiquid: 02a-09-liquid-nitrogen
+    padding: 3
+    }
+    {
+		type: DrawLiquidTile
+    suffix: -liquid3
+    drawLiquid: 02a-10-liquid-hydrogen-sulfide
+    padding: 3
+		}
+    {
+		type: DrawLiquidTile
+    suffix: -liquid4
+    drawLiquid: 02a-05-liquid-lpg
+    padding: 3
+		}
+    {
+		type: DrawLiquidTile
+    suffix: -liquid5
     drawLiquid: 02a-01-liquid-crude-oil
     padding: 3
 		}
@@ -76,14 +100,7 @@ drawer: {
     spread: 5
 		}
     {
-		type: DrawPlasma
-		plasmas: 2
-		}
-    {
 		type: DrawDefault
-		}
-    {
-		type: DrawSideRegion
 		}
     {
 		type: DrawHeatInput
