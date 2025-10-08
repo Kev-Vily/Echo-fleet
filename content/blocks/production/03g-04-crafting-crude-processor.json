@@ -18,7 +18,7 @@ consumes: {
 
 hasLiquids: true
 dumpExtraLiquid: true
-rotate: true
+rotate: false
 
 
 ambientSound: extractLoop
