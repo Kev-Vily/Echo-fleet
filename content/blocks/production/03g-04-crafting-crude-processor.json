@@ -102,6 +102,7 @@ drawer: {
     {
 		type: DrawCrucibleFlame
 		particleRad: 10
+	  }
     {
 		type: DrawDefault
 		}
