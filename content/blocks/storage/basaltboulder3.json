@@ -1,6 +1,6 @@
 type: Wall
 name: Huge Basalt Boulder 1
-size: 4
+size: 3
 health: 4800
 category: effect
 buildTime: 9000
