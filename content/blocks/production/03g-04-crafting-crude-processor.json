@@ -106,5 +106,10 @@ drawer: {
 		type: DrawHeatInput
 		suffix: -heat
 		} 
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      glowScale: 10
+		}
   ]
 } 
