@@ -1,0 +1,14 @@
+type: Wall
+name: Large Basalt Boulder
+size: 2
+health: 1200
+category: effect
+buildTime: 7200
+
+
+requirements: [
+  01a-01-item-scrap/1200
+]
+
+
+hiddenOnPlanets: [serpulo,erekir,aetheria,kaltos]
