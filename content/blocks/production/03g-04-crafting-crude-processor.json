@@ -100,6 +100,9 @@ drawer: {
     spread: 5
 		}
     {
+		type: DrawCrucibleFlame
+		particleRad: 10
+    {
 		type: DrawDefault
 		}
     {
@@ -107,9 +110,9 @@ drawer: {
 		suffix: -heat
 		} 
     {
-      type: DrawGlowRegion
-      suffix: -glow
-      glowScale: 10
+    type: DrawGlowRegion
+    suffix: -glow
+    glowScale: 10
 		}
   ]
 } 
