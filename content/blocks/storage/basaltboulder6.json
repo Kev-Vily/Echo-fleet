@@ -1,0 +1,14 @@
+type: Wall
+name: Basalt Boulder 6
+size: 1
+health: 300
+category: effect
+buildTime: 200
+
+
+requirements: [
+  01a-01-item-scrap/300
+]
+
+
+hiddenOnPlanets: [serpulo,erekir,aetheria,kaltos]
