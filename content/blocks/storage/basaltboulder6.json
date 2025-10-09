@@ -1,7 +1,7 @@
 type: Wall
 name: Basalt Boulder 6
 size: 1
-health: 300
+health: 600
 category: effect
 buildTime: 200
 
