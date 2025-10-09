@@ -1,13 +1,13 @@
 type: Wall
 name: Huge Basalt Boulder 2
 size: 3
-health: 4800
+health: 5400
 category: effect
-buildTime: 1500
+buildTime: 1800
 
 
 requirements: [
-  01a-01-item-scrap/3000
+  01a-01-item-scrap/2700
 ]
 
 
