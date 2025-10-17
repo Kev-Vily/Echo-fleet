@@ -48,7 +48,7 @@ ammoTypes: {
   01a-07-item-polycarbonate: {
     type: BasicBulletType
     speed: 10
-    lifetime: 28.8
+    lifetime: 24
 	  damage: 40
     width: 10
     height: 16
@@ -64,20 +64,119 @@ ammoTypes: {
     collidesTeam: false
     hitSound: none
     homingPower: 0.04
-		fragBullets: 2
-    fragVelocityMin: 0.3
-    fragLifeMin: 0.2
-    homingPower: 0.04
-    homingDelay: 20
+		fragOnHit: true
+    fragBullets: 2
+    fragRandomSpread: 0
+    fragVelocityMin: 0.2
+    fragVelocityMax: 0.5
+    fragSpread: 180
+    fragAngle: 90
+    fragOnAbsorb: true
+    fragHomingDelay: 0
+    fragHomingPower: 0.1
     fragBullet: {
       type: BasicBulletType
-      speed: 2
-      lifetime: 30
-      width: 4
-      height: 8
-      pierce: false
-      damage: 4
-      despawnSound: dullExplosion
+      speed: 10
+      lifetime: 24
+      width: 8
+      height: 12
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 1
+      damage: 32
+      trailColor: B4CCBEFF
+      trailWidth: 2
+      trailLength: 30
+      trailParam: 1.25
+      trailInterval: 0.5
+      trailEffect: missileTrail
+      backColor: B4CCBEFF
+      hitColor: B4CCBEFF
+		  fragBullets: 2
+      fragRandomSpread: 0
+      fragVelocityMin: 0.2
+      fragVelocityMax: 0.5
+      fragSpread: 180
+      fragAngle: 90
+      fragOnAbsorb: true
+      fragHomingDelay: 0
+      fragHomingPower: 0.1
+      fragBullet: {
+        type: BasicBulletType
+        speed: 10
+        lifetime: 24
+        width: 8
+        height: 12
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 1
+        damage: 32
+        trailColor: B4CCBEFF
+        trailWidth: 2
+        trailLength: 30
+        trailParam: 1.25
+        trailInterval: 0.5
+        trailEffect: missileTrail
+        backColor: B4CCBEFF
+        hitColor: B4CCBEFF
+  		  fragBullets: 2
+        fragRandomSpread: 0
+        fragVelocityMin: 0.2
+        fragVelocityMax: 0.5
+        fragSpread: 180
+        fragAngle: 90
+        fragOnAbsorb: true
+        fragHomingDelay: 0
+        fragHomingPower: 0.1
+        fragBullet: {
+          type: BasicBulletType
+          speed: 10
+          lifetime: 24
+          width: 8
+          height: 12
+          pierce: true
+          pierceBuilding: true
+          pierceCap: 1
+          damage: 32
+          trailColor: B4CCBEFF
+          trailWidth: 2
+          trailLength: 30
+          trailParam: 1.25
+          trailInterval: 0.5
+          trailEffect: missileTrail
+          backColor: B4CCBEFF
+          hitColor: B4CCBEFF
+    		  fragBullets: 2
+          fragRandomSpread: 0
+          fragVelocityMin: 0.2
+          fragVelocityMax: 0.5
+			    fragSpread: 180
+			    fragAngle: 90
+			    fragOnAbsorb: true
+			    fragHomingDelay: 0
+			    fragHomingPower: 0.1
+			    fragBullet: {
+			      type: BasicBulletType
+			      speed: 10
+			      lifetime: 24
+			      width: 8
+			      height: 12
+			      pierce: true
+			      pierceBuilding: true
+			      pierceCap: 1
+			      damage: 32
+			      trailColor: B4CCBEFF
+			      trailWidth: 2
+			      trailLength: 30
+			      trailParam: 1.25
+			      trailInterval: 0.5
+		 	      trailEffect: missileTrail
+   			    backColor: B4CCBEFF
+				    hitColor: B4CCBEFF
+					  } 
+  		    } 
+  	    } 
+      } 
     }
   }
 } 
