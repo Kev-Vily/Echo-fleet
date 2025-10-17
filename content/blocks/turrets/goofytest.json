@@ -1,7 +1,7 @@
 type: ItemTurret
 name: goofy ahh turret
 size: 4
-range: 240
+range: 480
 squareSprite: false
 health: 1400
 shootSound: blaster
@@ -40,18 +40,13 @@ consumes: {
 ammoPerShot: 8
 inaccuracy: 0
 shootCone: 20
-shoot: {
-    shots: 1
-    shotDelay: 0
-    firstShotDelay: 90
-}
 ammoTypes: {
   01a-07-item-polycarbonate: {
 	ammoMultiplier: 4
     type: BasicBulletType
     speed: 10
-    lifetime: 24
-	  damage: 40
+    lifetime: 480
+	  damage: 120
 		width: 20
 	  sprite: large-orb
     height: 24
@@ -80,7 +75,7 @@ ammoTypes: {
       speed: 10
       lifetime: 22
       width: 16.6
-	  homingPower: 0.2
+	    homingPower: 0.2
 	    sprite: large-orb
       height: 20
       pierce: true
@@ -109,7 +104,7 @@ ammoTypes: {
         width: 12.6
 	      sprite: large-orb
         height: 16
-	    homingPower: 0.2
+	      homingPower: 0.2
         pierce: true
         pierceBuilding: true
         pierceCap: 1
@@ -136,7 +131,7 @@ ammoTypes: {
           width: 10
 		      sprite: large-orb
           height: 12
-	      homingPower: 0.2
+	        homingPower: 0.2
           pierce: true
           pierceBuilding: true
           pierceCap: 1
@@ -163,7 +158,7 @@ ammoTypes: {
 						width: 6.6
 	          sprite: large-orb
 			      height: 8
-				  homingPower: 0.2
+			  	  homingPower: 0.2
 			      pierce: true
 			      pierceBuilding: true
 			      pierceCap: 1
