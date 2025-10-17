@@ -40,12 +40,12 @@ consumes: {
 
 
 reload: 90
-ammoPerShot: 8
+ammoMultiplier: 2
+ammoPerShot: 3
 inaccuracy: 0
 shootCone: 20
 ammoTypes: {
   01a-07-item-polycarbonate: {
-	ammoMultiplier: 4
     type: BasicBulletType
     speed: 10
     lifetime: 48
