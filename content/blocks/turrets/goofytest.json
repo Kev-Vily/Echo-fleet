@@ -4,7 +4,7 @@ size: 4
 range: 480
 squareSprite: false
 health: 1400
-shootSound: blaster
+shootSound: cannon
 hasItems: true
 hasPower: true
 targetAir: true
@@ -37,6 +37,7 @@ consumes: {
 }
 
 
+reload: 90
 ammoPerShot: 8
 inaccuracy: 0
 shootCone: 20
