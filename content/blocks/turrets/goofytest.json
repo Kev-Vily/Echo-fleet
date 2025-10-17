@@ -46,23 +46,38 @@ shoot: {
 }
 ammoTypes: {
   01a-07-item-polycarbonate: {
+    type: BasicBulletType
+    speed: 10
+    lifetime: 28.8
+	  damage: 40
+    width: 10
+    height: 16
+    smokeEffect: shootSmokeSquare
+    trailColor: B4CCBEFF
+    trailWidth: 2
+    trailLength: 30
+    trailParam: 1.25
+    trailInterval: 0.5
+    trailEffect: missileTrail
+    backColor: B4CCBEFF
+    hitColor: B4CCBEFF
+    collidesTeam: false
+    hitSound: none
+    homingPower: 0.04
+		fragBullets: 2
+    fragVelocityMin: 0.3
+    fragLifeMin: 0.2
+    homingPower: 0.04
+    homingDelay: 20
+    fragBullet: {
       type: BasicBulletType
-      speed: 10
-      lifetime: 28.8
-	    damage: 40
-      width: 10
-      height: 16
-      smokeEffect: shootSmokeSquare
-      trailColor: B4CCBEFF
-      trailWidth: 2
-      trailLength: 30
-      trailParam: 1.25
-      trailInterval: 0.5
-      trailEffect: missileTrail
-      backColor: B4CCBEFF
-      hitColor: B4CCBEFF
-      collidesTeam: false
-      hitSound: none
-      homingPower: 0.04
+      speed: 2
+      lifetime: 30
+      width: 4
+      height: 8
+      pierce: false
+      damage: 4
+      despawnSound: dullExplosion
+    }
   }
 } 
