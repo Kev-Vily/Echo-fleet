@@ -37,6 +37,7 @@ consumes: {
 }
 
 
+ammoPerShot: 8
 inaccuracy: 0
 shootCone: 20
 shoot: {
@@ -46,6 +47,7 @@ shoot: {
 }
 ammoTypes: {
   01a-07-item-polycarbonate: {
+	ammoMultiplier: 4
     type: BasicBulletType
     speed: 10
     lifetime: 24
