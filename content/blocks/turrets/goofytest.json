@@ -64,7 +64,7 @@ ammoTypes: {
     hitColor: B4CCBEFF
     collidesTeam: false
     hitSound: none
-    homingPower: 0.04
+    homingPower: 0.3
 		fragOnHit: true
     fragBullets: 2
     fragRandomSpread: 0
@@ -73,13 +73,12 @@ ammoTypes: {
     fragSpread: 180
     fragAngle: 0
     fragOnAbsorb: true
-    fragHomingDelay: 0
-    fragHomingPower: 0.1
     fragBullet: {
       type: BasicBulletType
       speed: 10
       lifetime: 22
       width: 16.6
+	  homingPower: 0.3
 	    sprite: large-orb
       height: 20
       pierce: true
@@ -101,8 +100,6 @@ ammoTypes: {
       fragSpread: 180
       fragAngle: 0
       fragOnAbsorb: true
-      fragHomingDelay: 0
-      fragHomingPower: 0.1
       fragBullet: {
         type: BasicBulletType
         speed: 10
@@ -110,6 +107,7 @@ ammoTypes: {
         width: 12.6
 	      sprite: large-orb
         height: 16
+	    homingPower: 0.3
         pierce: true
         pierceBuilding: true
         pierceCap: 1
@@ -129,8 +127,6 @@ ammoTypes: {
         fragSpread: 180
         fragAngle: 0
         fragOnAbsorb: true
-        fragHomingDelay: 0
-        fragHomingPower: 0.1
         fragBullet: {
           type: BasicBulletType
           speed: 10
@@ -138,6 +134,7 @@ ammoTypes: {
           width: 10
 		      sprite: large-orb
           height: 12
+	      homingPower: 0.3
           pierce: true
           pierceBuilding: true
           pierceCap: 1
@@ -157,8 +154,6 @@ ammoTypes: {
 			    fragSpread: 180
 			    fragAngle: 0
 			    fragOnAbsorb: true
-			    fragHomingDelay: 0
-			    fragHomingPower: 0.1
 			    fragBullet: {
 			      type: BasicBulletType
 			      speed: 10
@@ -166,6 +161,7 @@ ammoTypes: {
 						width: 6.6
 	          sprite: large-orb
 			      height: 8
+				  homingPower: 0.3
 			      pierce: true
 			      pierceBuilding: true
 			      pierceCap: 1
