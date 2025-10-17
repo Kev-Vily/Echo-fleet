@@ -173,7 +173,6 @@ ammoTypes: {
 		 	      trailEffect: missileTrail
    			    backColor: B4CCBEFF
 				    hitColor: B4CCBEFF
-					  } 
   		    } 
   	    } 
       } 
