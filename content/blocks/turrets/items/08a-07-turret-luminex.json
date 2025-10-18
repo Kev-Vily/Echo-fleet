@@ -35,13 +35,12 @@ requirements: [
 
 category: turret
 consumes: {
-  power: 8
+  power: 12
 }
 
 
 reload: 90
-ammoMultiplier: 2
-ammoPerShot: 3
+ammoPerShot: 6
 inaccuracy: 0
 shootCone: 20
 ammoTypes: {
@@ -152,11 +151,11 @@ ammoTypes: {
           trailEffect: missileTrail
           backColor: A09FBFFF
           hitColor: DED3F2FF
-    		  fragBullets: 2
+    		  fragBullets: 4
           fragRandomSpread: 0
           fragVelocityMin: 0.2
           fragVelocityMax: 0.5
-			    fragSpread: 180
+			    fragSpread: 90
 			    fragAngle: 0
 			    fragOnAbsorb: true
 			    fragBullet: {
@@ -164,9 +163,9 @@ ammoTypes: {
 						buildingDamageMultiplier: 0.01
 			      speed: 10
 			      lifetime: 24
-						width: 6.6
+						width: 3.3
 	          sprite: large-orb
-			      height: 8
+			      height: 4
 			  	  homingPower: 0.2
 			      pierce: true
 			      pierceBuilding: true
