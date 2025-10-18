@@ -52,7 +52,7 @@ ammoTypes: {
 	  damage: 220
 		width: 20
 	  sprite: large-orb
-	armorPiercing: true
+	pierceArmor: true
     height: 24
     smokeEffect: shootSmokeSquare
     trailColor: DED3F2FF
