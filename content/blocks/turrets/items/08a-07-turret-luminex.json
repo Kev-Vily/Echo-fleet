@@ -49,9 +49,10 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     lifetime: 48
-	  damage: 120
+	  damage: 220
 		width: 20
 	  sprite: large-orb
+	armorPiercing: true
     height: 24
     smokeEffect: shootSmokeSquare
     trailColor: DED3F2FF
