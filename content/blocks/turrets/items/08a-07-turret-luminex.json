@@ -49,7 +49,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     lifetime: 48
-	  damage: 220
+	  damage: 140
 		width: 20
 	  sprite: large-orb
 	pierceArmor: true
