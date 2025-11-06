@@ -1,6 +1,6 @@
-const exoprosopa = Vars.mods.locateMod("echo-fleet").meta;
+const echo-fleet = Vars.mods.locateMod("echo-fleet").meta;
 
-exoprosopa.displayName = Core.bundle.get("mod.echo-fleet.name");
-exoprosopa.author = Core.bundle.get("mod.echo-fleet.author");
-exoprosopa.description = Core.bundle.get("mod.echo-fleet.description");
-exoprosopa.subtitle = Core.bundle.get("mod.echo-fleet.subtitle"); 
+echo-fleet.displayName = Core.bundle.get("mod.echo-fleet.name");
+echo-fleet.author = Core.bundle.get("mod.echo-fleet.author");
+echo-fleet.description = Core.bundle.get("mod.echo-fleet.description");
+echo-fleet.subtitle = Core.bundle.get("mod.echo-fleet.subtitle"); 
