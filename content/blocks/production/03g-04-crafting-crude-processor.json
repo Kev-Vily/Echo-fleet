@@ -18,7 +18,7 @@ consumes: {
 
 hasLiquids: true
 dumpExtraLiquid: true
-rotate: true
+rotate: false
 
 
 ambientSound: extractLoop
@@ -64,8 +64,8 @@ drawer: {
     suffix: -bottom
     }
     {
-		type: DrawLiquidTile
-    suffix: -liquid1
+		type: DrawLiquidRegion
+    suffix: -liquid5
     drawLiquid: 02a-01-liquid-crude-oil
     padding: 3
 		}
@@ -76,18 +76,25 @@ drawer: {
     spread: 5
 		}
     {
-		type: DrawPlasma
-		plasmas: 2
-		}
+		type: DrawCrucibleFlame
+		particleRad: 10
+		flameRad: 3
+		partcileSize: 4
+		rotateScl: 2
+		particles: 50
+		particleLife: 120
+	  }
     {
 		type: DrawDefault
-		}
-    {
-		type: DrawSideRegion
 		}
     {
 		type: DrawHeatInput
 		suffix: -heat
 		} 
+    {
+    type: DrawGlowRegion
+    suffix: -glow
+    glowScale: 10
+		}
   ]
 } 

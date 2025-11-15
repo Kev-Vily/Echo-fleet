@@ -32,6 +32,7 @@ weapons: [
   despawnSound: dullExplosion
   bullet: {
     type: ArtilleryBulletType
+    collidesAir: false
     speed: 3
     lifetime: 48
     splashDamageRadius: 20
@@ -45,4 +46,4 @@ weapons: [
 ]
 
 
-research: 03j-05-prime-refabricator
+research: 03j-05-a-mech-refabricator

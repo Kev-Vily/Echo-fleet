@@ -4,6 +4,7 @@ description: Increases a constructors' tier by 1 when placed next to its boundin
 size: 5
 category: units
 hasPower: true
+tier: 2
 
 
 requirements: [
@@ -19,6 +20,7 @@ requirements: [
 consumes: {
   power: 4
 }
+
 
 
 research: 03j-14-assembler-module

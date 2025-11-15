@@ -31,7 +31,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: reign
     requirements: [
-    echo-fleet-03k-03-e-defense-alluminum-wall-large/18
+    echo-fleet-03k-03-f-defense-alluminum-wall-huge/8
     echo-fleet-03k-07-defense-electric-wall/6
     echo-fleet-advanced-leggings/4
     echo-fleet-07b-01-unit-ratchet/10
@@ -42,13 +42,13 @@ plans: [
     type: AssemblerUnitPlan
     unit: stell
     requirements: [
-    echo-fleet-03k-04-e-defense-europium-wall-large/24
+    echo-fleet-03k-04-f-defense-europium-wall-huge/12
     echo-fleet-03k-08-e-defense-alluminum-polycarbonate-wall-large/4
     echo-fleet-03k-09-defense-resonance-matrix-wall/8
     echo-fleet-advanced-leggings/9
-    echo-fleet-8j07b-02-unit-magnum/12
+    echo-fleet-07b-02-unit-magnum/12
     ]
-    time: 30000
+    time: 28800
    }
 ]
 
@@ -66,4 +66,6 @@ areaSize: 11
 
 
 research: 03j-06-mech-assembler
+
+
 

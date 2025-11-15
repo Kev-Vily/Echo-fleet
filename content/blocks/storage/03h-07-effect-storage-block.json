@@ -1,5 +1,6 @@
 type: StorageBlock
 size: 2
+solid: false
 scaledHealth: 40
 name: Storage Block
 description: dump items in here

@@ -2,8 +2,8 @@ type: Reconstructor
 size: 3
 health: 650
 configurable: false
-name: Prime Reconstructor
-description: Upgrades tier 1 units into their tier 2 counterparts. 
+name: Mech Unit Refabcircator
+description: Upgrades tier 1 mech units into their tier 2 counterpart. 
 squareSprite: false
 hasPower: true
 hasItems: true
@@ -16,15 +16,12 @@ requirements: [
   01a-04-item-alluminum/180
   01a-05-item-cupride/320
 ]
-constructTime: 3000
+constructTime: 3600
 category: units
 
 
 upgrades: [
     [07b-01-unit-ratchet, 07b-02-unit-magnum] 
-    [07c-01-unit-blaze, 07c-02-unit-singe] 
-    [07d-01-unit-mabuz, 07d-02-unit-keres] 
-    [07e-01-unit-thrive, poly]
 ]
   
   
@@ -48,6 +45,8 @@ research: {
 		01a-06-item-europium
 	]
 }
+
+
 
 
 

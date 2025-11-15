@@ -1,6 +1,6 @@
 ﻿type: Liquid
 name: Crude Oil
-description: "frog"
+description: A naturally occurring viscocious mass of carbon and flammable or corrosive components. It has very little uses in its raw state, and has to be processed for later stages of the game.
 color: 313131FF
 
 
@@ -13,4 +13,6 @@ blockReactive: false
 
 
 research: 01a-05-item-cupride
+
 hiddenOnPlanets: [serpulo, erekir]
+
